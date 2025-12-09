@@ -7,6 +7,7 @@ import { Suspense, useState } from 'react';
 function ResultContent() {
   const searchParams = useSearchParams();
   const animalId = searchParams.get('animal');
+  const userName = searchParams.get('name') || 'あなた';
   const [copied, setCopied] = useState(false);
 
   const animal = animals.find((a) => a.id === animalId);
@@ -25,7 +26,8 @@ function ResultContent() {
   }
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
-  const shareText = `私は「${animal.name}」タイプでした！\n\n${animal.description}\n\n#動物診断`;
+  const displayName = userName === 'あなた' ? '私' : userName;
+  const shareText = `${displayName}は「${animal.name}」タイプでした！\n\n${animal.description}\n\n#動物診断`;
 
   const handleShare = (platform: 'twitter' | 'line' | 'copy') => {
     switch (platform) {
@@ -52,7 +54,9 @@ function ResultContent() {
         <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6 sm:space-y-8">
           {/* 動物表示 */}
           <div className="text-center space-y-3 sm:space-y-4">
-            <h2 className="text-xl sm:text-2xl text-gray-600">あなたは...</h2>
+            <h2 className="text-xl sm:text-2xl text-gray-600">
+              {userName === 'あなた' ? 'あなたは...' : `${userName}さんは...`}
+            </h2>
 
             {/* 動物イラスト（絵文字） */}
             <div

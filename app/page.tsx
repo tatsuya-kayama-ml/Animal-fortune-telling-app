@@ -9,6 +9,7 @@ export default function Home() {
   const [started, setStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<string[][]>([]);
+  const [name, setName] = useState('');
 
   const handleAnswer = (traits: string[]) => {
     const newAnswers = [...answers, traits];
@@ -24,8 +25,9 @@ export default function Home() {
         scores[a] > scores[b] ? a : b
       );
 
-      // 結果ページへ遷移
-      window.location.href = `/result?animal=${resultAnimalId}`;
+      // 結果ページへ遷移（名前を含める）
+      const encodedName = encodeURIComponent(name || 'あなた');
+      window.location.href = `/result?animal=${resultAnimalId}&name=${encodedName}`;
     }
   };
 
@@ -50,12 +52,32 @@ export default function Home() {
               あなたの性格を動物で診断します
             </p>
 
-            <button
-              onClick={() => setStarted(true)}
-              className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-lg sm:text-xl font-bold py-5 sm:py-4 px-8 rounded-full hover:shadow-lg transition-all duration-300 active:scale-95 sm:hover:scale-105 touch-manipulation"
-            >
-              診断スタート
-            </button>
+            <div className="space-y-4">
+              <div className="text-left">
+                <label htmlFor="name" className="block text-sm sm:text-base font-medium text-gray-700 mb-2">
+                  お名前・ニックネーム
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="例: たろう、太郎、Taro"
+                  maxLength={20}
+                  className="w-full px-4 py-3 sm:py-3.5 text-base sm:text-lg border-2 border-gray-200 rounded-2xl focus:border-purple-500 focus:outline-none transition-colors"
+                />
+                <p className="mt-2 text-xs sm:text-sm text-gray-500">
+                  ※ 入力は任意です。入力しない場合は「あなた」と表示されます
+                </p>
+              </div>
+
+              <button
+                onClick={() => setStarted(true)}
+                className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-lg sm:text-xl font-bold py-5 sm:py-4 px-8 rounded-full hover:shadow-lg transition-all duration-300 active:scale-95 sm:hover:scale-105 touch-manipulation"
+              >
+                診断スタート
+              </button>
+            </div>
           </div>
 
           <p className="text-xs sm:text-sm text-gray-500">
