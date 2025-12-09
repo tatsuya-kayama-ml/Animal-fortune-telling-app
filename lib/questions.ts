@@ -45,7 +45,7 @@ export const questions: Question[] = [
       { text: 'リーダー', traits: ['leadership', 'confident', 'strong'] },
       { text: 'サポート役', traits: ['helpful', 'cooperative', 'kind'] },
       { text: 'ムードメーカー', traits: ['cheerful', 'social', 'energetic'] },
-      { text: 'アイデアマン', traits: ['creative', 'intelligent', 'observant'] }
+      { text: 'バランス調整役', traits: ['balanced', 'observant', 'flexible'] }
     ]
   },
   {
@@ -107,6 +107,16 @@ export const questions: Question[] = [
       { text: '成長', traits: ['passionate', 'ambitious', 'active'] },
       { text: '平穏', traits: ['peaceful', 'calm', 'easygoing'] }
     ]
+  },
+  {
+    id: 11,
+    text: '大切な人が傷ついた時は？',
+    options: [
+      { text: '全力で守る', traits: ['protective', 'strong', 'loyal'] },
+      { text: '話を聞いて支える', traits: ['kind', 'thoughtful', 'cooperative'] },
+      { text: '解決策を提案する', traits: ['intelligent', 'helpful', 'active'] },
+      { text: 'そっと見守る', traits: ['calm', 'observant', 'gentle'] }
+    ]
   }
 ];
 
@@ -128,7 +138,9 @@ export const calculateAnimalScore = (userTraits: string[]) => {
     elephant: ['intelligent', 'thoughtful', 'loyal', 'careful'],
     monkey: ['curious', 'energetic', 'flexible', 'adventurous'],
     horse: ['free', 'energetic', 'active', 'adventurous'],
-    sheep: ['kind', 'peaceful', 'gentle', 'cooperative']
+    sheep: ['kind', 'peaceful', 'gentle', 'cooperative'],
+    duck: ['flexible', 'calm', 'cooperative', 'balanced'],
+    hedgehog: ['careful', 'observant', 'independent', 'protective']
   };
 
   const scores: Record<string, number> = {};
