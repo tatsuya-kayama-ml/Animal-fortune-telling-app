@@ -39,17 +39,17 @@ export default function Home() {
         <div className="max-w-2xl w-full text-center space-y-6 sm:space-y-8">
           <div className="space-y-3 sm:space-y-4">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
-              動物診断
+              動物100診断
             </h1>
             <p className="text-lg sm:text-xl text-gray-600">
-              あなたはどんな動物？
+              100種類の動物からあなたにピッタリの動物を診断します
             </p>
           </div>
 
           <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6">
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
               {questions.length}個の質問に答えて、<br />
-              あなたの性格を動物で診断します
+              100種類の動物からあなたにピッタリの動物を見つけます
             </p>
 
             <div className="space-y-4">
