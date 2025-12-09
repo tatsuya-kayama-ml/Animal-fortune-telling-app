@@ -64,7 +64,7 @@ export default function Home() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="例: たろう、太郎、Taro"
                   maxLength={20}
-                  className="w-full px-4 py-3 sm:py-3.5 text-base sm:text-lg border-2 border-gray-200 rounded-2xl focus:border-purple-500 focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 sm:py-3.5 text-base sm:text-lg text-gray-800 placeholder:text-gray-400 border-2 border-gray-200 rounded-2xl focus:border-purple-500 focus:outline-none transition-colors"
                 />
                 <p className="mt-2 text-xs sm:text-sm text-gray-500">
                   ※ 入力は任意です。入力しない場合は「あなた」と表示されます
