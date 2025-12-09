@@ -146,6 +146,9 @@ function ResultContent() {
             {animal.compatibility && animal.compatibility.length > 0 && (
               <div className="space-y-3">
                 <h3 className="text-lg sm:text-xl font-bold text-purple-700">💕 相性の良い動物</h3>
+                <p className="text-xs sm:text-sm text-purple-600 text-center">
+                  クリックすると詳細を見られます
+                </p>
                 <div className="flex flex-wrap gap-2 sm:gap-3 justify-center">
                   {animal.compatibility.map((compat, index) => {
                     const compatAnimal = animals.find((a) => a.name === compat);
