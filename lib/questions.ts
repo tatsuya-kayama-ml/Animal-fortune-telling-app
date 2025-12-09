@@ -120,7 +120,7 @@ export const questions: Question[] = [
   }
 ];
 
-// 特性からスコアを計算するヘルパー関数
+// 特性からスコアを計算するヘルパー関数（改善版）
 export const calculateAnimalScore = (userTraits: string[]) => {
   const traitMapping: Record<string, string[]> = {
     cat: ['independent', 'calm', 'curious', 'free'],
@@ -220,12 +220,44 @@ export const calculateAnimalScore = (userTraits: string[]) => {
     kiwi: ['independent', 'curious', 'thoughtful', 'calm']
   };
 
+  // 各特性の希少性を計算（出現回数が少ないほど価値が高い）
+  const traitRarity: Record<string, number> = {};
+  Object.values(traitMapping).forEach(traits => {
+    traits.forEach(trait => {
+      traitRarity[trait] = (traitRarity[trait] || 0) + 1;
+    });
+  });
+
   const scores: Record<string, number> = {};
+  const animalCount = Object.keys(traitMapping).length;
 
   Object.keys(traitMapping).forEach(animal => {
-    scores[animal] = traitMapping[animal].reduce((score, trait) => {
-      return score + userTraits.filter(t => t === trait).length;
-    }, 0);
+    let baseScore = 0;
+    let matchedTraits = 0;
+    let rarityBonus = 0;
+
+    // 各特性のマッチング
+    traitMapping[animal].forEach(trait => {
+      const matchCount = userTraits.filter(t => t === trait).length;
+      if (matchCount > 0) {
+        matchedTraits++;
+        // 基本スコア（出現回数）
+        baseScore += matchCount * 10;
+
+        // 希少性ボーナス（その特性を持つ動物が少ないほど高い）
+        const rarity = animalCount / traitRarity[trait];
+        rarityBonus += rarity * matchCount * 5;
+      }
+    });
+
+    // 完全一致ボーナス（全ての特性がマッチした場合）
+    const perfectMatchBonus = matchedTraits === 4 ? 50 : 0;
+
+    // 部分一致ボーナス（3つ以上マッチした場合）
+    const partialMatchBonus = matchedTraits >= 3 ? 20 : 0;
+
+    // 最終スコア
+    scores[animal] = baseScore + rarityBonus + perfectMatchBonus + partialMatchBonus;
   });
 
   return scores;
