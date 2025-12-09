@@ -15,7 +15,9 @@ export const questions: Question[] = [
       { text: '友達と遊びに出かける', traits: ['social', 'active', 'cheerful'] },
       { text: '家でのんびり過ごす', traits: ['calm', 'independent', 'peaceful'] },
       { text: '新しい場所を探検する', traits: ['curious', 'adventurous', 'flexible'] },
-      { text: '趣味に没頭する', traits: ['focused', 'independent', 'passionate'] }
+      { text: '趣味に没頭する', traits: ['focused', 'independent', 'passionate'] },
+      { text: 'スポーツや運動をする', traits: ['energetic', 'active', 'strong'] },
+      { text: '学びや自己啓発に時間を使う', traits: ['intelligent', 'ambitious', 'thoughtful'] }
     ]
   },
   {
@@ -25,7 +27,9 @@ export const questions: Question[] = [
       { text: 'すぐに声をかけて助ける', traits: ['kind', 'active', 'helpful'] },
       { text: '様子を見てから助ける', traits: ['thoughtful', 'careful', 'observant'] },
       { text: '誰かに助けを求める', traits: ['cooperative', 'thoughtful', 'peaceful'] },
-      { text: '見守る', traits: ['calm', 'independent', 'observant'] }
+      { text: '見守る', traits: ['calm', 'independent', 'observant'] },
+      { text: '専門家や適切な人に繋ぐ', traits: ['intelligent', 'helpful', 'careful'] },
+      { text: '一緒に解決方法を考える', traits: ['cooperative', 'active', 'kind'] }
     ]
   },
   {
@@ -35,7 +39,9 @@ export const questions: Question[] = [
       { text: '誰かに話を聞いてもらう', traits: ['social', 'cooperative', 'emotional'] },
       { text: '一人で解決する', traits: ['independent', 'strong', 'calm'] },
       { text: '体を動かす', traits: ['active', 'energetic', 'passionate'] },
-      { text: '寝る', traits: ['calm', 'peaceful', 'easygoing'] }
+      { text: '寝る', traits: ['calm', 'peaceful', 'easygoing'] },
+      { text: '好きなことに没頭する', traits: ['passionate', 'independent', 'focused'] },
+      { text: '原因を分析して対策を立てる', traits: ['intelligent', 'thoughtful', 'careful'] }
     ]
   },
   {
@@ -45,7 +51,9 @@ export const questions: Question[] = [
       { text: 'リーダー', traits: ['leadership', 'confident', 'strong'] },
       { text: 'サポート役', traits: ['helpful', 'cooperative', 'kind'] },
       { text: 'ムードメーカー', traits: ['cheerful', 'social', 'energetic'] },
-      { text: 'バランス調整役', traits: ['balanced', 'observant', 'flexible'] }
+      { text: 'バランス調整役', traits: ['balanced', 'observant', 'flexible'] },
+      { text: '戦略・企画担当', traits: ['intelligent', 'thoughtful', 'ambitious'] },
+      { text: '自由に動く実行役', traits: ['independent', 'active', 'brave'] }
     ]
   },
   {
@@ -55,7 +63,9 @@ export const questions: Question[] = [
       { text: 'すぐに飛び込む', traits: ['brave', 'adventurous', 'active'] },
       { text: 'よく考えてから行動', traits: ['thoughtful', 'careful', 'intelligent'] },
       { text: '誰かと一緒なら挑戦する', traits: ['cooperative', 'social', 'careful'] },
-      { text: 'なるべく避ける', traits: ['calm', 'peaceful', 'cautious'] }
+      { text: 'なるべく避ける', traits: ['calm', 'peaceful', 'cautious'] },
+      { text: '情報を集めてから判断', traits: ['intelligent', 'observant', 'thoughtful'] },
+      { text: '面白そうなら試してみる', traits: ['curious', 'flexible', 'adventurous'] }
     ]
   },
   {
@@ -65,7 +75,9 @@ export const questions: Question[] = [
       { text: 'にぎやかで活気がある', traits: ['social', 'energetic', 'cheerful'] },
       { text: '静かで落ち着いている', traits: ['calm', 'peaceful', 'thoughtful'] },
       { text: '刺激的で変化がある', traits: ['adventurous', 'flexible', 'curious'] },
-      { text: '自由で縛られない', traits: ['independent', 'free', 'easygoing'] }
+      { text: '自由で縛られない', traits: ['independent', 'free', 'easygoing'] },
+      { text: '協力的でサポートし合える', traits: ['cooperative', 'kind', 'loyal'] },
+      { text: '競争があり成長できる', traits: ['ambitious', 'strong', 'passionate'] }
     ]
   },
   {
@@ -75,7 +87,9 @@ export const questions: Question[] = [
       { text: 'すぐに立ち直る', traits: ['strong', 'positive', 'energetic'] },
       { text: 'じっくり反省する', traits: ['thoughtful', 'careful', 'intelligent'] },
       { text: '誰かに慰めてもらう', traits: ['social', 'emotional', 'cooperative'] },
-      { text: 'あまり気にしない', traits: ['easygoing', 'calm', 'flexible'] }
+      { text: 'あまり気にしない', traits: ['easygoing', 'calm', 'flexible'] },
+      { text: '原因を分析して次に活かす', traits: ['intelligent', 'ambitious', 'thoughtful'] },
+      { text: '別の方法をすぐ試す', traits: ['active', 'brave', 'flexible'] }
     ]
   },
   {
@@ -85,7 +99,9 @@ export const questions: Question[] = [
       { text: '直感を信じる', traits: ['confident', 'brave', 'independent'] },
       { text: '論理的に考える', traits: ['intelligent', 'thoughtful', 'careful'] },
       { text: '周りの意見を聞く', traits: ['cooperative', 'thoughtful', 'peaceful'] },
-      { text: 'なんとなく決める', traits: ['easygoing', 'flexible', 'calm'] }
+      { text: 'なんとなく決める', traits: ['easygoing', 'flexible', 'calm'] },
+      { text: 'データや情報を集めて判断', traits: ['intelligent', 'careful', 'observant'] },
+      { text: '経験や前例を参考にする', traits: ['thoughtful', 'careful', 'balanced'] }
     ]
   },
   {
@@ -95,7 +111,9 @@ export const questions: Question[] = [
       { text: 'すぐに仲良くなる', traits: ['social', 'cheerful', 'friendly'] },
       { text: '少しずつ距離を縮める', traits: ['careful', 'thoughtful', 'observant'] },
       { text: '深い関係を築く', traits: ['loyal', 'emotional', 'kind'] },
-      { text: '適度な距離を保つ', traits: ['independent', 'calm', 'free'] }
+      { text: '適度な距離を保つ', traits: ['independent', 'calm', 'free'] },
+      { text: '相手に合わせて柔軟に対応', traits: ['flexible', 'observant', 'balanced'] },
+      { text: '少数の人と深く付き合う', traits: ['loyal', 'careful', 'thoughtful'] }
     ]
   },
   {
@@ -105,7 +123,9 @@ export const questions: Question[] = [
       { text: '自由', traits: ['independent', 'free', 'adventurous'] },
       { text: '絆', traits: ['loyal', 'cooperative', 'kind'] },
       { text: '成長', traits: ['passionate', 'ambitious', 'active'] },
-      { text: '平穏', traits: ['peaceful', 'calm', 'easygoing'] }
+      { text: '平穏', traits: ['peaceful', 'calm', 'easygoing'] },
+      { text: '知識や探求心', traits: ['intelligent', 'curious', 'thoughtful'] },
+      { text: '信頼や誠実さ', traits: ['loyal', 'kind', 'careful'] }
     ]
   },
   {
@@ -115,7 +135,9 @@ export const questions: Question[] = [
       { text: '全力で守る', traits: ['protective', 'strong', 'loyal'] },
       { text: '話を聞いて支える', traits: ['kind', 'thoughtful', 'cooperative'] },
       { text: '解決策を提案する', traits: ['intelligent', 'helpful', 'active'] },
-      { text: 'そっと見守る', traits: ['calm', 'observant', 'gentle'] }
+      { text: 'そっと見守る', traits: ['calm', 'observant', 'gentle'] },
+      { text: '一緒に行動して気を紛らわせる', traits: ['active', 'cheerful', 'helpful'] },
+      { text: '寄り添って一緒に乗り越える', traits: ['loyal', 'kind', 'cooperative'] }
     ]
   }
 ];
