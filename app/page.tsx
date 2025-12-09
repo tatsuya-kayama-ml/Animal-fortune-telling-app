@@ -1,65 +1,127 @@
-import Image from "next/image";
+'use client';
+
+import { useState } from 'react';
+import { questions, calculateAnimalScore } from '@/lib/questions';
+import { animals } from '@/lib/animals';
+import Link from 'next/link';
 
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+  const [started, setStarted] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [answers, setAnswers] = useState<string[][]>([]);
+
+  const handleAnswer = (traits: string[]) => {
+    const newAnswers = [...answers, traits];
+    setAnswers(newAnswers);
+
+    if (currentQuestion < questions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+    } else {
+      // 診断完了 - 結果を計算してリダイレクト
+      const allTraits = newAnswers.flat();
+      const scores = calculateAnimalScore(allTraits);
+      const resultAnimalId = Object.keys(scores).reduce((a, b) =>
+        scores[a] > scores[b] ? a : b
+      );
+
+      // 結果ページへ遷移
+      window.location.href = `/result?animal=${resultAnimalId}`;
+    }
+  };
+
+  const progress = ((currentQuestion + 1) / questions.length) * 100;
+
+  if (!started) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center p-4">
+        <div className="max-w-2xl w-full text-center space-y-8">
+          <div className="space-y-4">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-800">
+              動物診断
+            </h1>
+            <p className="text-xl text-gray-600">
+              あなたはどんな動物？
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-xl p-8 space-y-6">
+            <p className="text-lg text-gray-700">
+              {questions.length}個の質問に答えて、<br />
+              あなたの性格を動物で診断します
+            </p>
+
+            <button
+              onClick={() => setStarted(true)}
+              className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xl font-bold py-4 px-8 rounded-full hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              診断スタート
+            </button>
+          </div>
+
+          <p className="text-sm text-gray-500">
+            所要時間：約2分
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </div>
+    );
+  }
+
+  const question = questions[currentQuestion];
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center p-4">
+      <div className="max-w-2xl w-full space-y-6">
+        {/* プログレスバー */}
+        <div className="space-y-2">
+          <div className="flex justify-between text-sm text-gray-600">
+            <span>質問 {currentQuestion + 1} / {questions.length}</span>
+            <span>{Math.round(progress)}%</span>
+          </div>
+          <div className="w-full h-2 bg-white rounded-full overflow-hidden">
+            <div
+              className="h-full bg-gradient-to-r from-pink-500 to-purple-500 transition-all duration-300"
+              style={{ width: `${progress}%` }}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
         </div>
-      </main>
+
+        {/* 質問カード */}
+        <div className="bg-white rounded-3xl shadow-xl p-8 space-y-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center">
+            {question.text}
+          </h2>
+
+          <div className="space-y-4">
+            {question.options.map((option, index) => (
+              <button
+                key={index}
+                onClick={() => handleAnswer(option.traits)}
+                className="w-full bg-gray-50 hover:bg-gradient-to-r hover:from-pink-100 hover:to-purple-100 text-gray-800 text-lg font-medium py-4 px-6 rounded-2xl transition-all duration-300 hover:shadow-md hover:scale-105 text-left"
+              >
+                <div className="flex items-center">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center mr-4 text-sm font-bold">
+                    {String.fromCharCode(65 + index)}
+                  </span>
+                  <span>{option.text}</span>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 戻るボタン */}
+        {currentQuestion > 0 && (
+          <button
+            onClick={() => {
+              setCurrentQuestion(currentQuestion - 1);
+              setAnswers(answers.slice(0, -1));
+            }}
+            className="w-full text-gray-600 hover:text-gray-800 py-2 transition-colors"
+          >
+            ← 前の質問に戻る
+          </button>
+        )}
+      </div>
     </div>
   );
 }

@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 動物診断アプリ
 
-## Getting Started
+質問に答えるとあなたの性格を動物で診断するWebアプリケーションです。
 
-First, run the development server:
+## 特徴
+
+- 10個の質問に答えて性格診断
+- 16種類の動物タイプ
+- MBTIのようなデザイン
+- かわいい動物の絵文字付き
+- SNSシェア機能（X、LINE、URLコピー）
+- レスポンシブデザイン
+
+## 技術スタック
+
+- Next.js 16
+- TypeScript
+- Tailwind CSS
+- React
+
+## ローカル開発
 
 ```bash
+# 依存パッケージのインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いてください。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Vercelへのデプロイ
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### GitHubと連携
 
-## Learn More
+1. このプロジェクトをGitHubリポジトリにプッシュ
+2. [Vercel](https://vercel.com)にアクセスしてアカウント作成/ログイン
+3. 「New Project」をクリック
+4. GitHubリポジトリをインポート
+5. デプロイ設定は自動検出されます
+6. 「Deploy」をクリック
 
-To learn more about Next.js, take a look at the following resources:
+以降、GitHubのメインブランチにプッシュすると自動的にデプロイされます。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Vercel CLIでデプロイ
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Vercel CLIのインストール
+npm i -g vercel
 
-## Deploy on Vercel
+# デプロイ
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## プロジェクト構成
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+├── app/
+│   ├── page.tsx          # トップページ・質問ページ
+│   ├── result/
+│   │   └── page.tsx      # 結果表示ページ
+│   └── layout.tsx        # レイアウト
+├── lib/
+│   ├── animals.ts        # 動物データ
+│   └── questions.ts      # 質問データと診断ロジック
+└── public/               # 静的ファイル
+```
+
+## ライセンス
+
+MIT
