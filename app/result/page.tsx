@@ -27,7 +27,7 @@ function ResultContent() {
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
   const displayName = userName === 'あなた' ? '私' : userName;
-  const shareText = `${displayName}は「${animal.name}」タイプでした！\n\n${animal.description}\n\n#動物診断`;
+  const shareText = `${displayName}は「${animal.name}」タイプでした！\n\n${animal.description}\n\n＃動物100診断`;
 
   const handleShare = (platform: 'twitter' | 'line' | 'copy') => {
     switch (platform) {
