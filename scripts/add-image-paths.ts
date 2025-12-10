@@ -51,7 +51,7 @@ function updateAnimalsFile() {
   // Animal インターフェースに imagePath を追加
   if (!content.includes('imagePath?:')) {
     content = content.replace(
-      /export interface Animal \{[^}]+\}/s,
+      /export interface Animal \{[\s\S]*?\}/,
       (match) => {
         if (!match.includes('imagePath')) {
           return match.replace(
