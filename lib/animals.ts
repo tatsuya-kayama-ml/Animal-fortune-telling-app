@@ -6,6 +6,7 @@ export interface Animal {
   traits: string[];
   color: string;
   emoji: string;
+  imagePath?: string;
   detailedDescription?: string;
   strengths?: string[];
   weaknesses?: string[];
@@ -22,6 +23,7 @@ export const animals: Animal[] = [
     traits: ['独立心が強い', 'マイペース', '気まぐれ', '好奇心旺盛'],
     color: '#FFB6C1',
     emoji: '🐱',
+    imagePath: '/images/animals/cat.png',
     detailedDescription: 'LINEの返信は気分次第。急に連絡が途絶えたと思ったら、夜中に「起きてる？」って送ってくるタイプ。一人の時間が何より大事で、誘いを断っても全然悪びれない。でも本当は寂しがり屋で、信頼した人にはめちゃくちゃ甘えてくる。',
     strengths: ['自立心が高い', '創造的思考', '柔軟な対応力', '直感が鋭い'],
     weaknesses: ['孤立しやすい', '気分屋', '協調性に欠ける', '頑固'],
@@ -36,6 +38,7 @@ export const animals: Animal[] = [
     traits: ['忠実', '社交的', 'ポジティブ', '行動的'],
     color: '#DEB887',
     emoji: '🐶',
+    imagePath: '/images/animals/dog.png',
     detailedDescription: '飲み会は全部出席、二次会も三次会も付き合うタイプ。「大丈夫？」って心配してくれるけど、自分が一番疲れてる。友達が悪く言われてたらすぐ反論するし、約束は絶対守る。でも裏切られると立ち直れないくらい落ち込む。',
     strengths: ['忠誠心が厚い', 'チームワーク抜群', '素直で正直', '行動力がある'],
     weaknesses: ['依存しやすい', '裏切りに弱い', '自己主張が苦手', '優柔不断'],
@@ -92,6 +95,7 @@ export const animals: Animal[] = [
     traits: ['のんびり', 'マイペース', '癒し系', '温厚'],
     color: '#000000',
     emoji: '🐼',
+    imagePath: '/images/animals/panda.png',
     detailedDescription: '待ち合わせに遅刻常習犯。「今起きた」ってLINEしてくるけど許されるキャラ。休日は昼まで寝てて、予定立てるの面倒くさがる。でも一緒にいると不思議と落ち着くし、焦ってる時に「まあ、なんとかなるよ」って言ってくれる。',
     strengths: ['癒しの存在', 'ストレスに強い', '温厚で優しい', 'マイペース'],
     weaknesses: ['行動が遅い', 'やる気が出ない', '怠け者に見られる', '危機感が薄い'],
@@ -106,6 +110,7 @@ export const animals: Animal[] = [
     traits: ['協調性がある', 'チームプレイヤー', '真面目', '努力家'],
     color: '#4169E1',
     emoji: '🐧',
+    imagePath: '/images/animals/penguin.png',
     detailedDescription: 'グループ課題では率先して動くけど、自分の意見は控えめ。みんなの予定に合わせすぎて自分の予定が埋まる。「お疲れ様です！」ってスタンプをすぐ送る。真面目すぎて損してるけど、誰からも信頼されてる。',
     strengths: ['協調性抜群', '真面目で誠実', '努力を惜しまない', 'チーム精神'],
     weaknesses: ['個性が埋もれる', '自己主張が弱い', '流されやすい', '自分を犠牲にする'],
@@ -120,6 +125,7 @@ export const animals: Animal[] = [
     traits: ['リーダーシップがある', '自信がある', '情熱的', '勇敢'],
     color: '#DAA520',
     emoji: '🦁',
+    imagePath: '/images/animals/lion.png',
     detailedDescription: '飲み会の幹事を自然と任される。「俺に任せろ」が口癖で、実際に頼りになる。でもプライド高くて意見曲げないから、たまに衝突する。褒められるのは好きだけど、批判されると機嫌悪くなる。リーダーやってるけど実は孤独。',
     strengths: ['統率力がある', '決断力が高い', 'カリスマ性', '責任感が強い'],
     weaknesses: ['独断的', 'プライドが高い', '他人を従わせる', '孤独を感じる'],

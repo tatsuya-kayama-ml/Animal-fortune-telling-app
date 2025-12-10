@@ -3,6 +3,7 @@
 import { useSearchParams } from 'next/navigation';
 import { animals } from '@/lib/animals';
 import { Suspense } from 'react';
+import { AnimalIcon } from '@/components/AnimalIcon';
 
 function AnimalContent() {
   const searchParams = useSearchParams();
@@ -30,12 +31,9 @@ function AnimalContent() {
         <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6 sm:space-y-8">
           {/* 動物表示 */}
           <div className="text-center space-y-3 sm:space-y-4">
-            {/* 動物イラスト（絵文字） */}
-            <div
-              className="w-40 h-40 sm:w-48 sm:h-48 mx-auto rounded-full flex items-center justify-center text-7xl sm:text-8xl shadow-lg"
-              style={{ backgroundColor: `${animal.color}20` }}
-            >
-              {animal.emoji}
+            {/* 動物イラスト */}
+            <div className="flex justify-center">
+              <AnimalIcon animal={animal} size="xl" />
             </div>
 
             {/* 動物名 */}

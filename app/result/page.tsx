@@ -3,6 +3,7 @@
 import { useSearchParams } from 'next/navigation';
 import { animals } from '@/lib/animals';
 import { Suspense, useState } from 'react';
+import { AnimalIcon } from '@/components/AnimalIcon';
 
 function ResultContent() {
   const searchParams = useSearchParams();
@@ -58,12 +59,9 @@ function ResultContent() {
               {userName === 'あなた' ? 'あなたは...' : `${userName}さんは...`}
             </h2>
 
-            {/* 動物イラスト（絵文字） */}
-            <div
-              className="w-40 h-40 sm:w-48 sm:h-48 mx-auto rounded-full flex items-center justify-center text-7xl sm:text-8xl shadow-lg"
-              style={{ backgroundColor: `${animal.color}20` }}
-            >
-              {animal.emoji}
+            {/* 動物イラスト */}
+            <div className="flex justify-center">
+              <AnimalIcon animal={animal} size="xl" />
             </div>
 
             {/* 動物名 */}
