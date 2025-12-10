@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation';
 import { animals } from '@/lib/animals';
-import { Suspense, useState } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { AnimalIcon } from '@/components/AnimalIcon';
 
 function ResultContent() {
@@ -12,6 +12,33 @@ function ResultContent() {
   const [copied, setCopied] = useState(false);
 
   const animal = animals.find((a) => a.id === animalId);
+
+  useEffect(() => {
+    if (animal) {
+      const ogImageUrl = `https://animal-fortune-telling-app.vercel.app/api/og?animal=${encodeURIComponent(animal.name)}&description=${encodeURIComponent(animal.description)}`;
+
+      // OG画像メタタグを更新
+      let ogImageMeta = document.querySelector('meta[property="og:image"]');
+      if (!ogImageMeta) {
+        ogImageMeta = document.createElement('meta');
+        ogImageMeta.setAttribute('property', 'og:image');
+        document.head.appendChild(ogImageMeta);
+      }
+      ogImageMeta.setAttribute('content', ogImageUrl);
+
+      // Twitter Card画像メタタグを更新
+      let twitterImageMeta = document.querySelector('meta[name="twitter:image"]');
+      if (!twitterImageMeta) {
+        twitterImageMeta = document.createElement('meta');
+        twitterImageMeta.setAttribute('name', 'twitter:image');
+        document.head.appendChild(twitterImageMeta);
+      }
+      twitterImageMeta.setAttribute('content', ogImageUrl);
+
+      // タイトルを更新
+      document.title = `${animal.name}タイプ - 動物100診断`;
+    }
+  }, [animal]);
 
   if (!animal) {
     return (
