@@ -249,6 +249,7 @@ function ResultContent() {
           <h3 className="text-lg sm:text-xl font-bold text-gray-800 text-center">他の動物を見る</h3>
           <p className="text-sm text-gray-600 text-center">気になる動物をクリックして詳細を見てみよう！</p>
 
+
           <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 sm:gap-4 max-h-96 overflow-y-auto p-2">
             {animals.map((a) => (
               <a

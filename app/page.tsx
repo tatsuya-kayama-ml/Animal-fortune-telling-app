@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { questions, calculateAnimalScore } from '@/lib/questions';
 import { animals } from '@/lib/animals';
 import Link from 'next/link';
@@ -10,6 +10,15 @@ export default function Home() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<string[][]>([]);
   const [name, setName] = useState('');
+  const [dailyCount, setDailyCount] = useState<number | null>(null);
+
+  // 今日の診断数を取得
+  useEffect(() => {
+    fetch('/api/stats')
+      .then(res => res.json())
+      .then(data => setDailyCount(data.count))
+      .catch(err => console.error('Failed to fetch stats:', err));
+  }, []);
 
   const handleAnswer = (traits: string[]) => {
     const newAnswers = [...answers, traits];
@@ -72,7 +81,17 @@ export default function Home() {
               </div>
 
               <button
-                onClick={() => setStarted(true)}
+                onClick={async () => {
+                  setStarted(true);
+                  // 診断数をカウント
+                  try {
+                    const res = await fetch('/api/stats', { method: 'POST' });
+                    const data = await res.json();
+                    setDailyCount(data.count);
+                  } catch (err) {
+                    console.error('Failed to update stats:', err);
+                  }
+                }}
                 className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-lg sm:text-xl font-bold py-5 sm:py-4 px-8 rounded-full hover:shadow-lg transition-all duration-300 active:scale-95 sm:hover:scale-105 touch-manipulation"
               >
                 診断スタート
@@ -80,9 +99,16 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="text-xs sm:text-sm text-gray-500">
-            所要時間：約2分
-          </p>
+          <div className="space-y-2">
+            {dailyCount !== null && (
+              <p className="text-sm sm:text-base text-purple-600 font-medium">
+                🎉 今日{dailyCount}人が診断しました！
+              </p>
+            )}
+            <p className="text-xs sm:text-sm text-gray-500">
+              所要時間：約2分
+            </p>
+          </div>
         </div>
       </div>
     );
