@@ -26,7 +26,10 @@ function ResultContent() {
     );
   }
 
-  const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
+  // シェア用のURLを生成（OG画像が正しく表示される/share/[animal]を使用）
+  const shareUrl = typeof window !== 'undefined'
+    ? `${window.location.origin}/share/${animalId}${userName && userName !== 'あなた' ? `?name=${encodeURIComponent(userName)}` : ''}`
+    : '';
   const displayName = userName === 'あなた' ? '私' : userName;
   const shareText = `${displayName}は「${animal.name}」タイプでした！\n\n${animal.description}\n\n＃動物100診断`;
 
