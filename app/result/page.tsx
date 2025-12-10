@@ -244,6 +244,31 @@ function ResultContent() {
           </div>
         </div>
 
+        {/* 他の動物を見る */}
+        <div className="bg-white rounded-3xl shadow-xl p-5 sm:p-6 space-y-4">
+          <h3 className="text-lg sm:text-xl font-bold text-gray-800 text-center">他の動物を見る</h3>
+          <p className="text-sm text-gray-600 text-center">気になる動物をクリックして詳細を見てみよう！</p>
+
+          <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 sm:gap-4 max-h-96 overflow-y-auto p-2">
+            {animals.map((a) => (
+              <a
+                key={a.id}
+                href={`/animal?id=${a.id}`}
+                className="flex flex-col items-center space-y-1.5 p-2 rounded-xl hover:bg-gray-50 transition-colors"
+                title={a.name}
+              >
+                <div
+                  className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-sm"
+                  style={{ backgroundColor: `${a.color}20` }}
+                >
+                  {a.emoji}
+                </div>
+                <span className="text-xs text-gray-700 text-center leading-tight">{a.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
         {/* もう一度診断 */}
         <div className="text-center pb-2">
           <a
