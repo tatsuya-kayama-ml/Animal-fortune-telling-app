@@ -177,6 +177,40 @@ function ResultContent() {
               </div>
             )}
 
+            {/* 相性が悪い動物 */}
+            {animal.incompatibility && animal.incompatibility.length > 0 && (
+              <div className="space-y-3">
+                <h3 className="text-lg sm:text-xl font-bold text-orange-700">⚠️ 相性が悪い動物</h3>
+                <p className="text-xs sm:text-sm text-orange-600 text-center">
+                  クリックすると詳細を見られます
+                </p>
+                <div className="flex flex-wrap gap-2 sm:gap-3 justify-center">
+                  {animal.incompatibility.map((incompat, index) => {
+                    const incompatAnimal = animals.find((a) => a.name === incompat);
+                    if (incompatAnimal) {
+                      return (
+                        <a
+                          key={index}
+                          href={`/animal?id=${incompatAnimal.id}`}
+                          className="bg-orange-50 rounded-full px-4 py-2 sm:px-5 sm:py-2.5 text-sm sm:text-base text-orange-700 font-medium border border-orange-200 hover:bg-orange-100 transition-colors cursor-pointer"
+                        >
+                          {incompat}
+                        </a>
+                      );
+                    }
+                    return (
+                      <div
+                        key={index}
+                        className="bg-orange-50 rounded-full px-4 py-2 sm:px-5 sm:py-2.5 text-sm sm:text-base text-orange-700 font-medium border border-orange-200"
+                      >
+                        {incompat}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
             {/* アドバイス */}
             {animal.advice && (
               <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-5 sm:p-6 border-2 border-yellow-200">

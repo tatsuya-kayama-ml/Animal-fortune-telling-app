@@ -34,6 +34,13 @@ export default function Home() {
         scores[a] > scores[b] ? a : b
       );
 
+      // 動物の統計を記録
+      fetch('/api/stats', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ animal: resultAnimalId }),
+      }).catch(err => console.error('Failed to record animal stats:', err));
+
       // 結果ページへ遷移（名前を含める）
       const encodedName = encodeURIComponent(name || 'あなた');
       window.location.href = `/result?animal=${resultAnimalId}&name=${encodedName}`;
