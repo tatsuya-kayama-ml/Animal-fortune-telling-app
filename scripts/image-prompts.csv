@@ -1,0 +1,1441 @@
+id,name,nameEn,color,traits,prompt
+cat,ネコ,Cat,#FFB6C1,"独立心が強い, マイペース, 気まぐれ","Create a cute, minimalist illustration of a Cat in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFB6C1
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Cat should look:
+独立心が強い, マイペース, 気まぐれ
+
+Keep it simple, charming, and instantly recognizable."
+dog,イヌ,Dog,#DEB887,"忠実, 社交的, ポジティブ","Create a cute, minimalist illustration of a Dog in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #DEB887
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Dog should look:
+忠実, 社交的, ポジティブ
+
+Keep it simple, charming, and instantly recognizable."
+rabbit,ウサギ,Rabbit,#F0E68C,"優しい, 繊細, 平和主義","Create a cute, minimalist illustration of a Rabbit in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #F0E68C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Rabbit should look:
+優しい, 繊細, 平和主義
+
+Keep it simple, charming, and instantly recognizable."
+fox,キツネ,Fox,#FF8C00,"賢い, 機転が利く, 適応力が高い","Create a cute, minimalist illustration of a Fox in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF8C00
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Fox should look:
+賢い, 機転が利く, 適応力が高い
+
+Keep it simple, charming, and instantly recognizable."
+owl,フクロウ,Owl,#8B7355,"知的, 冷静, 洞察力がある","Create a cute, minimalist illustration of a Owl in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Owl should look:
+知的, 冷静, 洞察力がある
+
+Keep it simple, charming, and instantly recognizable."
+panda,パンダ,Panda,#000000,"のんびり, マイペース, 癒し系","Create a cute, minimalist illustration of a Panda in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #000000
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Panda should look:
+のんびり, マイペース, 癒し系
+
+Keep it simple, charming, and instantly recognizable."
+penguin,ペンギン,Penguin,#4169E1,"協調性がある, チームプレイヤー, 真面目","Create a cute, minimalist illustration of a Penguin in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #4169E1
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Penguin should look:
+協調性がある, チームプレイヤー, 真面目
+
+Keep it simple, charming, and instantly recognizable."
+lion,ライオン,Lion,#DAA520,"リーダーシップがある, 自信がある, 情熱的","Create a cute, minimalist illustration of a Lion in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #DAA520
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Lion should look:
+リーダーシップがある, 自信がある, 情熱的
+
+Keep it simple, charming, and instantly recognizable."
+dolphin,イルカ,Dolphin,#00BFFF,"明るい, 社交的, ムードメーカー","Create a cute, minimalist illustration of a Dolphin in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #00BFFF
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Dolphin should look:
+明るい, 社交的, ムードメーカー
+
+Keep it simple, charming, and instantly recognizable."
+koala,コアラ,Koala,#808080,"のんびり, 穏やか, マイペース","Create a cute, minimalist illustration of a Koala in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #808080
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Koala should look:
+のんびり, 穏やか, マイペース
+
+Keep it simple, charming, and instantly recognizable."
+tiger,トラ,Tiger,#FF6347,"力強い, 行動的, 情熱的","Create a cute, minimalist illustration of a Tiger in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Tiger should look:
+力強い, 行動的, 情熱的
+
+Keep it simple, charming, and instantly recognizable."
+bear,クマ,Bear,#8B4513,"包容力がある, 頼りがいがある, 優しい","Create a cute, minimalist illustration of a Bear in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Bear should look:
+包容力がある, 頼りがいがある, 優しい
+
+Keep it simple, charming, and instantly recognizable."
+elephant,ゾウ,Elephant,#696969,"記憶力が良い, 思慮深い, 賢い","Create a cute, minimalist illustration of a Elephant in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #696969
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Elephant should look:
+記憶力が良い, 思慮深い, 賢い
+
+Keep it simple, charming, and instantly recognizable."
+monkey,サル,Monkey,#CD853F,"好奇心旺盛, 活発, 柔軟","Create a cute, minimalist illustration of a Monkey in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #CD853F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Monkey should look:
+好奇心旺盛, 活発, 柔軟
+
+Keep it simple, charming, and instantly recognizable."
+horse,ウマ,Horse,#A0522D,"自由を愛する, エネルギッシュ, 行動的","Create a cute, minimalist illustration of a Horse in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #A0522D
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Horse should look:
+自由を愛する, エネルギッシュ, 行動的
+
+Keep it simple, charming, and instantly recognizable."
+sheep,ヒツジ,Sheep,#F5F5DC,"優しい, 従順, 平和主義","Create a cute, minimalist illustration of a Sheep in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #F5F5DC
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Sheep should look:
+優しい, 従順, 平和主義
+
+Keep it simple, charming, and instantly recognizable."
+duck,カモ,Duck,#87CEEB,"おおらか, 柔軟, 努力家","Create a cute, minimalist illustration of a Duck in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #87CEEB
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Duck should look:
+おおらか, 柔軟, 努力家
+
+Keep it simple, charming, and instantly recognizable."
+hedgehog,ハリネズミ,Hedgehog,#8B7D6B,"警戒心が強い, 慎重, 優しい","Create a cute, minimalist illustration of a Hedgehog in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7D6B
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Hedgehog should look:
+警戒心が強い, 慎重, 優しい
+
+Keep it simple, charming, and instantly recognizable."
+wolf,オオカミ,Wolf,#696969,"仲間思い, 独立心, 野生的","Create a cute, minimalist illustration of a Wolf in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #696969
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Wolf should look:
+仲間思い, 独立心, 野生的
+
+Keep it simple, charming, and instantly recognizable."
+deer,シカ,Deer,#D2691E,"優雅, 繊細, 穏やか","Create a cute, minimalist illustration of a Deer in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2691E
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Deer should look:
+優雅, 繊細, 穏やか
+
+Keep it simple, charming, and instantly recognizable."
+giraffe,キリン,Giraffe,#DAA520,"視野が広い, 冷静, 穏やか","Create a cute, minimalist illustration of a Giraffe in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #DAA520
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Giraffe should look:
+視野が広い, 冷静, 穏やか
+
+Keep it simple, charming, and instantly recognizable."
+squirrel,リス,Squirrel,#CD853F,"機敏, 計画的, 準備周到","Create a cute, minimalist illustration of a Squirrel in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #CD853F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Squirrel should look:
+機敏, 計画的, 準備周到
+
+Keep it simple, charming, and instantly recognizable."
+owl,フクロウ,Owl,#8B7355,"知的, 冷静, 洞察力がある","Create a cute, minimalist illustration of a Owl in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Owl should look:
+知的, 冷静, 洞察力がある
+
+Keep it simple, charming, and instantly recognizable."
+flamingo,フラミンゴ,Flamingo,#FF69B4,"華やか, 社交的, 個性的","Create a cute, minimalist illustration of a Flamingo in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF69B4
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Flamingo should look:
+華やか, 社交的, 個性的
+
+Keep it simple, charming, and instantly recognizable."
+peacock,クジャク,Peacock,#4169E1,"華麗, 自信家, プライドが高い","Create a cute, minimalist illustration of a Peacock in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #4169E1
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Peacock should look:
+華麗, 自信家, プライドが高い
+
+Keep it simple, charming, and instantly recognizable."
+bat,コウモリ,Bat,#4B0082,"独特, 夜型, 敏感","Create a cute, minimalist illustration of a Bat in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #4B0082
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Bat should look:
+独特, 夜型, 敏感
+
+Keep it simple, charming, and instantly recognizable."
+otter,カワウソ,Otter,#8B4513,"遊び心, 社交的, 楽しい","Create a cute, minimalist illustration of a Otter in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Otter should look:
+遊び心, 社交的, 楽しい
+
+Keep it simple, charming, and instantly recognizable."
+sloth,ナマケモノ,Sloth,#A0826D,"超マイペース, のんびり, 省エネ","Create a cute, minimalist illustration of a Sloth in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #A0826D
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Sloth should look:
+超マイペース, のんびり, 省エネ
+
+Keep it simple, charming, and instantly recognizable."
+raccoon,アライグマ,Raccoon,#696969,"器用, 好奇心旺盛, いたずら好き","Create a cute, minimalist illustration of a Raccoon in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #696969
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Raccoon should look:
+器用, 好奇心旺盛, いたずら好き
+
+Keep it simple, charming, and instantly recognizable."
+chameleon,カメレオン,Chameleon,#00FF00,"適応力抜群, 柔軟, 観察力","Create a cute, minimalist illustration of a Chameleon in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #00FF00
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Chameleon should look:
+適応力抜群, 柔軟, 観察力
+
+Keep it simple, charming, and instantly recognizable."
+turtle,カメ,Turtle,#228B22,"慎重, 忍耐強い, 長生き","Create a cute, minimalist illustration of a Turtle in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #228B22
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Turtle should look:
+慎重, 忍耐強い, 長生き
+
+Keep it simple, charming, and instantly recognizable."
+snake,ヘビ,Snake,#2F4F2F,"戦略的, 洞察力, 静か","Create a cute, minimalist illustration of a Snake in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #2F4F2F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Snake should look:
+戦略的, 洞察力, 静か
+
+Keep it simple, charming, and instantly recognizable."
+cheetah,チーター,Cheetah,#DAA520,"速い, 集中力, 瞬発力","Create a cute, minimalist illustration of a Cheetah in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #DAA520
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Cheetah should look:
+速い, 集中力, 瞬発力
+
+Keep it simple, charming, and instantly recognizable."
+zebra,シマウマ,Zebra,#000000,"個性的, 目立つ, 集団行動","Create a cute, minimalist illustration of a Zebra in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #000000
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Zebra should look:
+個性的, 目立つ, 集団行動
+
+Keep it simple, charming, and instantly recognizable."
+hippo,カバ,Hippo,#696969,"おおらか, 実は気性が激しい, 力強い","Create a cute, minimalist illustration of a Hippo in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #696969
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Hippo should look:
+おおらか, 実は気性が激しい, 力強い
+
+Keep it simple, charming, and instantly recognizable."
+rhino,サイ,Rhino,#696969,"頑固, 一途, 力強い","Create a cute, minimalist illustration of a Rhino in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #696969
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Rhino should look:
+頑固, 一途, 力強い
+
+Keep it simple, charming, and instantly recognizable."
+kangaroo,カンガルー,Kangaroo,#D2691E,"跳躍力, 前向き, 家族思い","Create a cute, minimalist illustration of a Kangaroo in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2691E
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Kangaroo should look:
+跳躍力, 前向き, 家族思い
+
+Keep it simple, charming, and instantly recognizable."
+parrot,オウム,Parrot,#FF6347,"コミュニケーション力, 華やか, 社交的","Create a cute, minimalist illustration of a Parrot in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Parrot should look:
+コミュニケーション力, 華やか, 社交的
+
+Keep it simple, charming, and instantly recognizable."
+seal,アザラシ,Seal,#708090,"愛嬌, のんびり, 癒し系","Create a cute, minimalist illustration of a Seal in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #708090
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Seal should look:
+愛嬌, のんびり, 癒し系
+
+Keep it simple, charming, and instantly recognizable."
+whale,クジラ,Whale,#4682B4,"包容力, 知恵, 穏やか","Create a cute, minimalist illustration of a Whale in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #4682B4
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Whale should look:
+包容力, 知恵, 穏やか
+
+Keep it simple, charming, and instantly recognizable."
+octopus,タコ,Octopus,#8B008B,"多才, 柔軟, 器用","Create a cute, minimalist illustration of a Octopus in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B008B
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Octopus should look:
+多才, 柔軟, 器用
+
+Keep it simple, charming, and instantly recognizable."
+butterfly,チョウ,Butterfly,#FF1493,"華やか, 自由, 変化を楽しむ","Create a cute, minimalist illustration of a Butterfly in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF1493
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Butterfly should look:
+華やか, 自由, 変化を楽しむ
+
+Keep it simple, charming, and instantly recognizable."
+bee,ミツバチ,Bee,#FFD700,"働き者, 協調性, 真面目","Create a cute, minimalist illustration of a Bee in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFD700
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Bee should look:
+働き者, 協調性, 真面目
+
+Keep it simple, charming, and instantly recognizable."
+ant,アリ,Ant,#8B4513,"努力家, 組織的, 力持ち","Create a cute, minimalist illustration of a Ant in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Ant should look:
+努力家, 組織的, 力持ち
+
+Keep it simple, charming, and instantly recognizable."
+ladybug,テントウムシ,Ladybug,#FF0000,"幸運, 可愛い, ポジティブ","Create a cute, minimalist illustration of a Ladybug in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF0000
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Ladybug should look:
+幸運, 可愛い, ポジティブ
+
+Keep it simple, charming, and instantly recognizable."
+frog,カエル,Frog,#32CD32,"適応力, 変化を楽しむ, 成長志向","Create a cute, minimalist illustration of a Frog in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #32CD32
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Frog should look:
+適応力, 変化を楽しむ, 成長志向
+
+Keep it simple, charming, and instantly recognizable."
+crab,カニ,Crab,#FF6347,"防衛的, 独自路線, 家族思い","Create a cute, minimalist illustration of a Crab in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Crab should look:
+防衛的, 独自路線, 家族思い
+
+Keep it simple, charming, and instantly recognizable."
+swan,ハクチョウ,Swan,#FFFFFF,"優雅, 気高い, 美しい","Create a cute, minimalist illustration of a Swan in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFFFFF
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Swan should look:
+優雅, 気高い, 美しい
+
+Keep it simple, charming, and instantly recognizable."
+rooster,ニワトリ,Rooster,#FF6347,"早起き, 勤勉, 規則正しい","Create a cute, minimalist illustration of a Rooster in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Rooster should look:
+早起き, 勤勉, 規則正しい
+
+Keep it simple, charming, and instantly recognizable."
+hummingbird,ハチドリ,Hummingbird,#00CED1,"精力的, 小さくて速い, 美を追求","Create a cute, minimalist illustration of a Hummingbird in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #00CED1
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Hummingbird should look:
+精力的, 小さくて速い, 美を追求
+
+Keep it simple, charming, and instantly recognizable."
+eagle,ワシ,Eagle,#8B4513,"理想が高い, 鋭い視点, 誇り高い","Create a cute, minimalist illustration of a Eagle in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Eagle should look:
+理想が高い, 鋭い視点, 誇り高い
+
+Keep it simple, charming, and instantly recognizable."
+raccoondog,タヌキ,Raccoon Dog,#8B7355,"人懐っこい, 愛嬌, 要領が良い","Create a cute, minimalist illustration of a Raccoon Dog in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Raccoon Dog should look:
+人懐っこい, 愛嬌, 要領が良い
+
+Keep it simple, charming, and instantly recognizable."
+gorilla,ゴリラ,Gorilla,#2F4F4F,"力強い, 優しい, 繊細","Create a cute, minimalist illustration of a Gorilla in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #2F4F4F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Gorilla should look:
+力強い, 優しい, 繊細
+
+Keep it simple, charming, and instantly recognizable."
+meerkat,ミーアキャット,Meerkat,#D2691E,"警戒心, 仲間思い, 協力的","Create a cute, minimalist illustration of a Meerkat in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2691E
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Meerkat should look:
+警戒心, 仲間思い, 協力的
+
+Keep it simple, charming, and instantly recognizable."
+crocodile,ワニ,Crocodile,#556B2F,"辛抱強い, 瞬発力, 冷静","Create a cute, minimalist illustration of a Crocodile in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #556B2F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Crocodile should look:
+辛抱強い, 瞬発力, 冷静
+
+Keep it simple, charming, and instantly recognizable."
+lemur,キツネザル,Lemur,#CD853F,"好奇心旺盛, 社交的, ユニーク","Create a cute, minimalist illustration of a Lemur in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #CD853F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Lemur should look:
+好奇心旺盛, 社交的, ユニーク
+
+Keep it simple, charming, and instantly recognizable."
+armadillo,アルマジロ,Armadillo,#8B7355,"防御的, 慎重, 用心深い","Create a cute, minimalist illustration of a Armadillo in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Armadillo should look:
+防御的, 慎重, 用心深い
+
+Keep it simple, charming, and instantly recognizable."
+porcupine,ヤマアラシ,Porcupine,#8B4513,"防衛的, 独立心, 鋭い","Create a cute, minimalist illustration of a Porcupine in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Porcupine should look:
+防衛的, 独立心, 鋭い
+
+Keep it simple, charming, and instantly recognizable."
+badger,アナグマ,Badger,#696969,"頑固, 粘り強い, 領域意識","Create a cute, minimalist illustration of a Badger in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #696969
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Badger should look:
+頑固, 粘り強い, 領域意識
+
+Keep it simple, charming, and instantly recognizable."
+platypus,カモノハシ,Platypus,#8B7355,"ユニーク, 不思議, 独特","Create a cute, minimalist illustration of a Platypus in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Platypus should look:
+ユニーク, 不思議, 独特
+
+Keep it simple, charming, and instantly recognizable."
+lynx,オオヤマネコ,Lynx,#D2691E,"神秘的, 鋭い感覚, 静か","Create a cute, minimalist illustration of a Lynx in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2691E
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Lynx should look:
+神秘的, 鋭い感覚, 静か
+
+Keep it simple, charming, and instantly recognizable."
+bison,バイソン,Bison,#8B4513,"力強い, 頼もしい, リーダー","Create a cute, minimalist illustration of a Bison in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Bison should look:
+力強い, 頼もしい, リーダー
+
+Keep it simple, charming, and instantly recognizable."
+mantis,カマキリ,Mantis,#228B22,"忍耐強い, ハンター, 瞬発力","Create a cute, minimalist illustration of a Mantis in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #228B22
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Mantis should look:
+忍耐強い, ハンター, 瞬発力
+
+Keep it simple, charming, and instantly recognizable."
+dragonfly,トンボ,Dragonfly,#00CED1,"自由, 視野が広い, 変化対応","Create a cute, minimalist illustration of a Dragonfly in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #00CED1
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Dragonfly should look:
+自由, 視野が広い, 変化対応
+
+Keep it simple, charming, and instantly recognizable."
+cricket,コオロギ,Cricket,#8B4513,"音楽的, 感性豊か, 表現力","Create a cute, minimalist illustration of a Cricket in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Cricket should look:
+音楽的, 感性豊か, 表現力
+
+Keep it simple, charming, and instantly recognizable."
+firefly,ホタル,Firefly,#FFD700,"控えめ, 存在感, 光る","Create a cute, minimalist illustration of a Firefly in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFD700
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Firefly should look:
+控えめ, 存在感, 光る
+
+Keep it simple, charming, and instantly recognizable."
+spider,クモ,Spider,#2F4F2F,"忍耐強い, 戦略的, 計画的","Create a cute, minimalist illustration of a Spider in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #2F4F2F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Spider should look:
+忍耐強い, 戦略的, 計画的
+
+Keep it simple, charming, and instantly recognizable."
+scorpion,サソリ,Scorpion,#8B0000,"危険, 魅力的, 防衛的","Create a cute, minimalist illustration of a Scorpion in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B0000
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Scorpion should look:
+危険, 魅力的, 防衛的
+
+Keep it simple, charming, and instantly recognizable."
+jellyfish,クラゲ,Jellyfish,#E0BBE4,"ふわふわ, マイペース, 流れに任せる","Create a cute, minimalist illustration of a Jellyfish in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #E0BBE4
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Jellyfish should look:
+ふわふわ, マイペース, 流れに任せる
+
+Keep it simple, charming, and instantly recognizable."
+starfish,ヒトデ,Starfish,#FF6347,"再生力, 強さ, のんびり","Create a cute, minimalist illustration of a Starfish in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Starfish should look:
+再生力, 強さ, のんびり
+
+Keep it simple, charming, and instantly recognizable."
+seahorse,タツノオトシゴ,Seahorse,#FFD700,"ユニーク, 家族思い, 優しい","Create a cute, minimalist illustration of a Seahorse in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFD700
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Seahorse should look:
+ユニーク, 家族思い, 優しい
+
+Keep it simple, charming, and instantly recognizable."
+stingray,エイ,Stingray,#708090,"優雅, 穏やか, 防衛的","Create a cute, minimalist illustration of a Stingray in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #708090
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Stingray should look:
+優雅, 穏やか, 防衛的
+
+Keep it simple, charming, and instantly recognizable."
+clownfish,カクレクマノミ,Clownfish,#FF6347,"明るい, 社交的, 共生","Create a cute, minimalist illustration of a Clownfish in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Clownfish should look:
+明るい, 社交的, 共生
+
+Keep it simple, charming, and instantly recognizable."
+anglerfish,チョウチンアンコウ,Anglerfish,#2F4F4F,"独特, 戦略的, 光を持つ","Create a cute, minimalist illustration of a Anglerfish in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #2F4F4F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Anglerfish should look:
+独特, 戦略的, 光を持つ
+
+Keep it simple, charming, and instantly recognizable."
+moose,ヘラジカ,Moose,#8B4513,"大きい, 強い, 穏やか","Create a cute, minimalist illustration of a Moose in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B4513
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Moose should look:
+大きい, 強い, 穏やか
+
+Keep it simple, charming, and instantly recognizable."
+reindeer,トナカイ,Reindeer,#8B7355,"協調性, 頼りになる, 忍耐強い","Create a cute, minimalist illustration of a Reindeer in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Reindeer should look:
+協調性, 頼りになる, 忍耐強い
+
+Keep it simple, charming, and instantly recognizable."
+alpaca,アルパカ,Alpaca,#D2B48C,"もふもふ, 癒し系, 穏やか","Create a cute, minimalist illustration of a Alpaca in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2B48C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Alpaca should look:
+もふもふ, 癒し系, 穏やか
+
+Keep it simple, charming, and instantly recognizable."
+llama,リャマ,Llama,#D2B48C,"プライド高い, 頑固, 自己主張","Create a cute, minimalist illustration of a Llama in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2B48C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Llama should look:
+プライド高い, 頑固, 自己主張
+
+Keep it simple, charming, and instantly recognizable."
+donkey,ロバ,Donkey,#808080,"働き者, 頑固, 忍耐強い","Create a cute, minimalist illustration of a Donkey in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #808080
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Donkey should look:
+働き者, 頑固, 忍耐強い
+
+Keep it simple, charming, and instantly recognizable."
+camel,ラクダ,Camel,#D2B48C,"忍耐強い, 貯蓄上手, 我慢強い","Create a cute, minimalist illustration of a Camel in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2B48C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Camel should look:
+忍耐強い, 貯蓄上手, 我慢強い
+
+Keep it simple, charming, and instantly recognizable."
+hyena,ハイエナ,Hyena,#8B7355,"逞しい, 適応力, 社交的","Create a cute, minimalist illustration of a Hyena in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Hyena should look:
+逞しい, 適応力, 社交的
+
+Keep it simple, charming, and instantly recognizable."
+wombat,ウォンバット,Wombat,#8B7355,"のんびり, マイペース, 安全志向","Create a cute, minimalist illustration of a Wombat in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Wombat should look:
+のんびり, マイペース, 安全志向
+
+Keep it simple, charming, and instantly recognizable."
+quokka,クオッカ,Quokka,#D2B48C,"笑顔, 幸せそう, 人懐っこい","Create a cute, minimalist illustration of a Quokka in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2B48C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Quokka should look:
+笑顔, 幸せそう, 人懐っこい
+
+Keep it simple, charming, and instantly recognizable."
+opossum,オポッサム,Opossum,#808080,"演技派, 適応力, 生存力","Create a cute, minimalist illustration of a Opossum in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #808080
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Opossum should look:
+演技派, 適応力, 生存力
+
+Keep it simple, charming, and instantly recognizable."
+chipmunk,シマリス,Chipmunk,#D2691E,"可愛い, 活発, 準備上手","Create a cute, minimalist illustration of a Chipmunk in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2691E
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Chipmunk should look:
+可愛い, 活発, 準備上手
+
+Keep it simple, charming, and instantly recognizable."
+hamster,ハムスター,Hamster,#D2B48C,"小さい, 可愛い, 努力家","Create a cute, minimalist illustration of a Hamster in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2B48C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Hamster should look:
+小さい, 可愛い, 努力家
+
+Keep it simple, charming, and instantly recognizable."
+mouse,ネズミ,Mouse,#808080,"小さい, 賢い, 素早い","Create a cute, minimalist illustration of a Mouse in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #808080
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Mouse should look:
+小さい, 賢い, 素早い
+
+Keep it simple, charming, and instantly recognizable."
+mole,モグラ,Mole,#2F4F2F,"黙々と働く, 目立たない, 穴掘り名人","Create a cute, minimalist illustration of a Mole in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #2F4F2F
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Mole should look:
+黙々と働く, 目立たない, 穴掘り名人
+
+Keep it simple, charming, and instantly recognizable."
+stoat,オコジョ,Stoat,#FFFFFF,"小さい, 勇敢, 適応力","Create a cute, minimalist illustration of a Stoat in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFFFFF
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Stoat should look:
+小さい, 勇敢, 適応力
+
+Keep it simple, charming, and instantly recognizable."
+weasel,イタチ,Weasel,#8B7355,"素早い, 機敏, 小さい","Create a cute, minimalist illustration of a Weasel in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Weasel should look:
+素早い, 機敏, 小さい
+
+Keep it simple, charming, and instantly recognizable."
+ferret,フェレット,Ferret,#D2B48C,"好奇心旺盛, 遊び好き, 人懐っこい","Create a cute, minimalist illustration of a Ferret in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #D2B48C
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Ferret should look:
+好奇心旺盛, 遊び好き, 人懐っこい
+
+Keep it simple, charming, and instantly recognizable."
+capybara,カピバラ,Capybara,#8B7355,"のんびり, 優しい, 社交的","Create a cute, minimalist illustration of a Capybara in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Capybara should look:
+のんびり, 優しい, 社交的
+
+Keep it simple, charming, and instantly recognizable."
+puffin,パフィン,Puffin,#FF6347,"カラフル, 可愛い, 一途","Create a cute, minimalist illustration of a Puffin in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FF6347
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Puffin should look:
+カラフル, 可愛い, 一途
+
+Keep it simple, charming, and instantly recognizable."
+toucan,オオハシ,Toucan,#FFD700,"目立つ, カラフル, 社交的","Create a cute, minimalist illustration of a Toucan in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFD700
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Toucan should look:
+目立つ, カラフル, 社交的
+
+Keep it simple, charming, and instantly recognizable."
+pelican,ペリカン,Pelican,#FFFFFF,"包容力, 大きい, 協力的","Create a cute, minimalist illustration of a Pelican in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #FFFFFF
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Pelican should look:
+包容力, 大きい, 協力的
+
+Keep it simple, charming, and instantly recognizable."
+kiwi,キーウィ,Kiwi,#8B7355,"ユニーク, 夜行性, 独特","Create a cute, minimalist illustration of a Kiwi in MBTI personality test style.
+Style requirements:
+- Simple, flat design with rounded shapes
+- Friendly and approachable character
+- Clean lines, no complex details
+- Solid color background matching #8B7355
+- Character should be centered and take up 70% of canvas
+- Kawaii/cute aesthetic similar to Japanese character design
+- No text or labels
+- Square format (1:1 aspect ratio)
+
+The Kiwi should look:
+ユニーク, 夜行性, 独特
+
+Keep it simple, charming, and instantly recognizable."

@@ -1,0 +1,770 @@
+[
+  {
+    "id": "cat",
+    "name": "ネコ",
+    "nameEn": "Cat",
+    "color": "#FFB6C1",
+    "traits": "独立心が強い, マイペース, 気まぐれ",
+    "prompt": "Create a cute, minimalist illustration of a Cat in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFB6C1\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Cat should look:\n独立心が強い, マイペース, 気まぐれ\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "dog",
+    "name": "イヌ",
+    "nameEn": "Dog",
+    "color": "#DEB887",
+    "traits": "忠実, 社交的, ポジティブ",
+    "prompt": "Create a cute, minimalist illustration of a Dog in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #DEB887\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Dog should look:\n忠実, 社交的, ポジティブ\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "rabbit",
+    "name": "ウサギ",
+    "nameEn": "Rabbit",
+    "color": "#F0E68C",
+    "traits": "優しい, 繊細, 平和主義",
+    "prompt": "Create a cute, minimalist illustration of a Rabbit in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #F0E68C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Rabbit should look:\n優しい, 繊細, 平和主義\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "fox",
+    "name": "キツネ",
+    "nameEn": "Fox",
+    "color": "#FF8C00",
+    "traits": "賢い, 機転が利く, 適応力が高い",
+    "prompt": "Create a cute, minimalist illustration of a Fox in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF8C00\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Fox should look:\n賢い, 機転が利く, 適応力が高い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "owl",
+    "name": "フクロウ",
+    "nameEn": "Owl",
+    "color": "#8B7355",
+    "traits": "知的, 冷静, 洞察力がある",
+    "prompt": "Create a cute, minimalist illustration of a Owl in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Owl should look:\n知的, 冷静, 洞察力がある\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "panda",
+    "name": "パンダ",
+    "nameEn": "Panda",
+    "color": "#000000",
+    "traits": "のんびり, マイペース, 癒し系",
+    "prompt": "Create a cute, minimalist illustration of a Panda in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #000000\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Panda should look:\nのんびり, マイペース, 癒し系\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "penguin",
+    "name": "ペンギン",
+    "nameEn": "Penguin",
+    "color": "#4169E1",
+    "traits": "協調性がある, チームプレイヤー, 真面目",
+    "prompt": "Create a cute, minimalist illustration of a Penguin in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #4169E1\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Penguin should look:\n協調性がある, チームプレイヤー, 真面目\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "lion",
+    "name": "ライオン",
+    "nameEn": "Lion",
+    "color": "#DAA520",
+    "traits": "リーダーシップがある, 自信がある, 情熱的",
+    "prompt": "Create a cute, minimalist illustration of a Lion in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #DAA520\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Lion should look:\nリーダーシップがある, 自信がある, 情熱的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "dolphin",
+    "name": "イルカ",
+    "nameEn": "Dolphin",
+    "color": "#00BFFF",
+    "traits": "明るい, 社交的, ムードメーカー",
+    "prompt": "Create a cute, minimalist illustration of a Dolphin in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #00BFFF\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Dolphin should look:\n明るい, 社交的, ムードメーカー\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "koala",
+    "name": "コアラ",
+    "nameEn": "Koala",
+    "color": "#808080",
+    "traits": "のんびり, 穏やか, マイペース",
+    "prompt": "Create a cute, minimalist illustration of a Koala in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #808080\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Koala should look:\nのんびり, 穏やか, マイペース\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "tiger",
+    "name": "トラ",
+    "nameEn": "Tiger",
+    "color": "#FF6347",
+    "traits": "力強い, 行動的, 情熱的",
+    "prompt": "Create a cute, minimalist illustration of a Tiger in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Tiger should look:\n力強い, 行動的, 情熱的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "bear",
+    "name": "クマ",
+    "nameEn": "Bear",
+    "color": "#8B4513",
+    "traits": "包容力がある, 頼りがいがある, 優しい",
+    "prompt": "Create a cute, minimalist illustration of a Bear in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Bear should look:\n包容力がある, 頼りがいがある, 優しい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "elephant",
+    "name": "ゾウ",
+    "nameEn": "Elephant",
+    "color": "#696969",
+    "traits": "記憶力が良い, 思慮深い, 賢い",
+    "prompt": "Create a cute, minimalist illustration of a Elephant in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #696969\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Elephant should look:\n記憶力が良い, 思慮深い, 賢い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "monkey",
+    "name": "サル",
+    "nameEn": "Monkey",
+    "color": "#CD853F",
+    "traits": "好奇心旺盛, 活発, 柔軟",
+    "prompt": "Create a cute, minimalist illustration of a Monkey in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #CD853F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Monkey should look:\n好奇心旺盛, 活発, 柔軟\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "horse",
+    "name": "ウマ",
+    "nameEn": "Horse",
+    "color": "#A0522D",
+    "traits": "自由を愛する, エネルギッシュ, 行動的",
+    "prompt": "Create a cute, minimalist illustration of a Horse in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #A0522D\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Horse should look:\n自由を愛する, エネルギッシュ, 行動的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "sheep",
+    "name": "ヒツジ",
+    "nameEn": "Sheep",
+    "color": "#F5F5DC",
+    "traits": "優しい, 従順, 平和主義",
+    "prompt": "Create a cute, minimalist illustration of a Sheep in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #F5F5DC\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Sheep should look:\n優しい, 従順, 平和主義\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "duck",
+    "name": "カモ",
+    "nameEn": "Duck",
+    "color": "#87CEEB",
+    "traits": "おおらか, 柔軟, 努力家",
+    "prompt": "Create a cute, minimalist illustration of a Duck in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #87CEEB\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Duck should look:\nおおらか, 柔軟, 努力家\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "hedgehog",
+    "name": "ハリネズミ",
+    "nameEn": "Hedgehog",
+    "color": "#8B7D6B",
+    "traits": "警戒心が強い, 慎重, 優しい",
+    "prompt": "Create a cute, minimalist illustration of a Hedgehog in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7D6B\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Hedgehog should look:\n警戒心が強い, 慎重, 優しい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "wolf",
+    "name": "オオカミ",
+    "nameEn": "Wolf",
+    "color": "#696969",
+    "traits": "仲間思い, 独立心, 野生的",
+    "prompt": "Create a cute, minimalist illustration of a Wolf in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #696969\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Wolf should look:\n仲間思い, 独立心, 野生的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "deer",
+    "name": "シカ",
+    "nameEn": "Deer",
+    "color": "#D2691E",
+    "traits": "優雅, 繊細, 穏やか",
+    "prompt": "Create a cute, minimalist illustration of a Deer in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2691E\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Deer should look:\n優雅, 繊細, 穏やか\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "giraffe",
+    "name": "キリン",
+    "nameEn": "Giraffe",
+    "color": "#DAA520",
+    "traits": "視野が広い, 冷静, 穏やか",
+    "prompt": "Create a cute, minimalist illustration of a Giraffe in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #DAA520\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Giraffe should look:\n視野が広い, 冷静, 穏やか\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "squirrel",
+    "name": "リス",
+    "nameEn": "Squirrel",
+    "color": "#CD853F",
+    "traits": "機敏, 計画的, 準備周到",
+    "prompt": "Create a cute, minimalist illustration of a Squirrel in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #CD853F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Squirrel should look:\n機敏, 計画的, 準備周到\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "owl",
+    "name": "フクロウ",
+    "nameEn": "Owl",
+    "color": "#8B7355",
+    "traits": "知的, 冷静, 洞察力がある",
+    "prompt": "Create a cute, minimalist illustration of a Owl in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Owl should look:\n知的, 冷静, 洞察力がある\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "flamingo",
+    "name": "フラミンゴ",
+    "nameEn": "Flamingo",
+    "color": "#FF69B4",
+    "traits": "華やか, 社交的, 個性的",
+    "prompt": "Create a cute, minimalist illustration of a Flamingo in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF69B4\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Flamingo should look:\n華やか, 社交的, 個性的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "peacock",
+    "name": "クジャク",
+    "nameEn": "Peacock",
+    "color": "#4169E1",
+    "traits": "華麗, 自信家, プライドが高い",
+    "prompt": "Create a cute, minimalist illustration of a Peacock in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #4169E1\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Peacock should look:\n華麗, 自信家, プライドが高い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "bat",
+    "name": "コウモリ",
+    "nameEn": "Bat",
+    "color": "#4B0082",
+    "traits": "独特, 夜型, 敏感",
+    "prompt": "Create a cute, minimalist illustration of a Bat in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #4B0082\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Bat should look:\n独特, 夜型, 敏感\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "otter",
+    "name": "カワウソ",
+    "nameEn": "Otter",
+    "color": "#8B4513",
+    "traits": "遊び心, 社交的, 楽しい",
+    "prompt": "Create a cute, minimalist illustration of a Otter in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Otter should look:\n遊び心, 社交的, 楽しい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "sloth",
+    "name": "ナマケモノ",
+    "nameEn": "Sloth",
+    "color": "#A0826D",
+    "traits": "超マイペース, のんびり, 省エネ",
+    "prompt": "Create a cute, minimalist illustration of a Sloth in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #A0826D\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Sloth should look:\n超マイペース, のんびり, 省エネ\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "raccoon",
+    "name": "アライグマ",
+    "nameEn": "Raccoon",
+    "color": "#696969",
+    "traits": "器用, 好奇心旺盛, いたずら好き",
+    "prompt": "Create a cute, minimalist illustration of a Raccoon in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #696969\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Raccoon should look:\n器用, 好奇心旺盛, いたずら好き\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "chameleon",
+    "name": "カメレオン",
+    "nameEn": "Chameleon",
+    "color": "#00FF00",
+    "traits": "適応力抜群, 柔軟, 観察力",
+    "prompt": "Create a cute, minimalist illustration of a Chameleon in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #00FF00\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Chameleon should look:\n適応力抜群, 柔軟, 観察力\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "turtle",
+    "name": "カメ",
+    "nameEn": "Turtle",
+    "color": "#228B22",
+    "traits": "慎重, 忍耐強い, 長生き",
+    "prompt": "Create a cute, minimalist illustration of a Turtle in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #228B22\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Turtle should look:\n慎重, 忍耐強い, 長生き\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "snake",
+    "name": "ヘビ",
+    "nameEn": "Snake",
+    "color": "#2F4F2F",
+    "traits": "戦略的, 洞察力, 静か",
+    "prompt": "Create a cute, minimalist illustration of a Snake in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #2F4F2F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Snake should look:\n戦略的, 洞察力, 静か\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "cheetah",
+    "name": "チーター",
+    "nameEn": "Cheetah",
+    "color": "#DAA520",
+    "traits": "速い, 集中力, 瞬発力",
+    "prompt": "Create a cute, minimalist illustration of a Cheetah in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #DAA520\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Cheetah should look:\n速い, 集中力, 瞬発力\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "zebra",
+    "name": "シマウマ",
+    "nameEn": "Zebra",
+    "color": "#000000",
+    "traits": "個性的, 目立つ, 集団行動",
+    "prompt": "Create a cute, minimalist illustration of a Zebra in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #000000\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Zebra should look:\n個性的, 目立つ, 集団行動\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "hippo",
+    "name": "カバ",
+    "nameEn": "Hippo",
+    "color": "#696969",
+    "traits": "おおらか, 実は気性が激しい, 力強い",
+    "prompt": "Create a cute, minimalist illustration of a Hippo in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #696969\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Hippo should look:\nおおらか, 実は気性が激しい, 力強い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "rhino",
+    "name": "サイ",
+    "nameEn": "Rhino",
+    "color": "#696969",
+    "traits": "頑固, 一途, 力強い",
+    "prompt": "Create a cute, minimalist illustration of a Rhino in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #696969\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Rhino should look:\n頑固, 一途, 力強い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "kangaroo",
+    "name": "カンガルー",
+    "nameEn": "Kangaroo",
+    "color": "#D2691E",
+    "traits": "跳躍力, 前向き, 家族思い",
+    "prompt": "Create a cute, minimalist illustration of a Kangaroo in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2691E\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Kangaroo should look:\n跳躍力, 前向き, 家族思い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "parrot",
+    "name": "オウム",
+    "nameEn": "Parrot",
+    "color": "#FF6347",
+    "traits": "コミュニケーション力, 華やか, 社交的",
+    "prompt": "Create a cute, minimalist illustration of a Parrot in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Parrot should look:\nコミュニケーション力, 華やか, 社交的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "seal",
+    "name": "アザラシ",
+    "nameEn": "Seal",
+    "color": "#708090",
+    "traits": "愛嬌, のんびり, 癒し系",
+    "prompt": "Create a cute, minimalist illustration of a Seal in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #708090\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Seal should look:\n愛嬌, のんびり, 癒し系\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "whale",
+    "name": "クジラ",
+    "nameEn": "Whale",
+    "color": "#4682B4",
+    "traits": "包容力, 知恵, 穏やか",
+    "prompt": "Create a cute, minimalist illustration of a Whale in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #4682B4\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Whale should look:\n包容力, 知恵, 穏やか\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "octopus",
+    "name": "タコ",
+    "nameEn": "Octopus",
+    "color": "#8B008B",
+    "traits": "多才, 柔軟, 器用",
+    "prompt": "Create a cute, minimalist illustration of a Octopus in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B008B\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Octopus should look:\n多才, 柔軟, 器用\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "butterfly",
+    "name": "チョウ",
+    "nameEn": "Butterfly",
+    "color": "#FF1493",
+    "traits": "華やか, 自由, 変化を楽しむ",
+    "prompt": "Create a cute, minimalist illustration of a Butterfly in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF1493\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Butterfly should look:\n華やか, 自由, 変化を楽しむ\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "bee",
+    "name": "ミツバチ",
+    "nameEn": "Bee",
+    "color": "#FFD700",
+    "traits": "働き者, 協調性, 真面目",
+    "prompt": "Create a cute, minimalist illustration of a Bee in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFD700\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Bee should look:\n働き者, 協調性, 真面目\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "ant",
+    "name": "アリ",
+    "nameEn": "Ant",
+    "color": "#8B4513",
+    "traits": "努力家, 組織的, 力持ち",
+    "prompt": "Create a cute, minimalist illustration of a Ant in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Ant should look:\n努力家, 組織的, 力持ち\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "ladybug",
+    "name": "テントウムシ",
+    "nameEn": "Ladybug",
+    "color": "#FF0000",
+    "traits": "幸運, 可愛い, ポジティブ",
+    "prompt": "Create a cute, minimalist illustration of a Ladybug in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF0000\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Ladybug should look:\n幸運, 可愛い, ポジティブ\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "frog",
+    "name": "カエル",
+    "nameEn": "Frog",
+    "color": "#32CD32",
+    "traits": "適応力, 変化を楽しむ, 成長志向",
+    "prompt": "Create a cute, minimalist illustration of a Frog in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #32CD32\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Frog should look:\n適応力, 変化を楽しむ, 成長志向\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "crab",
+    "name": "カニ",
+    "nameEn": "Crab",
+    "color": "#FF6347",
+    "traits": "防衛的, 独自路線, 家族思い",
+    "prompt": "Create a cute, minimalist illustration of a Crab in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Crab should look:\n防衛的, 独自路線, 家族思い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "swan",
+    "name": "ハクチョウ",
+    "nameEn": "Swan",
+    "color": "#FFFFFF",
+    "traits": "優雅, 気高い, 美しい",
+    "prompt": "Create a cute, minimalist illustration of a Swan in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFFFFF\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Swan should look:\n優雅, 気高い, 美しい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "rooster",
+    "name": "ニワトリ",
+    "nameEn": "Rooster",
+    "color": "#FF6347",
+    "traits": "早起き, 勤勉, 規則正しい",
+    "prompt": "Create a cute, minimalist illustration of a Rooster in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Rooster should look:\n早起き, 勤勉, 規則正しい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "hummingbird",
+    "name": "ハチドリ",
+    "nameEn": "Hummingbird",
+    "color": "#00CED1",
+    "traits": "精力的, 小さくて速い, 美を追求",
+    "prompt": "Create a cute, minimalist illustration of a Hummingbird in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #00CED1\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Hummingbird should look:\n精力的, 小さくて速い, 美を追求\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "eagle",
+    "name": "ワシ",
+    "nameEn": "Eagle",
+    "color": "#8B4513",
+    "traits": "理想が高い, 鋭い視点, 誇り高い",
+    "prompt": "Create a cute, minimalist illustration of a Eagle in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Eagle should look:\n理想が高い, 鋭い視点, 誇り高い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "raccoondog",
+    "name": "タヌキ",
+    "nameEn": "Raccoon Dog",
+    "color": "#8B7355",
+    "traits": "人懐っこい, 愛嬌, 要領が良い",
+    "prompt": "Create a cute, minimalist illustration of a Raccoon Dog in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Raccoon Dog should look:\n人懐っこい, 愛嬌, 要領が良い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "gorilla",
+    "name": "ゴリラ",
+    "nameEn": "Gorilla",
+    "color": "#2F4F4F",
+    "traits": "力強い, 優しい, 繊細",
+    "prompt": "Create a cute, minimalist illustration of a Gorilla in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #2F4F4F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Gorilla should look:\n力強い, 優しい, 繊細\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "meerkat",
+    "name": "ミーアキャット",
+    "nameEn": "Meerkat",
+    "color": "#D2691E",
+    "traits": "警戒心, 仲間思い, 協力的",
+    "prompt": "Create a cute, minimalist illustration of a Meerkat in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2691E\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Meerkat should look:\n警戒心, 仲間思い, 協力的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "crocodile",
+    "name": "ワニ",
+    "nameEn": "Crocodile",
+    "color": "#556B2F",
+    "traits": "辛抱強い, 瞬発力, 冷静",
+    "prompt": "Create a cute, minimalist illustration of a Crocodile in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #556B2F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Crocodile should look:\n辛抱強い, 瞬発力, 冷静\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "lemur",
+    "name": "キツネザル",
+    "nameEn": "Lemur",
+    "color": "#CD853F",
+    "traits": "好奇心旺盛, 社交的, ユニーク",
+    "prompt": "Create a cute, minimalist illustration of a Lemur in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #CD853F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Lemur should look:\n好奇心旺盛, 社交的, ユニーク\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "armadillo",
+    "name": "アルマジロ",
+    "nameEn": "Armadillo",
+    "color": "#8B7355",
+    "traits": "防御的, 慎重, 用心深い",
+    "prompt": "Create a cute, minimalist illustration of a Armadillo in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Armadillo should look:\n防御的, 慎重, 用心深い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "porcupine",
+    "name": "ヤマアラシ",
+    "nameEn": "Porcupine",
+    "color": "#8B4513",
+    "traits": "防衛的, 独立心, 鋭い",
+    "prompt": "Create a cute, minimalist illustration of a Porcupine in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Porcupine should look:\n防衛的, 独立心, 鋭い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "badger",
+    "name": "アナグマ",
+    "nameEn": "Badger",
+    "color": "#696969",
+    "traits": "頑固, 粘り強い, 領域意識",
+    "prompt": "Create a cute, minimalist illustration of a Badger in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #696969\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Badger should look:\n頑固, 粘り強い, 領域意識\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "platypus",
+    "name": "カモノハシ",
+    "nameEn": "Platypus",
+    "color": "#8B7355",
+    "traits": "ユニーク, 不思議, 独特",
+    "prompt": "Create a cute, minimalist illustration of a Platypus in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Platypus should look:\nユニーク, 不思議, 独特\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "lynx",
+    "name": "オオヤマネコ",
+    "nameEn": "Lynx",
+    "color": "#D2691E",
+    "traits": "神秘的, 鋭い感覚, 静か",
+    "prompt": "Create a cute, minimalist illustration of a Lynx in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2691E\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Lynx should look:\n神秘的, 鋭い感覚, 静か\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "bison",
+    "name": "バイソン",
+    "nameEn": "Bison",
+    "color": "#8B4513",
+    "traits": "力強い, 頼もしい, リーダー",
+    "prompt": "Create a cute, minimalist illustration of a Bison in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Bison should look:\n力強い, 頼もしい, リーダー\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "mantis",
+    "name": "カマキリ",
+    "nameEn": "Mantis",
+    "color": "#228B22",
+    "traits": "忍耐強い, ハンター, 瞬発力",
+    "prompt": "Create a cute, minimalist illustration of a Mantis in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #228B22\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Mantis should look:\n忍耐強い, ハンター, 瞬発力\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "dragonfly",
+    "name": "トンボ",
+    "nameEn": "Dragonfly",
+    "color": "#00CED1",
+    "traits": "自由, 視野が広い, 変化対応",
+    "prompt": "Create a cute, minimalist illustration of a Dragonfly in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #00CED1\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Dragonfly should look:\n自由, 視野が広い, 変化対応\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "cricket",
+    "name": "コオロギ",
+    "nameEn": "Cricket",
+    "color": "#8B4513",
+    "traits": "音楽的, 感性豊か, 表現力",
+    "prompt": "Create a cute, minimalist illustration of a Cricket in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Cricket should look:\n音楽的, 感性豊か, 表現力\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "firefly",
+    "name": "ホタル",
+    "nameEn": "Firefly",
+    "color": "#FFD700",
+    "traits": "控えめ, 存在感, 光る",
+    "prompt": "Create a cute, minimalist illustration of a Firefly in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFD700\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Firefly should look:\n控えめ, 存在感, 光る\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "spider",
+    "name": "クモ",
+    "nameEn": "Spider",
+    "color": "#2F4F2F",
+    "traits": "忍耐強い, 戦略的, 計画的",
+    "prompt": "Create a cute, minimalist illustration of a Spider in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #2F4F2F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Spider should look:\n忍耐強い, 戦略的, 計画的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "scorpion",
+    "name": "サソリ",
+    "nameEn": "Scorpion",
+    "color": "#8B0000",
+    "traits": "危険, 魅力的, 防衛的",
+    "prompt": "Create a cute, minimalist illustration of a Scorpion in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B0000\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Scorpion should look:\n危険, 魅力的, 防衛的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "jellyfish",
+    "name": "クラゲ",
+    "nameEn": "Jellyfish",
+    "color": "#E0BBE4",
+    "traits": "ふわふわ, マイペース, 流れに任せる",
+    "prompt": "Create a cute, minimalist illustration of a Jellyfish in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #E0BBE4\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Jellyfish should look:\nふわふわ, マイペース, 流れに任せる\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "starfish",
+    "name": "ヒトデ",
+    "nameEn": "Starfish",
+    "color": "#FF6347",
+    "traits": "再生力, 強さ, のんびり",
+    "prompt": "Create a cute, minimalist illustration of a Starfish in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Starfish should look:\n再生力, 強さ, のんびり\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "seahorse",
+    "name": "タツノオトシゴ",
+    "nameEn": "Seahorse",
+    "color": "#FFD700",
+    "traits": "ユニーク, 家族思い, 優しい",
+    "prompt": "Create a cute, minimalist illustration of a Seahorse in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFD700\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Seahorse should look:\nユニーク, 家族思い, 優しい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "stingray",
+    "name": "エイ",
+    "nameEn": "Stingray",
+    "color": "#708090",
+    "traits": "優雅, 穏やか, 防衛的",
+    "prompt": "Create a cute, minimalist illustration of a Stingray in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #708090\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Stingray should look:\n優雅, 穏やか, 防衛的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "clownfish",
+    "name": "カクレクマノミ",
+    "nameEn": "Clownfish",
+    "color": "#FF6347",
+    "traits": "明るい, 社交的, 共生",
+    "prompt": "Create a cute, minimalist illustration of a Clownfish in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Clownfish should look:\n明るい, 社交的, 共生\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "anglerfish",
+    "name": "チョウチンアンコウ",
+    "nameEn": "Anglerfish",
+    "color": "#2F4F4F",
+    "traits": "独特, 戦略的, 光を持つ",
+    "prompt": "Create a cute, minimalist illustration of a Anglerfish in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #2F4F4F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Anglerfish should look:\n独特, 戦略的, 光を持つ\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "moose",
+    "name": "ヘラジカ",
+    "nameEn": "Moose",
+    "color": "#8B4513",
+    "traits": "大きい, 強い, 穏やか",
+    "prompt": "Create a cute, minimalist illustration of a Moose in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B4513\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Moose should look:\n大きい, 強い, 穏やか\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "reindeer",
+    "name": "トナカイ",
+    "nameEn": "Reindeer",
+    "color": "#8B7355",
+    "traits": "協調性, 頼りになる, 忍耐強い",
+    "prompt": "Create a cute, minimalist illustration of a Reindeer in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Reindeer should look:\n協調性, 頼りになる, 忍耐強い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "alpaca",
+    "name": "アルパカ",
+    "nameEn": "Alpaca",
+    "color": "#D2B48C",
+    "traits": "もふもふ, 癒し系, 穏やか",
+    "prompt": "Create a cute, minimalist illustration of a Alpaca in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2B48C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Alpaca should look:\nもふもふ, 癒し系, 穏やか\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "llama",
+    "name": "リャマ",
+    "nameEn": "Llama",
+    "color": "#D2B48C",
+    "traits": "プライド高い, 頑固, 自己主張",
+    "prompt": "Create a cute, minimalist illustration of a Llama in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2B48C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Llama should look:\nプライド高い, 頑固, 自己主張\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "donkey",
+    "name": "ロバ",
+    "nameEn": "Donkey",
+    "color": "#808080",
+    "traits": "働き者, 頑固, 忍耐強い",
+    "prompt": "Create a cute, minimalist illustration of a Donkey in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #808080\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Donkey should look:\n働き者, 頑固, 忍耐強い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "camel",
+    "name": "ラクダ",
+    "nameEn": "Camel",
+    "color": "#D2B48C",
+    "traits": "忍耐強い, 貯蓄上手, 我慢強い",
+    "prompt": "Create a cute, minimalist illustration of a Camel in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2B48C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Camel should look:\n忍耐強い, 貯蓄上手, 我慢強い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "hyena",
+    "name": "ハイエナ",
+    "nameEn": "Hyena",
+    "color": "#8B7355",
+    "traits": "逞しい, 適応力, 社交的",
+    "prompt": "Create a cute, minimalist illustration of a Hyena in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Hyena should look:\n逞しい, 適応力, 社交的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "wombat",
+    "name": "ウォンバット",
+    "nameEn": "Wombat",
+    "color": "#8B7355",
+    "traits": "のんびり, マイペース, 安全志向",
+    "prompt": "Create a cute, minimalist illustration of a Wombat in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Wombat should look:\nのんびり, マイペース, 安全志向\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "quokka",
+    "name": "クオッカ",
+    "nameEn": "Quokka",
+    "color": "#D2B48C",
+    "traits": "笑顔, 幸せそう, 人懐っこい",
+    "prompt": "Create a cute, minimalist illustration of a Quokka in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2B48C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Quokka should look:\n笑顔, 幸せそう, 人懐っこい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "opossum",
+    "name": "オポッサム",
+    "nameEn": "Opossum",
+    "color": "#808080",
+    "traits": "演技派, 適応力, 生存力",
+    "prompt": "Create a cute, minimalist illustration of a Opossum in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #808080\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Opossum should look:\n演技派, 適応力, 生存力\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "chipmunk",
+    "name": "シマリス",
+    "nameEn": "Chipmunk",
+    "color": "#D2691E",
+    "traits": "可愛い, 活発, 準備上手",
+    "prompt": "Create a cute, minimalist illustration of a Chipmunk in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2691E\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Chipmunk should look:\n可愛い, 活発, 準備上手\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "hamster",
+    "name": "ハムスター",
+    "nameEn": "Hamster",
+    "color": "#D2B48C",
+    "traits": "小さい, 可愛い, 努力家",
+    "prompt": "Create a cute, minimalist illustration of a Hamster in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2B48C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Hamster should look:\n小さい, 可愛い, 努力家\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "mouse",
+    "name": "ネズミ",
+    "nameEn": "Mouse",
+    "color": "#808080",
+    "traits": "小さい, 賢い, 素早い",
+    "prompt": "Create a cute, minimalist illustration of a Mouse in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #808080\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Mouse should look:\n小さい, 賢い, 素早い\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "mole",
+    "name": "モグラ",
+    "nameEn": "Mole",
+    "color": "#2F4F2F",
+    "traits": "黙々と働く, 目立たない, 穴掘り名人",
+    "prompt": "Create a cute, minimalist illustration of a Mole in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #2F4F2F\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Mole should look:\n黙々と働く, 目立たない, 穴掘り名人\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "stoat",
+    "name": "オコジョ",
+    "nameEn": "Stoat",
+    "color": "#FFFFFF",
+    "traits": "小さい, 勇敢, 適応力",
+    "prompt": "Create a cute, minimalist illustration of a Stoat in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFFFFF\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Stoat should look:\n小さい, 勇敢, 適応力\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "weasel",
+    "name": "イタチ",
+    "nameEn": "Weasel",
+    "color": "#8B7355",
+    "traits": "素早い, 機敏, 小さい",
+    "prompt": "Create a cute, minimalist illustration of a Weasel in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Weasel should look:\n素早い, 機敏, 小さい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "ferret",
+    "name": "フェレット",
+    "nameEn": "Ferret",
+    "color": "#D2B48C",
+    "traits": "好奇心旺盛, 遊び好き, 人懐っこい",
+    "prompt": "Create a cute, minimalist illustration of a Ferret in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #D2B48C\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Ferret should look:\n好奇心旺盛, 遊び好き, 人懐っこい\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "capybara",
+    "name": "カピバラ",
+    "nameEn": "Capybara",
+    "color": "#8B7355",
+    "traits": "のんびり, 優しい, 社交的",
+    "prompt": "Create a cute, minimalist illustration of a Capybara in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Capybara should look:\nのんびり, 優しい, 社交的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "puffin",
+    "name": "パフィン",
+    "nameEn": "Puffin",
+    "color": "#FF6347",
+    "traits": "カラフル, 可愛い, 一途",
+    "prompt": "Create a cute, minimalist illustration of a Puffin in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FF6347\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Puffin should look:\nカラフル, 可愛い, 一途\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "toucan",
+    "name": "オオハシ",
+    "nameEn": "Toucan",
+    "color": "#FFD700",
+    "traits": "目立つ, カラフル, 社交的",
+    "prompt": "Create a cute, minimalist illustration of a Toucan in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFD700\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Toucan should look:\n目立つ, カラフル, 社交的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "pelican",
+    "name": "ペリカン",
+    "nameEn": "Pelican",
+    "color": "#FFFFFF",
+    "traits": "包容力, 大きい, 協力的",
+    "prompt": "Create a cute, minimalist illustration of a Pelican in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #FFFFFF\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Pelican should look:\n包容力, 大きい, 協力的\n\nKeep it simple, charming, and instantly recognizable."
+  },
+  {
+    "id": "kiwi",
+    "name": "キーウィ",
+    "nameEn": "Kiwi",
+    "color": "#8B7355",
+    "traits": "ユニーク, 夜行性, 独特",
+    "prompt": "Create a cute, minimalist illustration of a Kiwi in MBTI personality test style.\nStyle requirements:\n- Simple, flat design with rounded shapes\n- Friendly and approachable character\n- Clean lines, no complex details\n- Solid color background matching #8B7355\n- Character should be centered and take up 70% of canvas\n- Kawaii/cute aesthetic similar to Japanese character design\n- No text or labels\n- Square format (1:1 aspect ratio)\n\nThe Kiwi should look:\nユニーク, 夜行性, 独特\n\nKeep it simple, charming, and instantly recognizable."
+  }
+]
