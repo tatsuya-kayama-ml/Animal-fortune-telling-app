@@ -1,0 +1,770 @@
+[
+  {
+    "id": "cat",
+    "name": "ネコ",
+    "nameEn": "Cat",
+    "color": "#FFB6C1",
+    "traits": "独立心が強い, マイペース, 気まぐれ",
+    "prompt": "A single Cat, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Cat - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFB6C1\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Cat\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 独立心が強い, マイペース, 気まぐれ\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "dog",
+    "name": "イヌ",
+    "nameEn": "Dog",
+    "color": "#DEB887",
+    "traits": "忠実, 社交的, ポジティブ",
+    "prompt": "A single Dog, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Dog - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #DEB887\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Dog\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 忠実, 社交的, ポジティブ\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "rabbit",
+    "name": "ウサギ",
+    "nameEn": "Rabbit",
+    "color": "#F0E68C",
+    "traits": "優しい, 繊細, 平和主義",
+    "prompt": "A single Rabbit, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Rabbit - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #F0E68C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Rabbit\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 優しい, 繊細, 平和主義\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "fox",
+    "name": "キツネ",
+    "nameEn": "Fox",
+    "color": "#FF8C00",
+    "traits": "賢い, 機転が利く, 適応力が高い",
+    "prompt": "A single Fox, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Fox - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF8C00\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Fox\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 賢い, 機転が利く, 適応力が高い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "owl",
+    "name": "フクロウ",
+    "nameEn": "Owl",
+    "color": "#8B7355",
+    "traits": "知的, 冷静, 洞察力がある",
+    "prompt": "A single Owl, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Owl - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Owl\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 知的, 冷静, 洞察力がある\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "panda",
+    "name": "パンダ",
+    "nameEn": "Panda",
+    "color": "#000000",
+    "traits": "のんびり, マイペース, 癒し系",
+    "prompt": "A single Panda, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Panda - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #000000\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Panda\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look のんびり, マイペース, 癒し系\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "penguin",
+    "name": "ペンギン",
+    "nameEn": "Penguin",
+    "color": "#4169E1",
+    "traits": "協調性がある, チームプレイヤー, 真面目",
+    "prompt": "A single Penguin, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Penguin - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #4169E1\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Penguin\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 協調性がある, チームプレイヤー, 真面目\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "lion",
+    "name": "ライオン",
+    "nameEn": "Lion",
+    "color": "#DAA520",
+    "traits": "リーダーシップがある, 自信がある, 情熱的",
+    "prompt": "A single Lion, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Lion - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #DAA520\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Lion\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look リーダーシップがある, 自信がある, 情熱的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "dolphin",
+    "name": "イルカ",
+    "nameEn": "Dolphin",
+    "color": "#00BFFF",
+    "traits": "明るい, 社交的, ムードメーカー",
+    "prompt": "A single Dolphin, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Dolphin - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #00BFFF\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Dolphin\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 明るい, 社交的, ムードメーカー\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "koala",
+    "name": "コアラ",
+    "nameEn": "Koala",
+    "color": "#808080",
+    "traits": "のんびり, 穏やか, マイペース",
+    "prompt": "A single Koala, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Koala - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #808080\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Koala\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look のんびり, 穏やか, マイペース\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "tiger",
+    "name": "トラ",
+    "nameEn": "Tiger",
+    "color": "#FF6347",
+    "traits": "力強い, 行動的, 情熱的",
+    "prompt": "A single Tiger, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Tiger - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Tiger\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 力強い, 行動的, 情熱的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "bear",
+    "name": "クマ",
+    "nameEn": "Bear",
+    "color": "#8B4513",
+    "traits": "包容力がある, 頼りがいがある, 優しい",
+    "prompt": "A single Bear, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Bear - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Bear\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 包容力がある, 頼りがいがある, 優しい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "elephant",
+    "name": "ゾウ",
+    "nameEn": "Elephant",
+    "color": "#696969",
+    "traits": "記憶力が良い, 思慮深い, 賢い",
+    "prompt": "A single Elephant, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Elephant - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #696969\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Elephant\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 記憶力が良い, 思慮深い, 賢い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "monkey",
+    "name": "サル",
+    "nameEn": "Monkey",
+    "color": "#CD853F",
+    "traits": "好奇心旺盛, 活発, 柔軟",
+    "prompt": "A single Monkey, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Monkey - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #CD853F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Monkey\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 好奇心旺盛, 活発, 柔軟\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "horse",
+    "name": "ウマ",
+    "nameEn": "Horse",
+    "color": "#A0522D",
+    "traits": "自由を愛する, エネルギッシュ, 行動的",
+    "prompt": "A single Horse, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Horse - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #A0522D\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Horse\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 自由を愛する, エネルギッシュ, 行動的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "sheep",
+    "name": "ヒツジ",
+    "nameEn": "Sheep",
+    "color": "#F5F5DC",
+    "traits": "優しい, 従順, 平和主義",
+    "prompt": "A single Sheep, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Sheep - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #F5F5DC\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Sheep\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 優しい, 従順, 平和主義\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "duck",
+    "name": "カモ",
+    "nameEn": "Duck",
+    "color": "#87CEEB",
+    "traits": "おおらか, 柔軟, 努力家",
+    "prompt": "A single Duck, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Duck - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #87CEEB\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Duck\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look おおらか, 柔軟, 努力家\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "hedgehog",
+    "name": "ハリネズミ",
+    "nameEn": "Hedgehog",
+    "color": "#8B7D6B",
+    "traits": "警戒心が強い, 慎重, 優しい",
+    "prompt": "A single Hedgehog, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Hedgehog - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7D6B\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Hedgehog\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 警戒心が強い, 慎重, 優しい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "wolf",
+    "name": "オオカミ",
+    "nameEn": "Wolf",
+    "color": "#696969",
+    "traits": "仲間思い, 独立心, 野生的",
+    "prompt": "A single Wolf, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Wolf - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #696969\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Wolf\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 仲間思い, 独立心, 野生的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "deer",
+    "name": "シカ",
+    "nameEn": "Deer",
+    "color": "#D2691E",
+    "traits": "優雅, 繊細, 穏やか",
+    "prompt": "A single Deer, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Deer - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2691E\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Deer\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 優雅, 繊細, 穏やか\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "giraffe",
+    "name": "キリン",
+    "nameEn": "Giraffe",
+    "color": "#DAA520",
+    "traits": "視野が広い, 冷静, 穏やか",
+    "prompt": "A single Giraffe, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Giraffe - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #DAA520\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Giraffe\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 視野が広い, 冷静, 穏やか\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "squirrel",
+    "name": "リス",
+    "nameEn": "Squirrel",
+    "color": "#CD853F",
+    "traits": "機敏, 計画的, 準備周到",
+    "prompt": "A single Squirrel, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Squirrel - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #CD853F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Squirrel\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 機敏, 計画的, 準備周到\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "owl",
+    "name": "フクロウ",
+    "nameEn": "Owl",
+    "color": "#8B7355",
+    "traits": "知的, 冷静, 洞察力がある",
+    "prompt": "A single Owl, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Owl - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Owl\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 知的, 冷静, 洞察力がある\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "flamingo",
+    "name": "フラミンゴ",
+    "nameEn": "Flamingo",
+    "color": "#FF69B4",
+    "traits": "華やか, 社交的, 個性的",
+    "prompt": "A single Flamingo, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Flamingo - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF69B4\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Flamingo\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 華やか, 社交的, 個性的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "peacock",
+    "name": "クジャク",
+    "nameEn": "Peacock",
+    "color": "#4169E1",
+    "traits": "華麗, 自信家, プライドが高い",
+    "prompt": "A single Peacock, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Peacock - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #4169E1\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Peacock\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 華麗, 自信家, プライドが高い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "bat",
+    "name": "コウモリ",
+    "nameEn": "Bat",
+    "color": "#4B0082",
+    "traits": "独特, 夜型, 敏感",
+    "prompt": "A single Bat, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Bat - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #4B0082\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Bat\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 独特, 夜型, 敏感\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "otter",
+    "name": "カワウソ",
+    "nameEn": "Otter",
+    "color": "#8B4513",
+    "traits": "遊び心, 社交的, 楽しい",
+    "prompt": "A single Otter, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Otter - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Otter\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 遊び心, 社交的, 楽しい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "sloth",
+    "name": "ナマケモノ",
+    "nameEn": "Sloth",
+    "color": "#A0826D",
+    "traits": "超マイペース, のんびり, 省エネ",
+    "prompt": "A single Sloth, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Sloth - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #A0826D\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Sloth\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 超マイペース, のんびり, 省エネ\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "raccoon",
+    "name": "アライグマ",
+    "nameEn": "Raccoon",
+    "color": "#696969",
+    "traits": "器用, 好奇心旺盛, いたずら好き",
+    "prompt": "A single Raccoon, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Raccoon - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #696969\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Raccoon\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 器用, 好奇心旺盛, いたずら好き\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "chameleon",
+    "name": "カメレオン",
+    "nameEn": "Chameleon",
+    "color": "#00FF00",
+    "traits": "適応力抜群, 柔軟, 観察力",
+    "prompt": "A single Chameleon, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Chameleon - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #00FF00\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Chameleon\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 適応力抜群, 柔軟, 観察力\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "turtle",
+    "name": "カメ",
+    "nameEn": "Turtle",
+    "color": "#228B22",
+    "traits": "慎重, 忍耐強い, 長生き",
+    "prompt": "A single Turtle, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Turtle - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #228B22\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Turtle\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 慎重, 忍耐強い, 長生き\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "snake",
+    "name": "ヘビ",
+    "nameEn": "Snake",
+    "color": "#2F4F2F",
+    "traits": "戦略的, 洞察力, 静か",
+    "prompt": "A single Snake, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Snake - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #2F4F2F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Snake\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 戦略的, 洞察力, 静か\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "cheetah",
+    "name": "チーター",
+    "nameEn": "Cheetah",
+    "color": "#DAA520",
+    "traits": "速い, 集中力, 瞬発力",
+    "prompt": "A single Cheetah, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Cheetah - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #DAA520\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Cheetah\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 速い, 集中力, 瞬発力\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "zebra",
+    "name": "シマウマ",
+    "nameEn": "Zebra",
+    "color": "#000000",
+    "traits": "個性的, 目立つ, 集団行動",
+    "prompt": "A single Zebra, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Zebra - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #000000\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Zebra\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 個性的, 目立つ, 集団行動\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "hippo",
+    "name": "カバ",
+    "nameEn": "Hippo",
+    "color": "#696969",
+    "traits": "おおらか, 実は気性が激しい, 力強い",
+    "prompt": "A single Hippo, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Hippo - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #696969\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Hippo\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look おおらか, 実は気性が激しい, 力強い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "rhino",
+    "name": "サイ",
+    "nameEn": "Rhino",
+    "color": "#696969",
+    "traits": "頑固, 一途, 力強い",
+    "prompt": "A single Rhino, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Rhino - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #696969\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Rhino\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 頑固, 一途, 力強い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "kangaroo",
+    "name": "カンガルー",
+    "nameEn": "Kangaroo",
+    "color": "#D2691E",
+    "traits": "跳躍力, 前向き, 家族思い",
+    "prompt": "A single Kangaroo, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Kangaroo - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2691E\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Kangaroo\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 跳躍力, 前向き, 家族思い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "parrot",
+    "name": "オウム",
+    "nameEn": "Parrot",
+    "color": "#FF6347",
+    "traits": "コミュニケーション力, 華やか, 社交的",
+    "prompt": "A single Parrot, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Parrot - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Parrot\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look コミュニケーション力, 華やか, 社交的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "seal",
+    "name": "アザラシ",
+    "nameEn": "Seal",
+    "color": "#708090",
+    "traits": "愛嬌, のんびり, 癒し系",
+    "prompt": "A single Seal, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Seal - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #708090\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Seal\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 愛嬌, のんびり, 癒し系\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "whale",
+    "name": "クジラ",
+    "nameEn": "Whale",
+    "color": "#4682B4",
+    "traits": "包容力, 知恵, 穏やか",
+    "prompt": "A single Whale, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Whale - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #4682B4\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Whale\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 包容力, 知恵, 穏やか\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "octopus",
+    "name": "タコ",
+    "nameEn": "Octopus",
+    "color": "#8B008B",
+    "traits": "多才, 柔軟, 器用",
+    "prompt": "A single Octopus, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Octopus - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B008B\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Octopus\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 多才, 柔軟, 器用\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "butterfly",
+    "name": "チョウ",
+    "nameEn": "Butterfly",
+    "color": "#FF1493",
+    "traits": "華やか, 自由, 変化を楽しむ",
+    "prompt": "A single Butterfly, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Butterfly - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF1493\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Butterfly\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 華やか, 自由, 変化を楽しむ\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "bee",
+    "name": "ミツバチ",
+    "nameEn": "Bee",
+    "color": "#FFD700",
+    "traits": "働き者, 協調性, 真面目",
+    "prompt": "A single Bee, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Bee - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFD700\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Bee\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 働き者, 協調性, 真面目\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "ant",
+    "name": "アリ",
+    "nameEn": "Ant",
+    "color": "#8B4513",
+    "traits": "努力家, 組織的, 力持ち",
+    "prompt": "A single Ant, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Ant - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Ant\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 努力家, 組織的, 力持ち\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "ladybug",
+    "name": "テントウムシ",
+    "nameEn": "Ladybug",
+    "color": "#FF0000",
+    "traits": "幸運, 可愛い, ポジティブ",
+    "prompt": "A single Ladybug, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Ladybug - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF0000\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Ladybug\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 幸運, 可愛い, ポジティブ\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "frog",
+    "name": "カエル",
+    "nameEn": "Frog",
+    "color": "#32CD32",
+    "traits": "適応力, 変化を楽しむ, 成長志向",
+    "prompt": "A single Frog, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Frog - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #32CD32\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Frog\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 適応力, 変化を楽しむ, 成長志向\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "crab",
+    "name": "カニ",
+    "nameEn": "Crab",
+    "color": "#FF6347",
+    "traits": "防衛的, 独自路線, 家族思い",
+    "prompt": "A single Crab, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Crab - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Crab\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 防衛的, 独自路線, 家族思い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "swan",
+    "name": "ハクチョウ",
+    "nameEn": "Swan",
+    "color": "#FFFFFF",
+    "traits": "優雅, 気高い, 美しい",
+    "prompt": "A single Swan, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Swan - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFFFFF\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Swan\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 優雅, 気高い, 美しい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "rooster",
+    "name": "ニワトリ",
+    "nameEn": "Rooster",
+    "color": "#FF6347",
+    "traits": "早起き, 勤勉, 規則正しい",
+    "prompt": "A single Rooster, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Rooster - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Rooster\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 早起き, 勤勉, 規則正しい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "hummingbird",
+    "name": "ハチドリ",
+    "nameEn": "Hummingbird",
+    "color": "#00CED1",
+    "traits": "精力的, 小さくて速い, 美を追求",
+    "prompt": "A single Hummingbird, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Hummingbird - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #00CED1\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Hummingbird\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 精力的, 小さくて速い, 美を追求\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "eagle",
+    "name": "ワシ",
+    "nameEn": "Eagle",
+    "color": "#8B4513",
+    "traits": "理想が高い, 鋭い視点, 誇り高い",
+    "prompt": "A single Eagle, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Eagle - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Eagle\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 理想が高い, 鋭い視点, 誇り高い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "raccoondog",
+    "name": "タヌキ",
+    "nameEn": "Raccoon Dog",
+    "color": "#8B7355",
+    "traits": "人懐っこい, 愛嬌, 要領が良い",
+    "prompt": "A single Raccoon Dog, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Raccoon Dog - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Raccoon Dog\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 人懐っこい, 愛嬌, 要領が良い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "gorilla",
+    "name": "ゴリラ",
+    "nameEn": "Gorilla",
+    "color": "#2F4F4F",
+    "traits": "力強い, 優しい, 繊細",
+    "prompt": "A single Gorilla, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Gorilla - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #2F4F4F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Gorilla\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 力強い, 優しい, 繊細\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "meerkat",
+    "name": "ミーアキャット",
+    "nameEn": "Meerkat",
+    "color": "#D2691E",
+    "traits": "警戒心, 仲間思い, 協力的",
+    "prompt": "A single Meerkat, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Meerkat - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2691E\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Meerkat\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 警戒心, 仲間思い, 協力的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "crocodile",
+    "name": "ワニ",
+    "nameEn": "Crocodile",
+    "color": "#556B2F",
+    "traits": "辛抱強い, 瞬発力, 冷静",
+    "prompt": "A single Crocodile, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Crocodile - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #556B2F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Crocodile\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 辛抱強い, 瞬発力, 冷静\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "lemur",
+    "name": "キツネザル",
+    "nameEn": "Lemur",
+    "color": "#CD853F",
+    "traits": "好奇心旺盛, 社交的, ユニーク",
+    "prompt": "A single Lemur, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Lemur - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #CD853F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Lemur\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 好奇心旺盛, 社交的, ユニーク\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "armadillo",
+    "name": "アルマジロ",
+    "nameEn": "Armadillo",
+    "color": "#8B7355",
+    "traits": "防御的, 慎重, 用心深い",
+    "prompt": "A single Armadillo, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Armadillo - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Armadillo\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 防御的, 慎重, 用心深い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "porcupine",
+    "name": "ヤマアラシ",
+    "nameEn": "Porcupine",
+    "color": "#8B4513",
+    "traits": "防衛的, 独立心, 鋭い",
+    "prompt": "A single Porcupine, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Porcupine - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Porcupine\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 防衛的, 独立心, 鋭い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "badger",
+    "name": "アナグマ",
+    "nameEn": "Badger",
+    "color": "#696969",
+    "traits": "頑固, 粘り強い, 領域意識",
+    "prompt": "A single Badger, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Badger - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #696969\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Badger\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 頑固, 粘り強い, 領域意識\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "platypus",
+    "name": "カモノハシ",
+    "nameEn": "Platypus",
+    "color": "#8B7355",
+    "traits": "ユニーク, 不思議, 独特",
+    "prompt": "A single Platypus, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Platypus - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Platypus\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look ユニーク, 不思議, 独特\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "lynx",
+    "name": "オオヤマネコ",
+    "nameEn": "Lynx",
+    "color": "#D2691E",
+    "traits": "神秘的, 鋭い感覚, 静か",
+    "prompt": "A single Lynx, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Lynx - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2691E\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Lynx\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 神秘的, 鋭い感覚, 静か\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "bison",
+    "name": "バイソン",
+    "nameEn": "Bison",
+    "color": "#8B4513",
+    "traits": "力強い, 頼もしい, リーダー",
+    "prompt": "A single Bison, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Bison - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Bison\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 力強い, 頼もしい, リーダー\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "mantis",
+    "name": "カマキリ",
+    "nameEn": "Mantis",
+    "color": "#228B22",
+    "traits": "忍耐強い, ハンター, 瞬発力",
+    "prompt": "A single Mantis, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Mantis - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #228B22\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Mantis\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 忍耐強い, ハンター, 瞬発力\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "dragonfly",
+    "name": "トンボ",
+    "nameEn": "Dragonfly",
+    "color": "#00CED1",
+    "traits": "自由, 視野が広い, 変化対応",
+    "prompt": "A single Dragonfly, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Dragonfly - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #00CED1\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Dragonfly\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 自由, 視野が広い, 変化対応\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "cricket",
+    "name": "コオロギ",
+    "nameEn": "Cricket",
+    "color": "#8B4513",
+    "traits": "音楽的, 感性豊か, 表現力",
+    "prompt": "A single Cricket, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Cricket - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Cricket\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 音楽的, 感性豊か, 表現力\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "firefly",
+    "name": "ホタル",
+    "nameEn": "Firefly",
+    "color": "#FFD700",
+    "traits": "控えめ, 存在感, 光る",
+    "prompt": "A single Firefly, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Firefly - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFD700\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Firefly\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 控えめ, 存在感, 光る\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "spider",
+    "name": "クモ",
+    "nameEn": "Spider",
+    "color": "#2F4F2F",
+    "traits": "忍耐強い, 戦略的, 計画的",
+    "prompt": "A single Spider, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Spider - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #2F4F2F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Spider\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 忍耐強い, 戦略的, 計画的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "scorpion",
+    "name": "サソリ",
+    "nameEn": "Scorpion",
+    "color": "#8B0000",
+    "traits": "危険, 魅力的, 防衛的",
+    "prompt": "A single Scorpion, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Scorpion - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B0000\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Scorpion\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 危険, 魅力的, 防衛的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "jellyfish",
+    "name": "クラゲ",
+    "nameEn": "Jellyfish",
+    "color": "#E0BBE4",
+    "traits": "ふわふわ, マイペース, 流れに任せる",
+    "prompt": "A single Jellyfish, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Jellyfish - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #E0BBE4\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Jellyfish\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look ふわふわ, マイペース, 流れに任せる\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "starfish",
+    "name": "ヒトデ",
+    "nameEn": "Starfish",
+    "color": "#FF6347",
+    "traits": "再生力, 強さ, のんびり",
+    "prompt": "A single Starfish, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Starfish - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Starfish\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 再生力, 強さ, のんびり\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "seahorse",
+    "name": "タツノオトシゴ",
+    "nameEn": "Seahorse",
+    "color": "#FFD700",
+    "traits": "ユニーク, 家族思い, 優しい",
+    "prompt": "A single Seahorse, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Seahorse - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFD700\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Seahorse\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look ユニーク, 家族思い, 優しい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "stingray",
+    "name": "エイ",
+    "nameEn": "Stingray",
+    "color": "#708090",
+    "traits": "優雅, 穏やか, 防衛的",
+    "prompt": "A single Stingray, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Stingray - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #708090\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Stingray\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 優雅, 穏やか, 防衛的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "clownfish",
+    "name": "カクレクマノミ",
+    "nameEn": "Clownfish",
+    "color": "#FF6347",
+    "traits": "明るい, 社交的, 共生",
+    "prompt": "A single Clownfish, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Clownfish - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Clownfish\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 明るい, 社交的, 共生\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "anglerfish",
+    "name": "チョウチンアンコウ",
+    "nameEn": "Anglerfish",
+    "color": "#2F4F4F",
+    "traits": "独特, 戦略的, 光を持つ",
+    "prompt": "A single Anglerfish, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Anglerfish - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #2F4F4F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Anglerfish\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 独特, 戦略的, 光を持つ\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "moose",
+    "name": "ヘラジカ",
+    "nameEn": "Moose",
+    "color": "#8B4513",
+    "traits": "大きい, 強い, 穏やか",
+    "prompt": "A single Moose, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Moose - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B4513\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Moose\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 大きい, 強い, 穏やか\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "reindeer",
+    "name": "トナカイ",
+    "nameEn": "Reindeer",
+    "color": "#8B7355",
+    "traits": "協調性, 頼りになる, 忍耐強い",
+    "prompt": "A single Reindeer, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Reindeer - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Reindeer\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 協調性, 頼りになる, 忍耐強い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "alpaca",
+    "name": "アルパカ",
+    "nameEn": "Alpaca",
+    "color": "#D2B48C",
+    "traits": "もふもふ, 癒し系, 穏やか",
+    "prompt": "A single Alpaca, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Alpaca - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2B48C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Alpaca\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look もふもふ, 癒し系, 穏やか\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "llama",
+    "name": "リャマ",
+    "nameEn": "Llama",
+    "color": "#D2B48C",
+    "traits": "プライド高い, 頑固, 自己主張",
+    "prompt": "A single Llama, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Llama - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2B48C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Llama\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look プライド高い, 頑固, 自己主張\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "donkey",
+    "name": "ロバ",
+    "nameEn": "Donkey",
+    "color": "#808080",
+    "traits": "働き者, 頑固, 忍耐強い",
+    "prompt": "A single Donkey, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Donkey - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #808080\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Donkey\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 働き者, 頑固, 忍耐強い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "camel",
+    "name": "ラクダ",
+    "nameEn": "Camel",
+    "color": "#D2B48C",
+    "traits": "忍耐強い, 貯蓄上手, 我慢強い",
+    "prompt": "A single Camel, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Camel - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2B48C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Camel\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 忍耐強い, 貯蓄上手, 我慢強い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "hyena",
+    "name": "ハイエナ",
+    "nameEn": "Hyena",
+    "color": "#8B7355",
+    "traits": "逞しい, 適応力, 社交的",
+    "prompt": "A single Hyena, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Hyena - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Hyena\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 逞しい, 適応力, 社交的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "wombat",
+    "name": "ウォンバット",
+    "nameEn": "Wombat",
+    "color": "#8B7355",
+    "traits": "のんびり, マイペース, 安全志向",
+    "prompt": "A single Wombat, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Wombat - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Wombat\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look のんびり, マイペース, 安全志向\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "quokka",
+    "name": "クオッカ",
+    "nameEn": "Quokka",
+    "color": "#D2B48C",
+    "traits": "笑顔, 幸せそう, 人懐っこい",
+    "prompt": "A single Quokka, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Quokka - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2B48C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Quokka\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 笑顔, 幸せそう, 人懐っこい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "opossum",
+    "name": "オポッサム",
+    "nameEn": "Opossum",
+    "color": "#808080",
+    "traits": "演技派, 適応力, 生存力",
+    "prompt": "A single Opossum, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Opossum - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #808080\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Opossum\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 演技派, 適応力, 生存力\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "chipmunk",
+    "name": "シマリス",
+    "nameEn": "Chipmunk",
+    "color": "#D2691E",
+    "traits": "可愛い, 活発, 準備上手",
+    "prompt": "A single Chipmunk, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Chipmunk - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2691E\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Chipmunk\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 可愛い, 活発, 準備上手\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "hamster",
+    "name": "ハムスター",
+    "nameEn": "Hamster",
+    "color": "#D2B48C",
+    "traits": "小さい, 可愛い, 努力家",
+    "prompt": "A single Hamster, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Hamster - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2B48C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Hamster\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 小さい, 可愛い, 努力家\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "mouse",
+    "name": "ネズミ",
+    "nameEn": "Mouse",
+    "color": "#808080",
+    "traits": "小さい, 賢い, 素早い",
+    "prompt": "A single Mouse, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Mouse - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #808080\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Mouse\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 小さい, 賢い, 素早い\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "mole",
+    "name": "モグラ",
+    "nameEn": "Mole",
+    "color": "#2F4F2F",
+    "traits": "黙々と働く, 目立たない, 穴掘り名人",
+    "prompt": "A single Mole, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Mole - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #2F4F2F\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Mole\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 黙々と働く, 目立たない, 穴掘り名人\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "stoat",
+    "name": "オコジョ",
+    "nameEn": "Stoat",
+    "color": "#FFFFFF",
+    "traits": "小さい, 勇敢, 適応力",
+    "prompt": "A single Stoat, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Stoat - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFFFFF\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Stoat\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 小さい, 勇敢, 適応力\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "weasel",
+    "name": "イタチ",
+    "nameEn": "Weasel",
+    "color": "#8B7355",
+    "traits": "素早い, 機敏, 小さい",
+    "prompt": "A single Weasel, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Weasel - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Weasel\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 素早い, 機敏, 小さい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "ferret",
+    "name": "フェレット",
+    "nameEn": "Ferret",
+    "color": "#D2B48C",
+    "traits": "好奇心旺盛, 遊び好き, 人懐っこい",
+    "prompt": "A single Ferret, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Ferret - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #D2B48C\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Ferret\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 好奇心旺盛, 遊び好き, 人懐っこい\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "capybara",
+    "name": "カピバラ",
+    "nameEn": "Capybara",
+    "color": "#8B7355",
+    "traits": "のんびり, 優しい, 社交的",
+    "prompt": "A single Capybara, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Capybara - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Capybara\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look のんびり, 優しい, 社交的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "puffin",
+    "name": "パフィン",
+    "nameEn": "Puffin",
+    "color": "#FF6347",
+    "traits": "カラフル, 可愛い, 一途",
+    "prompt": "A single Puffin, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Puffin - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FF6347\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Puffin\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look カラフル, 可愛い, 一途\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "toucan",
+    "name": "オオハシ",
+    "nameEn": "Toucan",
+    "color": "#FFD700",
+    "traits": "目立つ, カラフル, 社交的",
+    "prompt": "A single Toucan, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Toucan - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFD700\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Toucan\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 目立つ, カラフル, 社交的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "pelican",
+    "name": "ペリカン",
+    "nameEn": "Pelican",
+    "color": "#FFFFFF",
+    "traits": "包容力, 大きい, 協力的",
+    "prompt": "A single Pelican, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Pelican - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #FFFFFF\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Pelican\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look 包容力, 大きい, 協力的\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  },
+  {
+    "id": "kiwi",
+    "name": "キーウィ",
+    "nameEn": "Kiwi",
+    "color": "#8B7355",
+    "traits": "ユニーク, 夜行性, 独特",
+    "prompt": "A single Kiwi, centered in the frame, illustrated in a cute minimalist style.\n\nCRITICAL REQUIREMENTS:\n- ONLY ONE Kiwi - no duplicates, no multiple animals\n- Animal must be CENTERED and take up 60-70% of the image\n- Front-facing view, looking directly at viewer\n- Sitting or standing pose - simple and clear\n\nSTYLE (match the reference style exactly):\n- Soft, rounded shapes with gentle curves\n- Smooth gradients and soft shading\n- Pastel-like colors with subtle highlights\n- Kawaii aesthetic - big eyes, friendly expression\n- Clean, simple design without excessive details\n- Professional digital illustration quality\n\nBACKGROUND:\n- Solid color with subtle radial gradient\n- Primary color: #8B7355\n- Lighter in center, slightly darker at edges\n- No patterns, no decorations, no text\n\nCHARACTER DESIGN:\n- Clearly recognizable as a Kiwi\n- Friendly, approachable facial expression\n- Soft, rounded body proportions\n- Should look ユニーク, 夜行性, 独特\n\nTECHNICAL:\n- Square format (1:1 ratio)\n- High resolution, clean edges\n- No watermarks, no text, no signatures\n- Consistent lighting from above\n- Soft drop shadow beneath the character\n\nThis should look like a professional character illustration for a personality test app, similar to MBTI or 16Personalities style."
+  }
+]
