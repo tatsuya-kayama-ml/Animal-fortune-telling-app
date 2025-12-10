@@ -2,11 +2,13 @@ import { Metadata } from 'next';
 import { animals } from '@/lib/animals';
 
 type Props = {
-  searchParams: { [key: string]: string | string[] | undefined };
+  params?: { [key: string]: string | string[] | undefined };
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
-  const animalId = typeof searchParams.animal === 'string' ? searchParams.animal : undefined;
+  const params = await searchParams;
+  const animalId = params && typeof params.animal === 'string' ? params.animal : undefined;
   const animal = animals.find((a) => a.id === animalId);
 
   if (!animal) {
