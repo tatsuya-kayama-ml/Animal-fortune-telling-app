@@ -49,10 +49,10 @@ export function AnimalIcon({ animal, size = 'xl', className = '' }: AnimalIconPr
     );
   }
 
-  // 絵文字フォールバック
+  // 絵文字フォールバック（Noto Color Emojiフォントを使用）
   return (
     <div
-      className={`${baseClass} rounded-full flex items-center justify-center shadow-lg ${className}`}
+      className={`${baseClass} rounded-full flex items-center justify-center shadow-lg noto-emoji ${className}`}
       style={{ backgroundColor: `${animal.color}20` }}
     >
       {animal.emoji}

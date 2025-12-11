@@ -314,7 +314,7 @@ function ResultContent() {
                 title={a.name}
               >
                 <div
-                  className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-sm"
+                  className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-2xl sm:text-3xl shadow-sm noto-emoji"
                   style={{ backgroundColor: `${a.color}20` }}
                 >
                   {a.emoji}

@@ -109,6 +109,7 @@ export const animals: Animal[] = [
     strengths: ['癒しの存在', 'ストレスに強い', '温厚で優しい', 'マイペース'],
     weaknesses: ['行動が遅い', 'やる気が出ない', '怠け者に見られる', '危機感が薄い'],
     compatibility: ['コアラ', 'ウサギ', 'ヒツジ'],
+    incompatibility: ['チーター', 'ビーバー', 'アリ'],
     advice: '時には少し急ぐことも必要です。自分のペースを保ちつつ、目標を持ちましょう。'
   },
   {
@@ -124,6 +125,7 @@ export const animals: Animal[] = [
     strengths: ['協調性抜群', '真面目で誠実', '努力を惜しまない', 'チーム精神'],
     weaknesses: ['個性が埋もれる', '自己主張が弱い', '流されやすい', '自分を犠牲にする'],
     compatibility: ['イヌ', 'フクロウ', 'ゾウ'],
+    incompatibility: ['ヘビ', 'シャチ', 'サメ'],
     advice: '自分の意見も大切にしましょう。チームのためも大事ですが、あなた自身も輝いて。'
   },
   {
@@ -139,6 +141,7 @@ export const animals: Animal[] = [
     strengths: ['統率力がある', '決断力が高い', 'カリスマ性', '責任感が強い'],
     weaknesses: ['独断的', 'プライドが高い', '他人を従わせる', '孤独を感じる'],
     compatibility: ['トラ', 'ウマ', 'イルカ'],
+    incompatibility: ['ヒツジ', 'ウサギ', 'ハイエナ'],
     advice: '時には周りの意見に耳を傾けましょう。強さだけでなく、柔軟性も大切です。'
   },
   {
@@ -154,6 +157,7 @@ export const animals: Animal[] = [
     strengths: ['コミュニケーション力', 'ポジティブ思考', '人気者', '楽しませ上手'],
     weaknesses: ['軽く見られる', '深刻さに欠ける', '飽きっぽい', '孤独に弱い'],
     compatibility: ['サル', 'ライオン', 'ウマ'],
+    incompatibility: ['サメ', 'シャチ', 'ワニ'],
     advice: '楽しさも大切ですが、時には真剣に向き合うことも必要です。'
   },
   {
@@ -169,6 +173,7 @@ export const animals: Animal[] = [
     strengths: ['精神的に安定', 'ストレス耐性', 'おおらか', 'リラックス上手'],
     weaknesses: ['行動力不足', '無関心に見られる', '向上心がない', '変化を嫌う'],
     compatibility: ['パンダ', 'ウサギ', 'ヒツジ'],
+    incompatibility: ['サル', 'チーター', 'ハイエナ'],
     advice: '少しずつでも新しいことに挑戦してみましょう。成長の喜びも味わって。'
   },
   {
@@ -183,6 +188,7 @@ export const animals: Animal[] = [
     strengths: ['行動力抜群', '意志が強い', '情熱的', '粘り強い'],
     weaknesses: ['強引', '周りが見えない', '短気', '柔軟性に欠ける'],
     compatibility: ['ライオン', 'ウマ', 'クマ'],
+    incompatibility: ['ヒツジ', 'ウサギ', 'カモ'],
     advice: '時には立ち止まって周りを見渡すことも大切です。力だけでなく、知恵も使いましょう。'
   },
   {
@@ -197,6 +203,7 @@ export const animals: Animal[] = [
     strengths: ['包容力が大きい', '守る力', '温厚で優しい', '安心感を与える'],
     weaknesses: ['おせっかい', '自分を後回し', '怒ると怖い', '鈍感'],
     compatibility: ['イヌ', 'トラ', 'ゾウ'],
+    incompatibility: ['キツネ', 'ヘビ', 'ワシ'],
     advice: '自分のことも大切にしましょう。他人を守りつつ、自分も守って。'
   },
   {
@@ -211,6 +218,7 @@ export const animals: Animal[] = [
     strengths: ['経験豊富', '記憶力抜群', '思慮深い', '家族愛が深い'],
     weaknesses: ['過去にとらわれる', '変化を嫌う', '頑固', '忘れられない'],
     compatibility: ['フクロウ', 'ペンギン', 'クマ'],
+    incompatibility: ['ネズミ', 'リス', 'ハムスター'],
     advice: '過去の経験も大切ですが、新しいことにも目を向けましょう。'
   },
   {
@@ -225,6 +233,7 @@ export const animals: Animal[] = [
     strengths: ['好奇心旺盛', '器用で多才', '適応力が高い', 'エネルギッシュ'],
     weaknesses: ['飽きっぽい', '落ち着きがない', '浅く広く', '集中力不足'],
     compatibility: ['イルカ', 'キツネ', 'ウマ'],
+    incompatibility: ['フクロウ', 'カメ', 'ナマケモノ'],
     advice: '一つのことを深く追求することも大切です。広さだけでなく、深さも意識して。'
   },
   {
@@ -239,6 +248,7 @@ export const animals: Animal[] = [
     strengths: ['自由な発想', '行動力がある', 'エネルギッシュ', '前向き'],
     weaknesses: ['束縛を嫌う', '計画性がない', '衝動的', '続かない'],
     compatibility: ['ライオン', 'トラ', 'イルカ'],
+    incompatibility: ['ヘビ', 'カメレオン', 'ワニ'],
     advice: '自由も大切ですが、時には計画的に行動することも必要です。'
   },
   {
@@ -253,6 +263,7 @@ export const animals: Animal[] = [
     strengths: ['優しさ', '従順', '平和主義', '協調性'],
     weaknesses: ['流されやすい', '自己主張が弱い', '優柔不断', '依存的'],
     compatibility: ['ウサギ', 'パンダ', 'コアラ'],
+    incompatibility: ['オオカミ', 'トラ', 'ライオン'],
     advice: '自分の意見を持つことも大切です。優しさと強さのバランスを。'
   },
   {
@@ -267,6 +278,7 @@ export const animals: Animal[] = [
     strengths: ['適応力が高い', '努力を見せない', 'バランス感覚', '親しみやすい'],
     weaknesses: ['本音を隠す', '疲れを溜め込む', '頑張りすぎる', '評価されにくい'],
     compatibility: ['ペンギン', 'イルカ', 'ウサギ'],
+    incompatibility: ['キツネ', 'ワニ', 'カメ'],
     advice: '頑張りを周りに見せることも大切です。無理せず、時には休息を取りましょう。'
   },
   {
@@ -281,6 +293,7 @@ export const animals: Animal[] = [
     strengths: ['自己防衛力', '慎重な判断', '深い愛情', '観察力が高い'],
     weaknesses: ['心を開きにくい', '孤立しやすい', '傷つきやすい', '疑い深い'],
     compatibility: ['ネコ', 'ウサギ', 'フクロウ'],
+    incompatibility: ['サル', 'ヘビ', 'キツネ'],
     advice: '全ての人が敵ではありません。少しずつ心を開いて、信頼できる仲間を見つけましょう。'
   },
   {
@@ -295,6 +308,7 @@ export const animals: Animal[] = [
     strengths: ['仲間への忠誠心', '独立心', '直感が鋭い', 'リーダーシップ'],
     weaknesses: ['孤独を好む', '他人を信用しにくい', '攻撃的', '群れ以外に冷たい'],
     compatibility: ['イヌ', 'トラ', 'ライオン'],
+    incompatibility: ['ヒツジ', 'ウサギ', 'カモ'],
     advice: '信頼できる仲間を増やすことで、より強くなれます。心を開く勇気を持って。'
   },
   {
@@ -309,6 +323,7 @@ export const animals: Animal[] = [
     strengths: ['優雅さ', '美的センス', '穏やかさ', '気品がある'],
     weaknesses: ['繊細すぎる', '臆病', '優柔不断', '傷つきやすい'],
     compatibility: ['ウサギ', 'シカ', 'キリン'],
+    incompatibility: ['オオカミ', 'トラ', 'ライオン'],
     advice: '繊細さは長所です。ただ、時には強さも必要です。自信を持って。'
   },
   {
@@ -323,6 +338,7 @@ export const animals: Animal[] = [
     strengths: ['視野が広い', '冷静な判断', '独創的', '穏やか'],
     weaknesses: ['他人と距離がある', '理解されにくい', '行動が遅い', '孤立しやすい'],
     compatibility: ['フクロウ', 'ゾウ', 'シカ'],
+    incompatibility: ['ライオン', 'ハイエナ', 'ヒョウ'],
     advice: '高い視点は強みです。ただ、時には相手の目線に立つことも大切です。'
   },
   {
@@ -337,6 +353,7 @@ export const animals: Animal[] = [
     strengths: ['計画性がある', '機敏', '準備周到', 'エネルギッシュ'],
     weaknesses: ['心配性', '落ち着きがない', '溜め込む', '神経質'],
     compatibility: ['サル', 'ネコ', 'ネズミ'],
+    incompatibility: ['ヘビ', 'フクロウ', 'ネコ'],
     advice: '備えは大切ですが、今を楽しむことも忘れずに。'
   },
   {
@@ -367,6 +384,7 @@ export const animals: Animal[] = [
     strengths: ['華やかさ', '社交性', '個性的', 'バランス感覚'],
     weaknesses: ['目立ちたがり', '流行に左右される', '外見重視', '浅く見られる'],
     compatibility: ['イルカ', 'クジャク', 'チョウ'],
+    incompatibility: ['ワニ', 'ハイエナ', 'ヘビ'],
     advice: '外見も大切ですが、内面の美しさも磨きましょう。'
   },
   {
@@ -381,6 +399,7 @@ export const animals: Animal[] = [
     strengths: ['自信がある', '表現力', '華やかさ', 'カリスマ性'],
     weaknesses: ['ナルシスト', 'プライドが高い', '見栄っ張り', '批判に弱い'],
     compatibility: ['フラミンゴ', 'ライオン', 'オウム'],
+    incompatibility: ['コウモリ', 'ネズミ', 'ヘビ'],
     advice: '自信は素晴らしいですが、謙虚さも忘れずに。'
   },
   {
@@ -395,6 +414,7 @@ export const animals: Animal[] = [
     strengths: ['独創的', '敏感な感性', '独立心', '直感が鋭い'],
     weaknesses: ['昼夜逆転', '理解されにくい', '孤独', '人付き合いが苦手'],
     compatibility: ['フクロウ', 'ハリネズミ', 'ネコ'],
+    incompatibility: ['ワシ', 'フクロウ', 'ネコ'],
     advice: '独自性は強みです。ただ、時には周りと歩調を合わせることも大切です。'
   },
   {
@@ -409,6 +429,7 @@ export const animals: Animal[] = [
     strengths: ['社交性', '遊び心', '器用', '明るい'],
     weaknesses: ['ふざけすぎる', '真面目さに欠ける', '飽きっぽい', '計画性がない'],
     compatibility: ['イルカ', 'サル', 'カワウソ'],
+    incompatibility: ['ヘビ', 'ワニ', 'サメ'],
     advice: '楽しさも大切ですが、時には真剣に取り組むことも必要です。'
   },
   {
@@ -423,6 +444,7 @@ export const animals: Animal[] = [
     strengths: ['ストレスフリー', '省エネ', '穏やか', 'マイペース'],
     weaknesses: ['極端に遅い', 'やる気がない', '怠け者', '成長しない'],
     compatibility: ['パンダ', 'コアラ', 'ナマケモノ'],
+    incompatibility: ['サル', 'チーター', 'ビーバー'],
     advice: '時には少し急ぐことも必要です。目標を持って動いてみましょう。'
   },
   {
@@ -437,6 +459,7 @@ export const animals: Animal[] = [
     strengths: ['器用', '適応力', '好奇心', '問題解決能力'],
     weaknesses: ['いたずら好き', '悪知恵が働く', '落ち着きがない', '信用されにくい'],
     compatibility: ['キツネ', 'サル', 'アライグマ'],
+    incompatibility: ['イヌ', 'オオカミ', 'ワシ'],
     advice: '器用さは長所ですが、一つのことを深く極めることも大切です。'
   },
   {
@@ -451,6 +474,7 @@ export const animals: Animal[] = [
     strengths: ['適応力抜群', '柔軟性', '観察力', '空気を読む'],
     weaknesses: ['自分がない', '八方美人', '本音を隠す', 'アイデンティティ喪失'],
     compatibility: ['キツネ', 'カモ', 'イルカ'],
+    incompatibility: ['イヌ', 'イルカ', 'サル'],
     advice: '適応力は強みですが、自分らしさも大切にしましょう。'
   },
   {
@@ -465,6 +489,7 @@ export const animals: Animal[] = [
     strengths: ['忍耐強い', '慎重', '守備力', '長期的視点'],
     weaknesses: ['遅い', '臆病', '変化を嫌う', '積極性に欠ける'],
     compatibility: ['ゾウ', 'フクロウ', 'ペンギン'],
+    incompatibility: ['ワニ', 'サメ', 'ハイエナ'],
     advice: '慎重さは大切ですが、時には思い切った行動も必要です。'
   },
   {
@@ -479,6 +504,7 @@ export const animals: Animal[] = [
     strengths: ['戦略的思考', '洞察力', '忍耐力', '集中力'],
     weaknesses: ['不気味', '冷たい', '信用されない', '孤独'],
     compatibility: ['キツネ', 'フクロウ', 'カメレオン'],
+    incompatibility: ['イヌ', 'ウサギ', 'イルカ'],
     advice: '戦略も大切ですが、温かさも見せることで信頼を得られます。'
   },
   {
@@ -493,6 +519,7 @@ export const animals: Animal[] = [
     strengths: ['スピード', '集中力', '瞬発力', '目標達成力'],
     weaknesses: ['持久力がない', '疲れやすい', '短期集中型', '休息が必要'],
     compatibility: ['トラ', 'ウマ', 'チーター'],
+    incompatibility: ['カメ', 'ナマケモノ', 'パンダ'],
     advice: '瞬発力は素晴らしいですが、持久力も鍛えましょう。'
   },
   {
@@ -507,6 +534,7 @@ export const animals: Animal[] = [
     strengths: ['個性的', '協調性', '目立つ', 'ユニーク'],
     weaknesses: ['目立ちすぎる', '白黒思考', '妥協が苦手', '極端'],
     compatibility: ['ウマ', 'キリン', 'ライオン'],
+    incompatibility: ['ライオン', 'ハイエナ', 'ワニ'],
     advice: 'グレーゾーンも認めることで、より柔軟になれます。'
   },
   {
@@ -521,6 +549,7 @@ export const animals: Animal[] = [
     strengths: ['力強い', '守る力', '穏やか', '威圧感'],
     weaknesses: ['怒ると怖い', '縄張り意識', '鈍重', '攻撃的'],
     compatibility: ['クマ', 'ゾウ', 'ライオン'],
+    incompatibility: ['ワニ', 'ライオン', 'ハイエナ'],
     advice: '怒りをコントロールすることで、より信頼されます。'
   },
   {
@@ -535,6 +564,7 @@ export const animals: Animal[] = [
     strengths: ['意志が強い', '一途', '力強い', 'ブレない'],
     weaknesses: ['頑固', '融通が利かない', '視野が狭い', '方向転換できない'],
     compatibility: ['トラ', 'ライオン', 'ゾウ'],
+    incompatibility: ['ハイエナ', 'ライオン', 'トラ'],
     advice: '時には立ち止まって考えることも必要です。柔軟性を持ちましょう。'
   },
   {
@@ -549,6 +579,7 @@ export const animals: Animal[] = [
     strengths: ['跳躍力', '前向き', '家族愛', 'パワフル'],
     weaknesses: ['後退できない', '計画性がない', '守りが弱い', '猪突猛進'],
     compatibility: ['ウマ', 'イヌ', 'クマ'],
+    incompatibility: ['ヘビ', 'ワニ', 'イヌ'],
     advice: '前に進むことも大切ですが、時には後退する勇気も必要です。'
   },
   {
@@ -563,6 +594,7 @@ export const animals: Animal[] = [
     strengths: ['コミュニケーション力', '記憶力', '社交性', '華やかさ'],
     weaknesses: ['おしゃべり', '秘密を守れない', '真似ばかり', '騒がしい'],
     compatibility: ['イルカ', 'サル', 'フラミンゴ'],
+    incompatibility: ['ヘビ', 'ワシ', 'ネコ'],
     advice: '聞く力は素晴らしいですが、秘密は守りましょう。'
   },
   {
@@ -577,6 +609,7 @@ export const animals: Animal[] = [
     strengths: ['愛嬌がある', '癒し系', '人懐っこい', '適応力'],
     weaknesses: ['のんびりすぎる', '依存的', '甘えん坊', '自立心が低い'],
     compatibility: ['イルカ', 'ペンギン', 'カワウソ'],
+    incompatibility: ['シャチ', 'サメ', 'ホッキョクグマ'],
     advice: '愛嬌は武器ですが、自立することも大切です。'
   },
   {
@@ -591,6 +624,7 @@ export const animals: Animal[] = [
     strengths: ['包容力', '知恵', '穏やかさ', '寛大'],
     weaknesses: ['動きが鈍い', '細かいことが苦手', '距離感', '理解されにくい'],
     compatibility: ['ゾウ', 'クマ', 'イルカ'],
+    incompatibility: ['シャチ', 'サメ', 'イカ'],
     advice: '大きな視点は素晴らしいですが、小さなことにも目を向けましょう。'
   },
   {
@@ -605,6 +639,7 @@ export const animals: Animal[] = [
     strengths: ['多才', '柔軟性', 'マルチタスク', '知的'],
     weaknesses: ['器用貧乏', '集中力散漫', '掴みどころがない', '疲れやすい'],
     compatibility: ['イルカ', 'カメレオン', 'サル'],
+    incompatibility: ['サメ', 'イルカ', 'ワシ'],
     advice: '多才さは強みですが、一つのことを極めることも大切です。'
   },
   {
@@ -619,6 +654,7 @@ export const animals: Animal[] = [
     strengths: ['華やかさ', '自由', '変化対応力', '美意識'],
     weaknesses: ['軽い', '定まらない', '儚い', '落ち着きがない'],
     compatibility: ['フラミンゴ', 'チョウ', 'ハチドリ'],
+    incompatibility: ['クモ', 'カマキリ', 'トカゲ'],
     advice: '自由も大切ですが、時には一つの場所に根を下ろすことも必要です。'
   },
   {
@@ -633,6 +669,7 @@ export const animals: Animal[] = [
     strengths: ['勤勉', '協調性', '組織力', '貢献心'],
     weaknesses: ['働きすぎ', '個性がない', '休めない', '従順すぎる'],
     compatibility: ['ペンギン', 'アリ', 'イヌ'],
+    incompatibility: ['クマ', 'スズメバチ', 'カマキリ'],
     advice: '働くことも大切ですが、自分のために休むことも必要です。'
   },
   {
@@ -647,6 +684,7 @@ export const animals: Animal[] = [
     strengths: ['努力家', '組織力', '計画性', '粘り強い'],
     weaknesses: ['小さいことにこだわる', '視野が狭い', '個性がない', '柔軟性に欠ける'],
     compatibility: ['ミツバチ', 'ペンギン', 'カメ'],
+    incompatibility: ['アリクイ', 'カマキリ', 'クモ'],
     advice: '努力は素晴らしいですが、大きな視点も持ちましょう。'
   },
   {
@@ -661,6 +699,7 @@ export const animals: Animal[] = [
     strengths: ['幸運を運ぶ', 'ポジティブ', '愛される', '小さな強さ'],
     weaknesses: ['小さすぎる', '軽く見られる', '影響力が弱い', '頼りない'],
     compatibility: ['チョウ', 'ミツバチ', 'ハチドリ'],
+    incompatibility: ['カマキリ', 'クモ', 'トカゲ'],
     advice: '小さくても大きな影響を与えられます。自信を持って。'
   },
   {
@@ -675,6 +714,7 @@ export const animals: Animal[] = [
     strengths: ['適応力', '成長志向', '柔軟性', '変化対応'],
     weaknesses: ['落ち着きがない', '中途半端', 'アイデンティティが曖昧', '飽きっぽい'],
     compatibility: ['カメレオン', 'カモ', 'イルカ'],
+    incompatibility: ['ヘビ', 'ワシ', 'コウノトリ'],
     advice: '変化も大切ですが、自分の軸をしっかり持ちましょう。'
   },
   {
@@ -689,6 +729,7 @@ export const animals: Animal[] = [
     strengths: ['防衛力', '器用', '家族愛', '独創的'],
     weaknesses: ['防衛的すぎる', '素直でない', '攻撃的', '後ろ向き'],
     compatibility: ['ハリネズミ', 'カメ', 'タコ'],
+    incompatibility: ['タコ', 'カモメ', 'ワシ'],
     advice: '守りも大切ですが、心を開くことで豊かな関係が築けます。'
   },
   {
@@ -703,6 +744,7 @@ export const animals: Animal[] = [
     strengths: ['優雅さ', '美しさ', '強さ', '気高さ'],
     weaknesses: ['プライドが高い', '近寄りがたい', '完璧主義', '孤高'],
     compatibility: ['クジャク', 'シカ', 'フラミンゴ'],
+    incompatibility: ['キツネ', 'ワニ', 'ワシ'],
     advice: '美しさは素晴らしいですが、親しみやすさも大切です。'
   },
   {
@@ -717,6 +759,7 @@ export const animals: Animal[] = [
     strengths: ['勤勉', '規則正しい', '責任感', '真面目'],
     weaknesses: ['融通が利かない', 'うるさい', '頑固', '柔軟性に欠ける'],
     compatibility: ['ミツバチ', 'アリ', 'ペンギン'],
+    incompatibility: ['キツネ', 'ワシ', 'ヘビ'],
     advice: '真面目さは素晴らしいですが、時には羽を伸ばすことも大切です。'
   },
   {
@@ -731,6 +774,7 @@ export const animals: Animal[] = [
     strengths: ['精力的', 'スピード', '美意識', '繊細さ'],
     weaknesses: ['落ち着きがない', '疲れやすい', 'エネルギー消費大', '持久力不足'],
     compatibility: ['チョウ', 'ミツバチ', 'テントウムシ'],
+    incompatibility: ['ワシ', 'ヘビ', 'カマキリ'],
     advice: 'エネルギッシュさは素晴らしいですが、休息も取りましょう。'
   },
   {
@@ -745,6 +789,7 @@ export const animals: Animal[] = [
     strengths: ['理想が高い', '鋭い洞察力', '独立心', '誇り'],
     weaknesses: ['孤高', '妥協できない', '近寄りがたい', '完璧主義'],
     compatibility: ['ライオン', 'フクロウ', 'ワシ'],
+    incompatibility: ['ヘビ', 'ワシ', 'ライオン'],
     advice: '高い理想も大切ですが、現実とのバランスも考えましょう。'
   },
   {
@@ -759,6 +804,7 @@ export const animals: Animal[] = [
     strengths: ['愛嬌がある', '要領が良い', '柔軟性', '人懐っこい'],
     weaknesses: ['ずる賢い', '本性を隠す', '計算高い', '信用されにくい'],
     compatibility: ['キツネ', 'アライグマ', 'カモ'],
+    incompatibility: ['オオカミ', 'キツネ', 'クマ'],
     advice: '要領の良さは武器ですが、誠実さも忘れずに。'
   },
   {
@@ -773,6 +819,7 @@ export const animals: Animal[] = [
     strengths: ['力強さ', '優しさ', '家族愛', '包容力'],
     weaknesses: ['誤解されやすい', '繊細すぎる', '怒ると怖い', '不器用'],
     compatibility: ['クマ', 'ゾウ', 'ゴリラ'],
+    incompatibility: ['ヒョウ', 'ワニ', 'ヘビ'],
     advice: '力だけでなく、優しさも伝えることで理解されます。'
   },
   {
@@ -787,6 +834,7 @@ export const animals: Animal[] = [
     strengths: ['警戒心', '仲間思い', '協力的', '責任感'],
     weaknesses: ['神経質', '心配性', '休めない', '過保護'],
     compatibility: ['ペンギン', 'イヌ', 'ミーアキャット'],
+    incompatibility: ['ワシ', 'ヘビ', 'ジャッカル'],
     advice: '警戒も大切ですが、時にはリラックスすることも必要です。'
   },
   {
@@ -801,6 +849,7 @@ export const animals: Animal[] = [
     strengths: ['忍耐力', '瞬発力', '冷静', '強靭'],
     weaknesses: ['冷酷', '感情が読めない', '危険', '孤独'],
     compatibility: ['ヘビ', 'ワニ', 'カメ'],
+    incompatibility: ['カバ', 'ライオン', 'ゾウ'],
     advice: '忍耐も大切ですが、温かさを見せることで信頼が得られます。'
   },
   {
@@ -815,6 +864,7 @@ export const animals: Animal[] = [
     strengths: ['好奇心', '社交性', 'ユニーク', '活発'],
     weaknesses: ['落ち着きがない', '飽きっぽい', '騒がしい', '目立ちたがり'],
     compatibility: ['サル', 'イルカ', 'オウム'],
+    incompatibility: ['ヘビ', 'ワシ', 'フォッサ'],
     advice: '好奇心は素晴らしいですが、一つのことに集中することも大切です。'
   },
   {
@@ -829,6 +879,7 @@ export const animals: Animal[] = [
     strengths: ['防御力', '慎重さ', '用心深さ', '生存力'],
     weaknesses: ['閉じこもる', '臆病', '消極的', '心を開かない'],
     compatibility: ['ハリネズミ', 'カメ', 'アルマジロ'],
+    incompatibility: ['ジャガー', 'ワシ', 'ヘビ'],
     advice: '自己防衛も大切ですが、時には心を開くことで新しい世界が広がります。'
   },
   {
@@ -843,6 +894,7 @@ export const animals: Animal[] = [
     strengths: ['自己防衛力', '独立心', '警戒心', '強さ'],
     weaknesses: ['攻撃的', '孤立', '親密になれない', '頑固'],
     compatibility: ['ハリネズミ', 'ネコ', 'ヤマアラシ'],
+    incompatibility: ['ライオン', 'ヒョウ', 'ワシ'],
     advice: '防衛も大切ですが、信頼できる人には心を開きましょう。'
   },
   {
@@ -857,6 +909,7 @@ export const animals: Animal[] = [
     strengths: ['粘り強さ', '勇敢', '領域を守る', '頑固'],
     weaknesses: ['融通が利かない', '攻撃的', '孤立', '妥協しない'],
     compatibility: ['クマ', 'オオカミ', 'アナグマ'],
+    incompatibility: ['クマ', 'オオカミ', 'ワシ'],
     advice: '粘り強さは強みですが、柔軟性も持つとより良い関係が築けます。'
   },
   {
@@ -871,6 +924,7 @@ export const animals: Animal[] = [
     strengths: ['ユニーク', '独創的', '適応力', '不思議な魅力'],
     weaknesses: ['理解されにくい', '奇異に見られる', '孤独', '説明が難しい'],
     compatibility: ['カメレオン', 'コウモリ', 'カモノハシ'],
+    incompatibility: ['ヘビ', 'ワニ', 'ワシ'],
     advice: 'ユニークさは個性です。理解されなくても、自分らしさを大切に。'
   },
   {
@@ -885,6 +939,7 @@ export const animals: Animal[] = [
     strengths: ['鋭い感覚', '神秘的', '独立心', '観察力'],
     weaknesses: ['孤独', '神秘的すぎる', '近寄りがたい', '感情表現が苦手'],
     compatibility: ['ネコ', 'フクロウ', 'オオヤマネコ'],
+    incompatibility: ['ヘビ', 'クマ', 'オオカミ'],
     advice: '神秘的な魅力も大切ですが、時には素直な一面も見せましょう。'
   },
   {
@@ -899,6 +954,7 @@ export const animals: Animal[] = [
     strengths: ['力強さ', 'リーダーシップ', '守護力', '勇気'],
     weaknesses: ['頑固', '融通が利かない', '攻撃的', '鈍重'],
     compatibility: ['ライオン', 'クマ', 'ゾウ'],
+    incompatibility: ['オオカミ', 'クマ', 'ライオン'],
     advice: '力も大切ですが、柔軟さを持つことでより良いリーダーになれます。'
   },
   {
@@ -913,6 +969,7 @@ export const animals: Animal[] = [
     strengths: ['忍耐力', '瞬発力', '集中力', '静けさ'],
     weaknesses: ['冷酷', '感情がない', '攻撃的', '孤独'],
     compatibility: ['ヘビ', 'ワニ', 'カマキリ'],
+    incompatibility: ['カマキリ', 'トカゲ', 'カエル'],
     advice: '忍耐も大切ですが、温かい心も持ちましょう。'
   },
   {
@@ -927,6 +984,7 @@ export const animals: Animal[] = [
     strengths: ['自由', '視野が広い', '俊敏性', '変化対応力'],
     weaknesses: ['落ち着きがない', '定まらない', '短命', '儚い'],
     compatibility: ['チョウ', 'トンボ', 'ハチドリ'],
+    incompatibility: ['クモ', 'カエル', 'トカゲ'],
     advice: '自由も大切ですが、時には一つの場所で深く関わることも必要です。'
   },
   {
@@ -941,6 +999,7 @@ export const animals: Animal[] = [
     strengths: ['音楽的才能', '感性', '表現力', '繊細さ'],
     weaknesses: ['繊細すぎる', '目立たない', '脆い', '傷つきやすい'],
     compatibility: ['チョウ', 'コオロギ', 'ハチドリ'],
+    incompatibility: ['カマキリ', 'クモ', 'トカゲ'],
     advice: '感性の豊かさは才能です。自信を持って表現しましょう。'
   },
   {
@@ -955,6 +1014,7 @@ export const animals: Animal[] = [
     strengths: ['存在感', 'ロマンチック', '美しさ', '控えめ'],
     weaknesses: ['目立たない', '短命', '儚い', '弱い'],
     compatibility: ['チョウ', 'テントウムシ', 'ホタル'],
+    incompatibility: ['クモ', 'カエル', 'コウモリ'],
     advice: '小さくても輝く力があります。自分の光を信じて。'
   },
   {
@@ -969,6 +1029,7 @@ export const animals: Animal[] = [
     strengths: ['忍耐力', '戦略性', '計画性', '独立心'],
     weaknesses: ['不気味', '孤独', '嫌われる', '冷たい'],
     compatibility: ['ヘビ', 'カマキリ', 'クモ'],
+    incompatibility: ['ハチ', 'トカゲ', 'ワシ'],
     advice: '戦略も大切ですが、親しみやすさも見せましょう。'
   },
   {
@@ -983,6 +1044,7 @@ export const animals: Animal[] = [
     strengths: ['防衛力', '魅力', '慎重さ', '強さ'],
     weaknesses: ['危険', '恐れられる', '孤独', '攻撃的'],
     compatibility: ['ヘビ', 'サソリ', 'クモ'],
+    incompatibility: ['トカゲ', 'ヘビ', 'ワシ'],
     advice: '危険な魅力も武器ですが、安心感も与えましょう。'
   },
   {
@@ -997,6 +1059,7 @@ export const animals: Animal[] = [
     strengths: ['マイペース', '幻想的', '柔軟性', '美しさ'],
     weaknesses: ['意志が弱い', '流されやすい', '方向性がない', '掴みどころがない'],
     compatibility: ['カエル', 'タコ', 'クラゲ'],
+    incompatibility: ['ウミガメ', 'マンボウ', 'サメ'],
     advice: '流れに任せることも大切ですが、自分の意志も持ちましょう。'
   },
   {
@@ -1011,6 +1074,7 @@ export const animals: Animal[] = [
     strengths: ['再生力', '回復力', '強靭さ', 'のんびり'],
     weaknesses: ['動きが遅い', '受け身', '目立たない', '変化が遅い'],
     compatibility: ['カメ', 'ナマケモノ', 'ヒトデ'],
+    incompatibility: ['カモメ', 'カニ', 'タコ'],
     advice: '再生力は強みです。失敗を恐れず挑戦しましょう。'
   },
   {
@@ -1025,6 +1089,7 @@ export const animals: Animal[] = [
     strengths: ['ユニーク', '家族愛', '優しさ', '独特の魅力'],
     weaknesses: ['弱い', '目立たない', '理解されにくい', '繊細'],
     compatibility: ['カモノハシ', 'タツノオトシゴ', 'イルカ'],
+    incompatibility: ['カニ', 'タコ', 'マグロ'],
     advice: 'ユニークさは個性です。自分らしく生きましょう。'
   },
   {
@@ -1039,6 +1104,7 @@ export const animals: Animal[] = [
     strengths: ['優雅さ', '穏やかさ', '防衛力', '美しさ'],
     weaknesses: ['危険', '誤解される', '孤独', '近寄りがたい'],
     compatibility: ['イルカ', 'クジラ', 'エイ'],
+    incompatibility: ['サメ', 'シャチ', 'タコ'],
     advice: '優雅さと防衛力のバランスが大切です。'
   },
   {
@@ -1053,6 +1119,7 @@ export const animals: Animal[] = [
     strengths: ['明るさ', '社交性', '共生力', '適応力'],
     weaknesses: ['依存的', '自立できない', '小さい', '弱い'],
     compatibility: ['イルカ', 'クマノミ', 'ペンギン'],
+    incompatibility: ['タコ', 'ウツボ', 'サメ'],
     advice: '共生も大切ですが、自立する力も持ちましょう。'
   },
   {
@@ -1067,6 +1134,7 @@ export const animals: Animal[] = [
     strengths: ['独特の戦略', '忍耐力', '光を持つ', '創造的'],
     weaknesses: ['不気味', '孤独', '理解されにくい', '暗い'],
     compatibility: ['ヘビ', 'クモ', 'チョウチンアンコウ'],
+    incompatibility: ['サメ', 'シャチ', 'イカ'],
     advice: '独特な方法も武器です。自信を持って進みましょう。'
   },
   {
@@ -1081,6 +1149,7 @@ export const animals: Animal[] = [
     strengths: ['力強さ', '威厳', '穏やかさ', '強靭'],
     weaknesses: ['鈍重', '怒ると危険', '孤独', '融通が利かない'],
     compatibility: ['クマ', 'バイソン', 'ヘラジカ'],
+    incompatibility: ['オオカミ', 'クマ', 'ワシ'],
     advice: '力も大切ですが、柔軟さも持ちましょう。'
   },
   {
@@ -1095,6 +1164,7 @@ export const animals: Animal[] = [
     strengths: ['協調性', '忍耐力', '頼もしさ', '優しさ'],
     weaknesses: ['個性が薄い', '流されやすい', '自己主張が弱い', '寒い環境が必要'],
     compatibility: ['シカ', 'ペンギン', 'トナカイ'],
+    incompatibility: ['オオカミ', 'クマ', 'ワシ'],
     advice: '協調性も大切ですが、自分の意見も持ちましょう。'
   },
   {
@@ -1109,6 +1179,7 @@ export const animals: Animal[] = [
     strengths: ['癒し', '穏やかさ', '優しさ', '愛される'],
     weaknesses: ['臆病', '頼りない', '自己主張が弱い', 'ストレスに弱い'],
     compatibility: ['ヒツジ', 'アルパカ', 'ウサギ'],
+    incompatibility: ['ピューマ', 'ワシ', 'ヘビ'],
     advice: '癒しの力は素晴らしいですが、時には強さも見せましょう。'
   },
   {
@@ -1123,6 +1194,7 @@ export const animals: Animal[] = [
     strengths: ['プライド', '自己主張', '力強さ', 'はっきりしている'],
     weaknesses: ['頑固', '攻撃的', '協調性に欠ける', '嫌われる'],
     compatibility: ['サイ', 'リャマ', 'ロバ'],
+    incompatibility: ['ピューマ', 'ワシ', 'ヘビ'],
     advice: 'プライドも大切ですが、協調性も持ちましょう。'
   },
   {
@@ -1137,6 +1209,7 @@ export const animals: Animal[] = [
     strengths: ['働き者', '忍耐力', '真面目', '頑固'],
     weaknesses: ['融通が利かない', '頑固すぎる', '目立たない', '報われにくい'],
     compatibility: ['ウマ', 'ミツバチ', 'ロバ'],
+    incompatibility: ['ライオン', 'ハイエナ', 'ワニ'],
     advice: '働くことも大切ですが、時には休息も取りましょう。'
   },
   {
@@ -1151,6 +1224,7 @@ export const animals: Animal[] = [
     strengths: ['忍耐力', '貯蓄力', '適応力', '我慢強さ'],
     weaknesses: ['溜め込む', '頑固', 'ストレスを隠す', '爆発する'],
     compatibility: ['ゾウ', 'カメ', 'ラクダ'],
+    incompatibility: ['ライオン', 'ハイエナ', 'ヘビ'],
     advice: '溜め込みすぎず、時には発散することも大切です。'
   },
   {
@@ -1165,6 +1239,7 @@ export const animals: Animal[] = [
     strengths: ['適応力', '逞しさ', '社交性', 'ユーモア'],
     weaknesses: ['悪いイメージ', '嫌われる', 'ずる賢い', '信用されない'],
     compatibility: ['オオカミ', 'キツネ', 'ハイエナ'],
+    incompatibility: ['ライオン', 'ゾウ', 'サイ'],
     advice: 'イメージに縛られず、誠実さを見せることで信頼が得られます。'
   },
   {
@@ -1179,6 +1254,7 @@ export const animals: Animal[] = [
     strengths: ['マイペース', '安全志向', '穏やか', '穴掘り技術'],
     weaknesses: ['動きが遅い', '消極的', '変化を嫌う', '目立たない'],
     compatibility: ['コアラ', 'ウォンバット', 'カンガルー'],
+    incompatibility: ['ディンゴ', 'ワシ', 'ヘビ'],
     advice: '安全も大切ですが、時には冒険することで成長できます。'
   },
   {
@@ -1193,6 +1269,7 @@ export const animals: Animal[] = [
     strengths: ['笑顔', 'ポジティブ', '人懐っこさ', '幸せを運ぶ'],
     weaknesses: ['天敵が多い', '無防備', '楽観的すぎる', '危機感がない'],
     compatibility: ['イルカ', 'クオッカ', 'テントウムシ'],
+    incompatibility: ['ヘビ', 'ディンゴ', 'ワシ'],
     advice: 'ポジティブさは素晴らしいですが、危機管理も忘れずに。'
   },
   {
@@ -1207,6 +1284,7 @@ export const animals: Animal[] = [
     strengths: ['演技力', '適応力', '生存力', '器用'],
     weaknesses: ['嘘つきに見られる', '信用されない', '逃げ腰', '卑怯'],
     compatibility: ['キツネ', 'アライグマ', 'オポッサム'],
+    incompatibility: ['ワシ', 'キツネ', 'ヘビ'],
     advice: '演技も戦略ですが、誠実さも見せましょう。'
   },
   {
@@ -1221,6 +1299,7 @@ export const animals: Animal[] = [
     strengths: ['可愛さ', '活発', '準備力', '素早さ'],
     weaknesses: ['小さい', '心配性', '溜め込む', '落ち着きがない'],
     compatibility: ['リス', 'シマリス', 'ハムスター'],
+    incompatibility: ['ヘビ', 'ワシ', 'キツネ'],
     advice: '準備も大切ですが、今を楽しむことも忘れずに。'
   },
   {
@@ -1235,6 +1314,7 @@ export const animals: Animal[] = [
     strengths: ['可愛さ', '努力家', 'エネルギッシュ', '愛される'],
     weaknesses: ['小さすぎる', '空回り', '方向性がない', '短命'],
     compatibility: ['ネズミ', 'シマリス', 'ハムスター'],
+    incompatibility: ['ヘビ', 'フクロウ', 'ネコ'],
     advice: '努力も大切ですが、方向性を持つことで成果が出ます。'
   },
   {
@@ -1249,6 +1329,7 @@ export const animals: Animal[] = [
     strengths: ['賢さ', '素早さ', '適応力', '機敏'],
     weaknesses: ['小さい', '臆病', '嫌われる', '弱い'],
     compatibility: ['リス', 'ハムスター', 'ネズミ'],
+    incompatibility: ['ネコ', 'フクロウ', 'ヘビ'],
     advice: '小さくても賢さで勝負できます。自信を持って。'
   },
   {
@@ -1263,6 +1344,7 @@ export const animals: Animal[] = [
     strengths: ['勤勉', '独立心', '穴掘り技術', '黙々と働く'],
     weaknesses: ['目立たない', '孤独', '視野が狭い', '評価されにくい'],
     compatibility: ['アナグマ', 'モグラ', 'アリ'],
+    incompatibility: ['キツネ', 'イタチ', 'ワシ'],
     advice: '目立たなくても価値があります。自分の仕事に誇りを持って。'
   },
   {
@@ -1277,6 +1359,7 @@ export const animals: Animal[] = [
     strengths: ['勇敢', '適応力', '変化対応', '素早さ'],
     weaknesses: ['小さい', '攻撃的', '落ち着きがない', '短気'],
     compatibility: ['イタチ', 'オコジョ', 'リス'],
+    incompatibility: ['ワシ', 'キツネ', 'オオカミ'],
     advice: '勇敢さは素晴らしいですが、無謀にならないように。'
   },
   {
@@ -1291,6 +1374,7 @@ export const animals: Animal[] = [
     strengths: ['素早さ', '機敏さ', '強さ', '侮れない'],
     weaknesses: ['小さい', '攻撃的', '嫌われる', '臭い'],
     compatibility: ['オコジョ', 'イタチ', 'キツネ'],
+    incompatibility: ['ワシ', 'キツネ', 'フクロウ'],
     advice: '強さも大切ですが、親しみやすさも持ちましょう。'
   },
   {
@@ -1305,6 +1389,7 @@ export const animals: Animal[] = [
     strengths: ['好奇心', '遊び心', '人懐っこさ', '活発'],
     weaknesses: ['いたずら好き', '落ち着きがない', '飽きっぽい', '臭い'],
     compatibility: ['カワウソ', 'サル', 'フェレット'],
+    incompatibility: ['ワシ', 'ヘビ', 'キツネ'],
     advice: '遊びも大切ですが、真面目に取り組むことも必要です。'
   },
   {
@@ -1319,6 +1404,7 @@ export const animals: Animal[] = [
     strengths: ['のんびり', '優しさ', '社交性', '温厚'],
     weaknesses: ['やる気がない', '鈍い', '主体性がない', '流される'],
     compatibility: ['パンダ', 'ナマケモノ', 'カピバラ'],
+    incompatibility: ['ジャガー', 'ワニ', 'アナコンダ'],
     advice: 'のんびりも良いですが、時には積極的に動くことも大切です。'
   },
   {
@@ -1333,6 +1419,7 @@ export const animals: Animal[] = [
     strengths: ['可愛さ', '一途', '家族愛', 'カラフル'],
     weaknesses: ['不器用', '飛ぶのが苦手', '繊細', '環境に敏感'],
     compatibility: ['ペンギン', 'パフィン', 'アザラシ'],
+    incompatibility: ['ワシ', 'キツネ', 'カモメ'],
     advice: '一途さは美徳ですが、柔軟性も持ちましょう。'
   },
   {
@@ -1347,6 +1434,7 @@ export const animals: Animal[] = [
     strengths: ['目立つ', 'ユニーク', '社交性', 'カラフル'],
     weaknesses: ['目立ちすぎる', '派手', 'バランスが悪い', '不器用'],
     compatibility: ['オウム', 'クジャク', 'オオハシ'],
+    incompatibility: ['ワシ', 'ヘビ', 'サル'],
     advice: '目立つことも良いですが、実力も伴わせましょう。'
   },
   {
@@ -1361,6 +1449,7 @@ export const animals: Animal[] = [
     strengths: ['包容力', '協力性', '器用', '大きさ'],
     weaknesses: ['抱え込みすぎる', '重い', '不器用に見える', '目立つ'],
     compatibility: ['クマ', 'クジラ', 'ペリカン'],
+    incompatibility: ['ワシ', 'サメ', 'ワニ'],
     advice: '抱え込みすぎず、時には手放すことも大切です。'
   },
   {
@@ -1375,6 +1464,7 @@ export const animals: Animal[] = [
     strengths: ['ユニーク', '独特の魅力', '嗅覚が鋭い', '愛される'],
     weaknesses: ['飛べない', '臆病', '絶滅危惧', '弱い'],
     compatibility: ['ペンギン', 'コウモリ', 'キーウィ'],
+    incompatibility: ['イタチ', 'ネコ', 'ワシ'],
     advice: 'ユニークさは個性です。自分らしさを大切にしましょう。'
   }
 ];
