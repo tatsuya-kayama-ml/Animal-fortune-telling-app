@@ -142,103 +142,104 @@ export const questions: Question[] = [
   }
 ];
 
-// 特性からスコアを計算するヘルパー関数（改善版）
-export const calculateAnimalScore = (userTraits: string[]) => {
+// 特性からスコアを計算するヘルパー関数（改善版 v2 - 多様な結果が出やすくなるよう調整）
+export const calculateAnimalScore = (userTraits: string[], randomSeed?: number) => {
   const traitMapping: Record<string, string[]> = {
+    // 哺乳類
     cat: ['independent', 'calm', 'curious', 'free'],
     dog: ['loyal', 'social', 'active', 'friendly'],
     rabbit: ['kind', 'peaceful', 'thoughtful', 'gentle'],
     fox: ['intelligent', 'flexible', 'observant', 'clever'],
-    owl: ['intelligent', 'thoughtful', 'careful', 'calm'],
+    owl: ['intelligent', 'thoughtful', 'careful', 'focused'],
     panda: ['calm', 'easygoing', 'peaceful', 'gentle'],
     penguin: ['cooperative', 'thoughtful', 'loyal', 'careful'],
-    lion: ['leadership', 'confident', 'strong', 'brave'],
+    lion: ['leadership', 'confident', 'strong', 'ambitious'],
     dolphin: ['cheerful', 'social', 'energetic', 'friendly'],
     koala: ['calm', 'easygoing', 'peaceful', 'independent'],
     tiger: ['strong', 'passionate', 'active', 'brave'],
-    bear: ['kind', 'strong', 'protective', 'gentle'],
-    elephant: ['intelligent', 'thoughtful', 'loyal', 'careful'],
+    bear: ['kind', 'strong', 'protective', 'helpful'],
+    elephant: ['intelligent', 'thoughtful', 'loyal', 'emotional'],
     monkey: ['curious', 'energetic', 'flexible', 'adventurous'],
     horse: ['free', 'energetic', 'active', 'adventurous'],
     sheep: ['kind', 'peaceful', 'gentle', 'cooperative'],
     duck: ['flexible', 'calm', 'cooperative', 'balanced'],
-    hedgehog: ['careful', 'observant', 'independent', 'protective'],
-    wolf: ['loyal', 'independent', 'strong', 'observant'],
-    deer: ['gentle', 'peaceful', 'calm', 'thoughtful'],
+    hedgehog: ['careful', 'observant', 'independent', 'cautious'],
+    wolf: ['loyal', 'independent', 'strong', 'focused'],
+    deer: ['gentle', 'peaceful', 'calm', 'cautious'],
     giraffe: ['calm', 'observant', 'independent', 'thoughtful'],
     squirrel: ['energetic', 'careful', 'active', 'curious'],
     flamingo: ['social', 'cheerful', 'balanced', 'friendly'],
-    peacock: ['confident', 'cheerful', 'strong', 'leadership'],
+    peacock: ['confident', 'cheerful', 'strong', 'ambitious'],
     bat: ['independent', 'observant', 'calm', 'curious'],
-    otter: ['social', 'energetic', 'cheerful', 'flexible'],
+    otter: ['social', 'energetic', 'cheerful', 'playful'],
     sloth: ['calm', 'easygoing', 'peaceful', 'independent'],
     raccoon: ['curious', 'flexible', 'intelligent', 'active'],
-    chameleon: ['flexible', 'observant', 'calm', 'intelligent'],
-    turtle: ['careful', 'calm', 'thoughtful', 'peaceful'],
+    chameleon: ['flexible', 'observant', 'calm', 'adaptable'],
+    turtle: ['careful', 'calm', 'thoughtful', 'patient'],
     snake: ['intelligent', 'observant', 'calm', 'careful'],
-    cheetah: ['active', 'strong', 'energetic', 'brave'],
+    cheetah: ['active', 'strong', 'energetic', 'quick'],
     zebra: ['independent', 'cooperative', 'strong', 'balanced'],
-    hippo: ['strong', 'calm', 'protective', 'loyal'],
+    hippo: ['strong', 'calm', 'protective', 'emotional'],
     rhino: ['strong', 'brave', 'independent', 'passionate'],
     kangaroo: ['energetic', 'strong', 'loyal', 'active'],
     parrot: ['social', 'cheerful', 'intelligent', 'friendly'],
-    seal: ['calm', 'cheerful', 'gentle', 'cooperative'],
-    whale: ['calm', 'intelligent', 'gentle', 'protective'],
-    octopus: ['intelligent', 'flexible', 'curious', 'active'],
+    seal: ['calm', 'cheerful', 'gentle', 'playful'],
+    whale: ['calm', 'intelligent', 'gentle', 'emotional'],
+    octopus: ['intelligent', 'flexible', 'curious', 'adaptable'],
     butterfly: ['cheerful', 'free', 'flexible', 'gentle'],
-    bee: ['cooperative', 'active', 'loyal', 'thoughtful'],
-    ant: ['cooperative', 'careful', 'active', 'thoughtful'],
-    ladybug: ['cheerful', 'gentle', 'kind', 'peaceful'],
-    frog: ['flexible', 'active', 'curious', 'energetic'],
-    crab: ['protective', 'careful', 'loyal', 'independent'],
+    bee: ['cooperative', 'active', 'loyal', 'focused'],
+    ant: ['cooperative', 'careful', 'active', 'ambitious'],
+    ladybug: ['cheerful', 'gentle', 'kind', 'positive'],
+    frog: ['flexible', 'active', 'curious', 'adaptable'],
+    crab: ['protective', 'careful', 'loyal', 'cautious'],
     swan: ['calm', 'strong', 'gentle', 'confident'],
     rooster: ['active', 'confident', 'loyal', 'brave'],
-    hummingbird: ['energetic', 'active', 'cheerful', 'curious'],
-    eagle: ['brave', 'strong', 'independent', 'confident'],
+    hummingbird: ['energetic', 'active', 'cheerful', 'quick'],
+    eagle: ['brave', 'strong', 'independent', 'ambitious'],
     raccoondog: ['flexible', 'clever', 'cooperative', 'adaptable'],
     gorilla: ['strong', 'protective', 'thoughtful', 'leadership'],
-    meerkat: ['cooperative', 'observant', 'social', 'careful'],
-    crocodile: ['strong', 'patient', 'calm', 'independent'],
+    meerkat: ['cooperative', 'observant', 'social', 'helpful'],
+    crocodile: ['strong', 'patient', 'calm', 'focused'],
     lemur: ['social', 'energetic', 'curious', 'playful'],
-    armadillo: ['protective', 'careful', 'independent', 'calm'],
-    porcupine: ['protective', 'independent', 'careful', 'strong'],
-    badger: ['brave', 'independent', 'strong', 'protective'],
-    platypus: ['curious', 'flexible', 'independent', 'intelligent'],
-    lynx: ['observant', 'independent', 'calm', 'intelligent'],
+    armadillo: ['protective', 'careful', 'independent', 'cautious'],
+    porcupine: ['protective', 'independent', 'careful', 'cautious'],
+    badger: ['brave', 'independent', 'strong', 'passionate'],
+    platypus: ['curious', 'flexible', 'independent', 'adaptable'],
+    lynx: ['observant', 'independent', 'calm', 'patient'],
     bison: ['strong', 'calm', 'cooperative', 'protective'],
-    mantis: ['patient', 'observant', 'careful', 'intelligent'],
-    dragonfly: ['active', 'flexible', 'energetic', 'free'],
-    cricket: ['peaceful', 'calm', 'thoughtful', 'gentle'],
-    firefly: ['cheerful', 'gentle', 'cooperative', 'peaceful'],
+    mantis: ['patient', 'observant', 'careful', 'focused'],
+    dragonfly: ['active', 'flexible', 'energetic', 'quick'],
+    cricket: ['peaceful', 'calm', 'thoughtful', 'patient'],
+    firefly: ['cheerful', 'gentle', 'cooperative', 'positive'],
     spider: ['patient', 'careful', 'independent', 'intelligent'],
-    scorpion: ['protective', 'independent', 'strong', 'careful'],
-    jellyfish: ['calm', 'flexible', 'peaceful', 'gentle'],
+    scorpion: ['protective', 'independent', 'strong', 'cautious'],
+    jellyfish: ['calm', 'flexible', 'peaceful', 'adaptable'],
     starfish: ['calm', 'flexible', 'peaceful', 'cooperative'],
     seahorse: ['gentle', 'thoughtful', 'calm', 'loyal'],
     stingray: ['calm', 'flexible', 'intelligent', 'peaceful'],
-    clownfish: ['social', 'cheerful', 'loyal', 'cooperative'],
-    anglerfish: ['independent', 'patient', 'intelligent', 'calm'],
+    clownfish: ['social', 'cheerful', 'loyal', 'playful'],
+    anglerfish: ['independent', 'patient', 'intelligent', 'focused'],
     moose: ['strong', 'independent', 'calm', 'protective'],
-    reindeer: ['cooperative', 'strong', 'loyal', 'energetic'],
-    alpaca: ['gentle', 'calm', 'cooperative', 'peaceful'],
+    reindeer: ['cooperative', 'strong', 'loyal', 'helpful'],
+    alpaca: ['gentle', 'calm', 'cooperative', 'kind'],
     llama: ['independent', 'strong', 'protective', 'confident'],
-    donkey: ['strong', 'loyal', 'patient', 'cooperative'],
+    donkey: ['strong', 'loyal', 'patient', 'helpful'],
     camel: ['patient', 'strong', 'independent', 'calm'],
     hyena: ['social', 'flexible', 'energetic', 'cooperative'],
     wombat: ['calm', 'independent', 'strong', 'peaceful'],
-    quokka: ['cheerful', 'friendly', 'social', 'gentle'],
-    opossum: ['flexible', 'calm', 'independent', 'clever'],
-    chipmunk: ['energetic', 'curious', 'active', 'careful'],
-    hamster: ['energetic', 'curious', 'active', 'gentle'],
+    quokka: ['cheerful', 'friendly', 'social', 'positive'],
+    opossum: ['flexible', 'calm', 'independent', 'adaptable'],
+    chipmunk: ['energetic', 'curious', 'active', 'quick'],
+    hamster: ['energetic', 'curious', 'active', 'playful'],
     mouse: ['careful', 'curious', 'flexible', 'quick'],
-    mole: ['independent', 'careful', 'thoughtful', 'calm'],
-    stoat: ['energetic', 'brave', 'active', 'curious'],
+    mole: ['independent', 'careful', 'thoughtful', 'focused'],
+    stoat: ['energetic', 'brave', 'active', 'adventurous'],
     weasel: ['energetic', 'curious', 'active', 'clever'],
     ferret: ['curious', 'energetic', 'playful', 'social'],
-    capybara: ['calm', 'social', 'peaceful', 'cooperative'],
+    capybara: ['calm', 'social', 'peaceful', 'friendly'],
     puffin: ['social', 'cooperative', 'loyal', 'cheerful'],
-    toucan: ['social', 'cheerful', 'energetic', 'friendly'],
-    pelican: ['cooperative', 'calm', 'thoughtful', 'loyal'],
+    toucan: ['social', 'cheerful', 'energetic', 'positive'],
+    pelican: ['cooperative', 'calm', 'patient', 'helpful'],
     kiwi: ['independent', 'curious', 'thoughtful', 'calm']
   };
 
@@ -253,6 +254,14 @@ export const calculateAnimalScore = (userTraits: string[]) => {
   const scores: Record<string, number> = {};
   const animalCount = Object.keys(traitMapping).length;
 
+  // 乱数シードを使用（同じ特性でも多様な結果が出るように）
+  const seed = randomSeed ?? Date.now();
+  const pseudoRandom = (index: number) => {
+    const x = Math.sin(seed + index) * 10000;
+    return x - Math.floor(x);
+  };
+
+  let animalIndex = 0;
   Object.keys(traitMapping).forEach(animal => {
     let baseScore = 0;
     let matchedTraits = 0;
@@ -267,19 +276,24 @@ export const calculateAnimalScore = (userTraits: string[]) => {
         baseScore += matchCount * 10;
 
         // 希少性ボーナス（その特性を持つ動物が少ないほど高い）
-        const rarity = animalCount / traitRarity[trait];
-        rarityBonus += rarity * matchCount * 5;
+        // 上限を設けて極端な偏りを防ぐ（最大5倍まで）
+        const rarityMultiplier = Math.min(animalCount / traitRarity[trait], 5);
+        rarityBonus += rarityMultiplier * matchCount * 3;
       }
     });
 
     // 完全一致ボーナス（全ての特性がマッチした場合）
-    const perfectMatchBonus = matchedTraits === 4 ? 50 : 0;
+    const perfectMatchBonus = matchedTraits === 4 ? 40 : 0;
 
     // 部分一致ボーナス（3つ以上マッチした場合）
-    const partialMatchBonus = matchedTraits >= 3 ? 20 : 0;
+    const partialMatchBonus = matchedTraits >= 3 ? 15 : 0;
+
+    // ランダム要素を追加（同点の場合に異なる結果が出やすくなる）
+    const randomBonus = pseudoRandom(animalIndex) * 5;
 
     // 最終スコア
-    scores[animal] = baseScore + rarityBonus + perfectMatchBonus + partialMatchBonus;
+    scores[animal] = baseScore + rarityBonus + perfectMatchBonus + partialMatchBonus + randomBonus;
+    animalIndex++;
   });
 
   return scores;
