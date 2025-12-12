@@ -3,11 +3,36 @@ import { NextRequest } from 'next/server';
 
 export const runtime = 'edge';
 
+// フォントデータをキャッシュ
+let cachedFont: ArrayBuffer | null = null;
+
+async function loadFont(baseUrl: string): Promise<ArrayBuffer | null> {
+  if (cachedFont) return cachedFont;
+
+  try {
+    const res = await fetch(`${baseUrl}/fonts/NotoSansJP-Bold.otf`);
+    if (!res.ok) return null;
+    cachedFont = await res.arrayBuffer();
+    return cachedFont;
+  } catch {
+    return null;
+  }
+}
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     const animalName = searchParams.get('animal') || '動物';
+    const emoji = searchParams.get('emoji') || '🐾';
     const description = searchParams.get('description') || '100種類の動物からあなたにピッタリの動物を診断します';
+
+    // ベースURLを取得
+    const baseUrl = process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : request.nextUrl.origin;
+
+    // Noto Sans JPフォントを取得
+    const fontData = await loadFont(baseUrl);
 
     return new ImageResponse(
       (
@@ -22,6 +47,7 @@ export async function GET(request: NextRequest) {
             backgroundColor: '#faf5ff',
             backgroundImage: 'radial-gradient(circle at 25px 25px, #e9d5ff 2%, transparent 0%), radial-gradient(circle at 75px 75px, #e9d5ff 2%, transparent 0%)',
             backgroundSize: '100px 100px',
+            fontFamily: '"Noto Sans JP", sans-serif',
           }}
         >
           <div
@@ -32,19 +58,27 @@ export async function GET(request: NextRequest) {
               justifyContent: 'center',
               backgroundColor: 'white',
               borderRadius: '30px',
-              padding: '60px 80px',
+              padding: '50px 80px',
               boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)',
               border: '4px solid #a855f7',
             }}
           >
             <div
               style={{
-                fontSize: 80,
-                fontWeight: 'bold',
+                fontSize: 100,
+                marginBottom: '10px',
+              }}
+            >
+              {emoji}
+            </div>
+            <div
+              style={{
+                fontSize: 72,
+                fontWeight: 700,
                 background: 'linear-gradient(to right, #9333ea, #c026d3)',
                 backgroundClip: 'text',
                 color: 'transparent',
-                marginBottom: '20px',
+                marginBottom: '15px',
               }}
             >
               {animalName}
@@ -65,7 +99,7 @@ export async function GET(request: NextRequest) {
               style={{
                 fontSize: 28,
                 color: '#9333ea',
-                fontWeight: 'bold',
+                fontWeight: 700,
                 padding: '15px 40px',
                 backgroundColor: '#f3e8ff',
                 borderRadius: '15px',
@@ -79,6 +113,16 @@ export async function GET(request: NextRequest) {
       {
         width: 1200,
         height: 630,
+        fonts: fontData
+          ? [
+              {
+                name: 'Noto Sans JP',
+                data: fontData,
+                style: 'normal' as const,
+                weight: 400,
+              },
+            ]
+          : undefined,
       }
     );
   } catch (e: unknown) {

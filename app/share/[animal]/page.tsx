@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const baseUrl = 'https://animal-fortune-telling-app.vercel.app';
-  const ogImageUrl = `${baseUrl}/api/og?animal=${encodeURIComponent(animal.name)}&description=${encodeURIComponent(animal.description)}`;
+  const ogImageUrl = `${baseUrl}/api/og?animal=${encodeURIComponent(animal.name)}&emoji=${encodeURIComponent(animal.emoji)}&description=${encodeURIComponent(animal.description)}`;
 
   return {
     title: `${animal.name}タイプ - 動物100診断`,
