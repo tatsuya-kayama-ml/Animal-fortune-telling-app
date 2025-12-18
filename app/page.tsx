@@ -15,9 +15,15 @@ export default function Home() {
   // 今日の診断数を取得
   useEffect(() => {
     fetch('/api/stats')
-      .then(res => res.json())
-      .then(data => setDailyCount(data.count))
-      .catch(err => console.error('Failed to fetch stats:', err));
+      .then(res => {
+        if (!res.ok) throw new Error('API error');
+        return res.json();
+      })
+      .then(data => setDailyCount(data.totalCount ?? data.count ?? 0))
+      .catch(() => {
+        // エラー時は統計表示をスキップ（ユーザー体験に影響しない）
+        setDailyCount(null);
+      });
   }, []);
 
   const handleAnswer = (traits: string[]) => {
@@ -90,13 +96,15 @@ export default function Home() {
               <button
                 onClick={async () => {
                   setStarted(true);
-                  // 診断数をカウント
+                  // 診断数をカウント（失敗しても診断は続行）
                   try {
                     const res = await fetch('/api/stats', { method: 'POST' });
-                    const data = await res.json();
-                    setDailyCount(data.count);
-                  } catch (err) {
-                    console.error('Failed to update stats:', err);
+                    if (res.ok) {
+                      const data = await res.json();
+                      setDailyCount(data.totalCount ?? data.count ?? 0);
+                    }
+                  } catch {
+                    // 統計更新失敗は無視（診断に影響しない）
                   }
                 }}
                 className="w-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-lg sm:text-xl font-bold py-5 sm:py-4 px-8 rounded-full hover:shadow-lg transition-all duration-300 active:scale-95 sm:hover:scale-105 touch-manipulation"

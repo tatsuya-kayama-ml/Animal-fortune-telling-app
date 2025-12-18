@@ -17,7 +17,11 @@ function ResultContent() {
   // 診断結果をlocalStorageに保存（他の動物を見た後に戻れるように）
   useEffect(() => {
     if (animalId && userName) {
-      localStorage.setItem('myAnimalResult', JSON.stringify({ animalId, userName }));
+      try {
+        localStorage.setItem('myAnimalResult', JSON.stringify({ animalId, userName }));
+      } catch {
+        // localStorage が使えない環境では無視
+      }
     }
   }, [animalId, userName]);
 
@@ -25,9 +29,19 @@ function ResultContent() {
   useEffect(() => {
     if (animalId) {
       fetch(`/api/stats?animal=${animalId}`)
-        .then(res => res.json())
-        .then(data => setPercentage(data.percentage))
-        .catch(err => console.error('Failed to fetch animal stats:', err));
+        .then(res => {
+          if (!res.ok) throw new Error('API error');
+          return res.json();
+        })
+        .then(data => {
+          if (typeof data.percentage === 'number') {
+            setPercentage(data.percentage);
+          }
+        })
+        .catch(() => {
+          // 統計取得失敗時は表示しない
+          setPercentage(null);
+        });
     }
   }, [animalId]);
 
@@ -96,7 +110,7 @@ function ResultContent() {
                 <div className="flex justify-center mt-3">
                   <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-full px-5 py-2 border-2 border-purple-300">
                     <p className="text-sm sm:text-base text-purple-700 font-bold">
-                      📊 今日<span className="text-lg sm:text-xl mx-1">{percentage}%</span>の人がこの動物でした！
+                      📊 今週<span className="text-lg sm:text-xl mx-1">{percentage}%</span>の人がこの動物でした！
                     </p>
                   </div>
                 </div>

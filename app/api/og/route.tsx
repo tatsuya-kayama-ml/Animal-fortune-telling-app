@@ -19,12 +19,26 @@ async function loadFont(baseUrl: string): Promise<ArrayBuffer | null> {
   }
 }
 
+// 入力をサニタイズ（XSS対策）
+function sanitize(input: string, maxLength: number): string {
+  return input
+    .replace(/[<>"'&]/g, '') // HTML特殊文字を除去
+    .slice(0, maxLength)
+    .trim();
+}
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
-    const animalName = searchParams.get('animal') || '動物';
-    const emoji = searchParams.get('emoji') || '🐾';
-    const description = searchParams.get('description') || '100種類の動物からあなたにピッタリの動物を診断します';
+
+    // パラメータを取得しサニタイズ
+    const rawAnimalName = searchParams.get('animal') || '動物';
+    const rawEmoji = searchParams.get('emoji') || '🐾';
+    const rawDescription = searchParams.get('description') || '100種類の動物からあなたにピッタリの動物を診断します';
+
+    const animalName = sanitize(rawAnimalName, 20);
+    const emoji = sanitize(rawEmoji, 10);
+    const description = sanitize(rawDescription, 200);
 
     // ベースURLを取得
     const baseUrl = process.env.VERCEL_URL
