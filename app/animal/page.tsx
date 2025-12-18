@@ -2,14 +2,36 @@
 
 import { useSearchParams } from 'next/navigation';
 import { animals } from '@/lib/animals';
-import { Suspense } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { AnimalIcon } from '@/components/AnimalIcon';
+
+type MyResult = {
+  animalId: string;
+  userName: string;
+} | null;
 
 function AnimalContent() {
   const searchParams = useSearchParams();
   const animalId = searchParams.get('id');
+  const [myResult, setMyResult] = useState<MyResult>(null);
 
   const animal = animals.find((a) => a.id === animalId);
+
+  // localStorageから自分の診断結果を取得
+  useEffect(() => {
+    const saved = localStorage.getItem('myAnimalResult');
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        // 現在表示中の動物と自分の診断結果が異なる場合のみ表示
+        if (parsed.animalId && parsed.animalId !== animalId) {
+          setMyResult(parsed);
+        }
+      } catch {
+        // パースエラーは無視
+      }
+    }
+  }, [animalId]);
 
   if (!animal) {
     return (
@@ -155,14 +177,26 @@ function AnimalContent() {
           </div>
         </div>
 
-        {/* トップに戻る */}
-        <div className="text-center pb-2">
-          <a
-            href="/"
-            className="inline-block bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base sm:text-lg font-bold py-4 sm:py-4 px-10 sm:px-12 rounded-full active:shadow-lg active:scale-95 sm:hover:shadow-lg transition-all duration-200 sm:hover:scale-105 touch-manipulation"
-          >
-            診断する
-          </a>
+        {/* ボタンエリア */}
+        <div className="text-center pb-2 space-y-3">
+          {/* 自分の結果に戻るボタン */}
+          {myResult && (
+            <a
+              href={`/result?animal=${myResult.animalId}&name=${encodeURIComponent(myResult.userName)}`}
+              className="inline-block bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-base sm:text-lg font-bold py-4 sm:py-4 px-10 sm:px-12 rounded-full active:shadow-lg active:scale-95 sm:hover:shadow-lg transition-all duration-200 sm:hover:scale-105 touch-manipulation"
+            >
+              自分の結果に戻る
+            </a>
+          )}
+          {/* 診断するボタン */}
+          <div>
+            <a
+              href="/"
+              className="inline-block bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base sm:text-lg font-bold py-4 sm:py-4 px-10 sm:px-12 rounded-full active:shadow-lg active:scale-95 sm:hover:shadow-lg transition-all duration-200 sm:hover:scale-105 touch-manipulation"
+            >
+              診断する
+            </a>
+          </div>
         </div>
       </div>
     </div>

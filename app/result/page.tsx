@@ -14,6 +14,13 @@ function ResultContent() {
 
   const animal = animals.find((a) => a.id === animalId);
 
+  // 診断結果をlocalStorageに保存（他の動物を見た後に戻れるように）
+  useEffect(() => {
+    if (animalId && userName) {
+      localStorage.setItem('myAnimalResult', JSON.stringify({ animalId, userName }));
+    }
+  }, [animalId, userName]);
+
   // 統計情報を取得
   useEffect(() => {
     if (animalId) {
