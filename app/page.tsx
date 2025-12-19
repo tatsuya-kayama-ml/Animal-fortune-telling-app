@@ -5,6 +5,35 @@ import { questions, calculateAnimalScore } from '@/lib/questions';
 import { animals } from '@/lib/animals';
 import Link from 'next/link';
 
+// 浮遊する動物絵文字コンポーネント
+function FloatingAnimals() {
+  const floatingEmojis = [
+    { emoji: '🐱', position: 'top-[10%] left-[5%]', animation: 'animate-float', delay: '' },
+    { emoji: '🐶', position: 'top-[15%] right-[8%]', animation: 'animate-float-slow', delay: 'animate-float-delay-1' },
+    { emoji: '🦊', position: 'top-[35%] left-[3%]', animation: 'animate-float-fast', delay: 'animate-float-delay-2' },
+    { emoji: '🐰', position: 'top-[40%] right-[5%]', animation: 'animate-float', delay: 'animate-float-delay-3' },
+    { emoji: '🦁', position: 'bottom-[30%] left-[6%]', animation: 'animate-float-slow', delay: 'animate-float-delay-4' },
+    { emoji: '🐼', position: 'bottom-[25%] right-[4%]', animation: 'animate-float-fast', delay: '' },
+    { emoji: '🦋', position: 'top-[60%] left-[2%]', animation: 'animate-float', delay: 'animate-float-delay-1' },
+    { emoji: '🐧', position: 'bottom-[15%] right-[10%]', animation: 'animate-float-slow', delay: 'animate-float-delay-2' },
+    { emoji: '🦄', position: 'bottom-[45%] left-[8%]', animation: 'animate-float-fast', delay: 'animate-float-delay-3' },
+    { emoji: '🐸', position: 'top-[70%] right-[3%]', animation: 'animate-float', delay: 'animate-float-delay-4' },
+  ];
+
+  return (
+    <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+      {floatingEmojis.map((item, index) => (
+        <div
+          key={index}
+          className={`absolute ${item.position} ${item.animation} ${item.delay} text-3xl sm:text-4xl opacity-60 noto-emoji`}
+        >
+          {item.emoji}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function Home() {
   const [started, setStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -57,8 +86,9 @@ export default function Home() {
 
   if (!started) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center p-4 sm:p-6">
-        <div className="max-w-2xl w-full text-center space-y-6 sm:space-y-8">
+      <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center p-4 sm:p-6 relative overflow-hidden">
+        <FloatingAnimals />
+        <div className="max-w-2xl w-full text-center space-y-6 sm:space-y-8 relative z-10">
           <div className="space-y-3 sm:space-y-4">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
               動物100診断
@@ -117,7 +147,7 @@ export default function Home() {
           <div className="space-y-2">
             {dailyCount !== null && (
               <p className="text-sm sm:text-base text-purple-600 font-medium">
-                🎉 今日{dailyCount}人が診断しました！
+                🎉 今週{dailyCount}人が診断しました！
               </p>
             )}
             <p className="text-xs sm:text-sm text-gray-500">

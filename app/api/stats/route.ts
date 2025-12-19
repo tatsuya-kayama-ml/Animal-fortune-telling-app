@@ -1,6 +1,58 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { neon } from '@neondatabase/serverless';
 
+// 有効な動物IDのホワイトリスト
+const VALID_ANIMAL_IDS = new Set([
+  'cat', 'dog', 'rabbit', 'fox', 'owl', 'panda', 'penguin', 'lion', 'dolphin', 'koala',
+  'tiger', 'bear', 'elephant', 'monkey', 'horse', 'sheep', 'duck', 'hedgehog', 'wolf', 'deer',
+  'giraffe', 'squirrel', 'flamingo', 'peacock', 'bat', 'otter', 'sloth', 'raccoon', 'chameleon', 'turtle',
+  'snake', 'cheetah', 'zebra', 'hippo', 'rhino', 'kangaroo', 'parrot', 'seal', 'whale', 'octopus',
+  'butterfly', 'bee', 'ant', 'ladybug', 'frog', 'crab', 'swan', 'rooster', 'hummingbird', 'eagle',
+  'raccoondog', 'gorilla', 'meerkat', 'crocodile', 'lemur', 'armadillo', 'porcupine', 'badger', 'platypus', 'lynx',
+  'bison', 'mantis', 'dragonfly', 'cricket', 'firefly', 'spider', 'scorpion', 'jellyfish', 'starfish', 'seahorse',
+  'stingray', 'clownfish', 'anglerfish', 'moose', 'reindeer', 'alpaca', 'llama', 'donkey', 'camel', 'hyena',
+  'wombat', 'quokka', 'opossum', 'chipmunk', 'hamster', 'mouse', 'mole', 'stoat', 'weasel', 'ferret',
+  'capybara', 'puffin', 'toucan', 'pelican', 'kiwi',
+]);
+
+// 簡易レート制限（IPベース、メモリ内）
+const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
+const RATE_LIMIT_WINDOW_MS = 60 * 1000; // 1分
+const RATE_LIMIT_MAX_REQUESTS = 30; // 1分あたり30リクエストまで
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const entry = rateLimitMap.get(ip);
+
+  if (!entry || now > entry.resetTime) {
+    rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_LIMIT_WINDOW_MS });
+    return false;
+  }
+
+  if (entry.count >= RATE_LIMIT_MAX_REQUESTS) {
+    return true;
+  }
+
+  entry.count++;
+  return false;
+}
+
+function getClientIP(request: NextRequest): string {
+  return request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+         request.headers.get('x-real-ip') ||
+         'unknown';
+}
+
+// 古いレート制限エントリを定期的にクリーンアップ
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, entry] of rateLimitMap.entries()) {
+    if (now > entry.resetTime) {
+      rateLimitMap.delete(ip);
+    }
+  }
+}, 60 * 1000);
+
 // 週キーを生成（ISO週番号ベース）
 function getWeekKey(): string {
   const now = new Date();
@@ -68,9 +120,26 @@ function resetMemoryIfNeeded() {
 }
 
 export async function GET(request: NextRequest) {
+  // レート制限チェック
+  const clientIP = getClientIP(request);
+  if (isRateLimited(clientIP)) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      { status: 429 }
+    );
+  }
+
   const { searchParams } = new URL(request.url);
   const animalId = searchParams.get('animal');
   const currentWeek = getWeekKey();
+
+  // animal IDのホワイトリスト検証
+  if (animalId && !VALID_ANIMAL_IDS.has(animalId)) {
+    return NextResponse.json(
+      { error: 'Invalid animal ID' },
+      { status: 400 }
+    );
+  }
 
   try {
     if (isNeonAvailable()) {
@@ -157,11 +226,28 @@ export async function GET(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
+  // レート制限チェック
+  const clientIP = getClientIP(request);
+  if (isRateLimited(clientIP)) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      { status: 429 }
+    );
+  }
+
   const currentWeek = getWeekKey();
 
   try {
     const body = await request.json().catch(() => ({}));
     const animalId = typeof body.animal === 'string' ? body.animal : null;
+
+    // animal IDのホワイトリスト検証
+    if (animalId && !VALID_ANIMAL_IDS.has(animalId)) {
+      return NextResponse.json(
+        { error: 'Invalid animal ID' },
+        { status: 400 }
+      );
+    }
 
     if (isNeonAvailable()) {
       const sql = getSql();
