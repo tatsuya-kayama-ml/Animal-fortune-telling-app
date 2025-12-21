@@ -44,7 +44,13 @@ function generateSpecialTraits(animal: Animal, mbtiTraits: string[]): string[] {
 
   // 動物の最初の特徴とMBTIの最初の特徴を組み合わせ
   if (animal.traits.length > 0 && mbtiTraits.length > 0) {
-    traits.push(`${animal.traits[0]}な${mbtiTraits[0]}の持ち主`);
+    const animalTrait = animal.traits[0];
+    const mbtiTrait = mbtiTraits[0];
+    // 「〜がある」「〜い」で終わる場合は接続詞を調整
+    const connector = animalTrait.endsWith('ある') || animalTrait.endsWith('い')
+      ? ''
+      : 'な';
+    traits.push(`${animalTrait}${connector}${mbtiTrait}の持ち主`);
   }
 
   // 動物の強みがあれば追加

@@ -4,6 +4,10 @@ import { useSearchParams } from 'next/navigation';
 import { animals } from '@/lib/animals';
 import { Suspense, useState, useEffect } from 'react';
 import { AnimalIcon } from '@/components/AnimalIcon';
+import { MBTISelector } from '@/components/MBTISelector';
+import { MBTIInsightCard } from '@/components/MBTIInsightCard';
+import { MBTIType, isValidMBTIType, AnimalMBTIInsight } from '@/lib/mbti/types';
+import { generateAnimalMBTIInsight } from '@/lib/mbti/generator';
 
 type MyResult = {
   animalId: string;
@@ -14,6 +18,9 @@ function AnimalContent() {
   const searchParams = useSearchParams();
   const animalId = searchParams.get('id');
   const [myResult, setMyResult] = useState<MyResult>(null);
+  const [selectedMBTI, setSelectedMBTI] = useState<MBTIType | null>(null);
+  const [mbtiInsight, setMbtiInsight] = useState<AnimalMBTIInsight | null>(null);
+  const [showMBTISelector, setShowMBTISelector] = useState(false);
 
   const animal = animals.find((a) => a.id === animalId);
 
@@ -32,6 +39,36 @@ function AnimalContent() {
       }
     }
   }, [animalId]);
+
+  // localStorageからMBTIを読み込む
+  useEffect(() => {
+    try {
+      const savedMBTI = localStorage.getItem('userMBTI');
+      if (savedMBTI && isValidMBTIType(savedMBTI)) {
+        setSelectedMBTI(savedMBTI);
+      }
+    } catch {
+      // localStorage が使えない環境では無視
+    }
+  }, []);
+
+  // MBTI選択時の処理
+  useEffect(() => {
+    if (selectedMBTI && animalId) {
+      const insight = generateAnimalMBTIInsight(animalId, selectedMBTI);
+      setMbtiInsight(insight);
+      try {
+        localStorage.setItem('userMBTI', selectedMBTI);
+      } catch {
+        // localStorage が使えない環境では無視
+      }
+    }
+  }, [selectedMBTI, animalId]);
+
+  const handleMBTISelect = (type: MBTIType) => {
+    setSelectedMBTI(type);
+    setShowMBTISelector(false);
+  };
 
   if (!animal) {
     return (
@@ -174,6 +211,64 @@ function AnimalContent() {
                 </p>
               </div>
             )}
+
+            {/* MBTI連携セクション */}
+            <div className="space-y-4">
+              <div className="text-center">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">
+                  🧠 MBTIでさらに詳しく
+                </h3>
+                <p className="text-sm text-gray-600">
+                  MBTIタイプを選ぶと、この動物との組み合わせ分析が見られます
+                </p>
+              </div>
+
+              {/* MBTI解説カード（選択済みの場合） */}
+              {selectedMBTI && mbtiInsight && (
+                <MBTIInsightCard
+                  mbtiType={selectedMBTI}
+                  animalName={animal.name}
+                  insight={mbtiInsight}
+                />
+              )}
+
+              {/* MBTI選択ボタン */}
+              {!showMBTISelector && (
+                <div className="text-center">
+                  <button
+                    onClick={() => setShowMBTISelector(true)}
+                    className={`
+                      px-6 py-3 rounded-full font-medium transition-all duration-200
+                      ${selectedMBTI
+                        ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        : 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white hover:shadow-lg hover:scale-105'
+                      }
+                    `}
+                  >
+                    {selectedMBTI ? `${selectedMBTI} を変更する` : 'MBTIタイプを選ぶ'}
+                  </button>
+                </div>
+              )}
+
+              {/* MBTIセレクター */}
+              {showMBTISelector && (
+                <div className="bg-white rounded-2xl p-5 border-2 border-gray-200">
+                  <div className="flex justify-between items-center mb-4">
+                    <h4 className="font-bold text-gray-800">MBTIタイプを選択</h4>
+                    <button
+                      onClick={() => setShowMBTISelector(false)}
+                      className="text-gray-500 hover:text-gray-700"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <MBTISelector
+                    selectedMBTI={selectedMBTI}
+                    onSelect={handleMBTISelect}
+                  />
+                </div>
+              )}
+            </div>
           </div>
         </div>
 

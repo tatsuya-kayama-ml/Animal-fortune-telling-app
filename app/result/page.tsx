@@ -30,20 +30,54 @@ function ResultContent() {
 
     setIsSavingImage(true);
     try {
+      // html2canvasオプション
       const canvas = await html2canvas(resultCardRef.current, {
         backgroundColor: '#ffffff',
         scale: 2,
         useCORS: true,
+        allowTaint: true,
         logging: false,
+        // 外部リソースを無視してレンダリング
+        foreignObjectRendering: false,
+        // レンダリング前に少し待機
+        onclone: (clonedDoc) => {
+          // クローンされたドキュメントでフォント読み込みを待つ
+          const element = clonedDoc.querySelector('[data-result-card]');
+          if (element) {
+            (element as HTMLElement).style.fontFamily = 'system-ui, sans-serif';
+          }
+        },
       });
 
-      const link = document.createElement('a');
-      link.download = `動物診断_${animal.name}_${userName}.png`;
-      link.href = canvas.toDataURL('image/png');
-      link.click();
+      // Blob経由でダウンロード（より確実）
+      canvas.toBlob((blob) => {
+        if (blob) {
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.download = `動物診断_${animal.name}_${userName}.png`;
+          link.href = url;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          URL.revokeObjectURL(url);
+        }
+      }, 'image/png');
     } catch (error) {
       console.error('画像の保存に失敗しました:', error);
-      alert('画像の保存に失敗しました。もう一度お試しください。');
+      // フォールバック: 別の方法を試す
+      try {
+        const canvas = await html2canvas(resultCardRef.current, {
+          backgroundColor: '#ffffff',
+          scale: 1,
+          logging: false,
+        });
+        const link = document.createElement('a');
+        link.download = `動物診断_${animal.name}_${userName}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      } catch {
+        alert('画像の保存に失敗しました。ブラウザのスクリーンショット機能をお使いください。');
+      }
     } finally {
       setIsSavingImage(false);
     }
@@ -152,7 +186,7 @@ function ResultContent() {
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center p-4 sm:p-6">
       <div className="max-w-2xl w-full space-y-4 sm:space-y-6">
         {/* 結果カード */}
-        <div ref={resultCardRef} className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6 sm:space-y-8">
+        <div ref={resultCardRef} data-result-card className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6 sm:space-y-8">
           {/* 動物表示 */}
           <div className="text-center space-y-3 sm:space-y-4">
             <h2 className="text-xl sm:text-2xl text-gray-600">
