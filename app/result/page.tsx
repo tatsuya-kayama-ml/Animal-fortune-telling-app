@@ -29,55 +29,26 @@ function ResultContent() {
     if (!resultCardRef.current || !animal) return;
 
     setIsSavingImage(true);
+
     try {
-      // html2canvasオプション
+      // html2canvasでキャプチャ
       const canvas = await html2canvas(resultCardRef.current, {
         backgroundColor: '#ffffff',
         scale: 2,
+        logging: true, // デバッグ用
         useCORS: true,
-        allowTaint: true,
-        logging: false,
-        // 外部リソースを無視してレンダリング
-        foreignObjectRendering: false,
-        // レンダリング前に少し待機
-        onclone: (clonedDoc) => {
-          // クローンされたドキュメントでフォント読み込みを待つ
-          const element = clonedDoc.querySelector('[data-result-card]');
-          if (element) {
-            (element as HTMLElement).style.fontFamily = 'system-ui, sans-serif';
-          }
-        },
+        allowTaint: false,
       });
 
-      // Blob経由でダウンロード（より確実）
-      canvas.toBlob((blob) => {
-        if (blob) {
-          const url = URL.createObjectURL(blob);
-          const link = document.createElement('a');
-          link.download = `動物診断_${animal.name}_${userName}.png`;
-          link.href = url;
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-          URL.revokeObjectURL(url);
-        }
-      }, 'image/png');
+      // dataURL経由でダウンロード（最も互換性が高い）
+      const dataUrl = canvas.toDataURL('image/png');
+      const link = document.createElement('a');
+      link.download = `動物診断_${animal.name}_${userName}.png`;
+      link.href = dataUrl;
+      link.click();
     } catch (error) {
       console.error('画像の保存に失敗しました:', error);
-      // フォールバック: 別の方法を試す
-      try {
-        const canvas = await html2canvas(resultCardRef.current, {
-          backgroundColor: '#ffffff',
-          scale: 1,
-          logging: false,
-        });
-        const link = document.createElement('a');
-        link.download = `動物診断_${animal.name}_${userName}.png`;
-        link.href = canvas.toDataURL('image/png');
-        link.click();
-      } catch {
-        alert('画像の保存に失敗しました。ブラウザのスクリーンショット機能をお使いください。');
-      }
+      alert('画像の保存に失敗しました。ブラウザのスクリーンショット機能をお使いください。');
     } finally {
       setIsSavingImage(false);
     }
