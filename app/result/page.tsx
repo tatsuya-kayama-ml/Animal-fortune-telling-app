@@ -40,21 +40,44 @@ function ResultContent() {
         useCORS: true,
         allowTaint: true,
         logging: false,
-        // 絵文字の問題を回避するため、SVGレンダリングを使用
         foreignObjectRendering: true,
         imageTimeout: 0,
         removeContainer: true,
       });
 
-      // Canvas to Blob に変換してダウンロード
-      canvas.toBlob((blob) => {
+      // Canvas to Blob に変換
+      canvas.toBlob(async (blob) => {
         if (!blob) {
           throw new Error('Failed to create blob');
         }
 
+        const fileName = `動物診断_${animal.name}_${userName}.png`;
+
+        // モバイルデバイスでWeb Share APIが使える場合
+        if (navigator.share && navigator.canShare) {
+          try {
+            const file = new File([blob], fileName, { type: 'image/png' });
+            const shareData = {
+              files: [file],
+              title: '動物診断結果',
+              text: `私は「${animal.name}」タイプでした！`,
+            };
+
+            // 共有可能かチェック
+            if (navigator.canShare(shareData)) {
+              await navigator.share(shareData);
+              return; // 共有成功したらここで終了
+            }
+          } catch (error) {
+            // Web Share APIが失敗した場合は通常のダウンロードに進む
+            console.log('Web Share failed, falling back to download:', error);
+          }
+        }
+
+        // PCまたはWeb Share非対応の場合：通常のダウンロード
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
-        link.download = `動物診断_${animal.name}_${userName}.png`;
+        link.download = fileName;
         link.href = url;
         document.body.appendChild(link);
         link.click();
@@ -67,7 +90,6 @@ function ResultContent() {
     } catch (error) {
       console.error('画像保存エラー:', error);
 
-      // エラーメッセージを詳細に表示
       const errorMessage = error instanceof Error ? error.message : '不明なエラー';
       alert(`画像の保存に失敗しました。\n\nエラー: ${errorMessage}\n\n代わりにスクリーンショット機能をお使いください。`);
     } finally {
