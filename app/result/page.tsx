@@ -31,24 +31,45 @@ function ResultContent() {
     setIsSavingImage(true);
 
     try {
-      // html2canvasでキャプチャ
+      // 少し待ってからキャプチャ（フォント読み込み完了を確実にする）
+      await new Promise(resolve => setTimeout(resolve, 100));
+
       const canvas = await html2canvas(resultCardRef.current, {
         backgroundColor: '#ffffff',
         scale: 2,
-        logging: true, // デバッグ用
         useCORS: true,
-        allowTaint: false,
+        allowTaint: true,
+        logging: false,
+        // 絵文字の問題を回避するため、SVGレンダリングを使用
+        foreignObjectRendering: true,
+        imageTimeout: 0,
+        removeContainer: true,
       });
 
-      // dataURL経由でダウンロード（最も互換性が高い）
-      const dataUrl = canvas.toDataURL('image/png');
-      const link = document.createElement('a');
-      link.download = `動物診断_${animal.name}_${userName}.png`;
-      link.href = dataUrl;
-      link.click();
+      // Canvas to Blob に変換してダウンロード
+      canvas.toBlob((blob) => {
+        if (!blob) {
+          throw new Error('Failed to create blob');
+        }
+
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.download = `動物診断_${animal.name}_${userName}.png`;
+        link.href = url;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        // メモリリーク防止
+        setTimeout(() => URL.revokeObjectURL(url), 100);
+      }, 'image/png');
+
     } catch (error) {
-      console.error('画像の保存に失敗しました:', error);
-      alert('画像の保存に失敗しました。ブラウザのスクリーンショット機能をお使いください。');
+      console.error('画像保存エラー:', error);
+
+      // エラーメッセージを詳細に表示
+      const errorMessage = error instanceof Error ? error.message : '不明なエラー';
+      alert(`画像の保存に失敗しました。\n\nエラー: ${errorMessage}\n\n代わりにスクリーンショット機能をお使いください。`);
     } finally {
       setIsSavingImage(false);
     }
