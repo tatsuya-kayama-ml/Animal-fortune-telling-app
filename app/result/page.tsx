@@ -2,13 +2,12 @@
 
 import { useSearchParams } from 'next/navigation';
 import { animals } from '@/lib/animals';
-import { Suspense, useState, useEffect, useRef, useCallback } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { AnimalIcon } from '@/components/AnimalIcon';
 import { MBTISelector } from '@/components/MBTISelector';
 import { MBTIInsightCard } from '@/components/MBTIInsightCard';
 import { MBTIType, isValidMBTIType, AnimalMBTIInsight } from '@/lib/mbti/types';
 import { generateAnimalMBTIInsight } from '@/lib/mbti/generator';
-import html2canvas from 'html2canvas';
 
 function ResultContent() {
   const searchParams = useSearchParams();
@@ -19,83 +18,8 @@ function ResultContent() {
   const [selectedMBTI, setSelectedMBTI] = useState<MBTIType | null>(null);
   const [mbtiInsight, setMbtiInsight] = useState<AnimalMBTIInsight | null>(null);
   const [showMBTISelector, setShowMBTISelector] = useState(false);
-  const [isSavingImage, setIsSavingImage] = useState(false);
-  const resultCardRef = useRef<HTMLDivElement>(null);
 
   const animal = animals.find((a) => a.id === animalId);
-
-  // 画像として保存
-  const handleSaveImage = useCallback(async () => {
-    if (!resultCardRef.current || !animal) return;
-
-    setIsSavingImage(true);
-
-    try {
-      // 少し待ってからキャプチャ（フォント読み込み完了を確実にする）
-      await new Promise(resolve => setTimeout(resolve, 100));
-
-      const canvas = await html2canvas(resultCardRef.current, {
-        backgroundColor: '#ffffff',
-        scale: 2,
-        useCORS: true,
-        allowTaint: true,
-        logging: false,
-        foreignObjectRendering: true,
-        imageTimeout: 0,
-        removeContainer: true,
-      });
-
-      // Canvas to Blob に変換
-      canvas.toBlob(async (blob) => {
-        if (!blob) {
-          throw new Error('Failed to create blob');
-        }
-
-        const fileName = `動物診断_${animal.name}_${userName}.png`;
-
-        // モバイルデバイスでWeb Share APIが使える場合
-        if (navigator.share && navigator.canShare) {
-          try {
-            const file = new File([blob], fileName, { type: 'image/png' });
-            const shareData = {
-              files: [file],
-              title: '動物診断結果',
-              text: `私は「${animal.name}」タイプでした！`,
-            };
-
-            // 共有可能かチェック
-            if (navigator.canShare(shareData)) {
-              await navigator.share(shareData);
-              return; // 共有成功したらここで終了
-            }
-          } catch (error) {
-            // Web Share APIが失敗した場合は通常のダウンロードに進む
-            console.log('Web Share failed, falling back to download:', error);
-          }
-        }
-
-        // PCまたはWeb Share非対応の場合：通常のダウンロード
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.download = fileName;
-        link.href = url;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-
-        // メモリリーク防止
-        setTimeout(() => URL.revokeObjectURL(url), 100);
-      }, 'image/png');
-
-    } catch (error) {
-      console.error('画像保存エラー:', error);
-
-      const errorMessage = error instanceof Error ? error.message : '不明なエラー';
-      alert(`画像の保存に失敗しました。\n\nエラー: ${errorMessage}\n\n代わりにスクリーンショット機能をお使いください。`);
-    } finally {
-      setIsSavingImage(false);
-    }
-  }, [animal, userName]);
 
   // 診断結果をlocalStorageに保存（他の動物を見た後に戻れるように）
   useEffect(() => {
@@ -200,7 +124,7 @@ function ResultContent() {
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center p-4 sm:p-6">
       <div className="max-w-2xl w-full space-y-4 sm:space-y-6">
         {/* 結果カード */}
-        <div ref={resultCardRef} data-result-card className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6 sm:space-y-8">
+        <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-8 space-y-6 sm:space-y-8">
           {/* 動物表示 */}
           <div className="text-center space-y-3 sm:space-y-4">
             <h2 className="text-xl sm:text-2xl text-gray-600">
@@ -440,11 +364,11 @@ function ResultContent() {
         <div className="bg-white rounded-3xl shadow-xl p-5 sm:p-6 space-y-4">
           <h3 className="text-lg sm:text-xl font-bold text-gray-800 text-center">結果をシェアする</h3>
 
-          <div className="grid grid-cols-4 gap-3 sm:gap-4">
+          <div className="grid grid-cols-3 gap-3 sm:gap-4">
             {/* Twitter */}
             <button
               onClick={() => handleShare('twitter')}
-              className="flex flex-col items-center justify-center space-y-1.5 sm:space-y-2 bg-gradient-to-br from-blue-400 to-blue-500 text-white rounded-2xl py-4 sm:py-4 active:shadow-lg active:scale-95 sm:hover:shadow-lg transition-all duration-200 sm:hover:scale-105 touch-manipulation"
+              className="flex flex-col items-center justify-center space-y-1.5 sm:space-y-2 bg-gradient-to-br from-gray-800 to-black text-white rounded-2xl py-4 sm:py-4 active:shadow-lg active:scale-95 sm:hover:shadow-lg transition-all duration-200 sm:hover:scale-105 touch-manipulation"
             >
               <svg className="w-7 h-7 sm:w-8 sm:h-8" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -485,33 +409,6 @@ function ResultContent() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
                   </svg>
                   <span className="text-xs sm:text-sm font-medium">コピー</span>
-                </>
-              )}
-            </button>
-
-            {/* 画像保存 */}
-            <button
-              onClick={handleSaveImage}
-              disabled={isSavingImage}
-              className={`flex flex-col items-center justify-center space-y-1.5 sm:space-y-2 ${
-                isSavingImage
-                  ? 'bg-gradient-to-br from-purple-300 to-pink-300 cursor-wait'
-                  : 'bg-gradient-to-br from-purple-400 to-pink-500'
-              } text-white rounded-2xl py-4 sm:py-4 active:shadow-lg active:scale-95 sm:hover:shadow-lg transition-all duration-200 sm:hover:scale-105 touch-manipulation`}
-            >
-              {isSavingImage ? (
-                <>
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                  </svg>
-                  <span className="text-xs sm:text-sm font-medium">保存中...</span>
-                </>
-              ) : (
-                <>
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <span className="text-xs sm:text-sm font-medium">画像保存</span>
                 </>
               )}
             </button>
